@@ -1,0 +1,8 @@
+{
+    "description": "Alpaca-LoRA Custom 템플릿",
+    "prompt_input": 
+        "아래는 작업을 설명하는 명령어와 추가적 맥락을 제공하는 입력이 짝을 이루는 예제입니다.\n 요청을 적절히 완료하는 응답을 작성하세요.\n ### Instruction(명령어):\n{instruction}\n\n### Input(입력):\n{input}\n\n",
+    "prompt_no_input": 
+        "아래는 작업을 설명하는 명령어입니다.\n 명령어에 따른 요청을 적절히 완료하는 응답을 작성하세요.\n ### Instruction(명령어):\n{instruction}\n\n",
+    "response_split": "### 응답:"
+}
