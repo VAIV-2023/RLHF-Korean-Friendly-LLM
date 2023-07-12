@@ -1,14 +1,19 @@
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
-
+from peft import PeftModel
 from utils.prompter import Prompter
 
-MODEL = "nlpai-lab/kullm-polyglot-5.8b-v2"
+MODEL = "nlpai-lab/kullm-polyglot-12.8b-v2"
 
 model = AutoModelForCausalLM.from_pretrained(
     MODEL,
     torch_dtype=torch.float16,
     low_cpu_mem_usage=True,
+).to(device=f"cuda", non_blocking=True)
+model = PeftModel.from_pretrained(
+    model,
+    "conversation",
+    torch_dtype=torch.float16,
 ).to(device=f"cuda", non_blocking=True)
 model.eval()
 
