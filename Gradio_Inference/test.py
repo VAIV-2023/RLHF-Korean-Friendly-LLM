@@ -19,9 +19,9 @@ else:
 
 def main(
     load_8bit: bool = False,
-    base_model: str = "beomi/KoAlpaca-Polyglot-12.8B",
-    lora_weights: str = "Final",
-    prompt_template: str = "custom",  # The prompt template to use, will default to alpaca.
+    base_model: str = "nlpai-lab/kullm-polyglot-12.8b-v2",
+    lora_weights: str = "kullm_lora_weight",
+    prompt_template: str = "kullm",  # The prompt template to use, will default to alpaca.
     server_name: str = "0.0.0.0",  # Allows to listen on all interfaces by providing '0.
     share_gradio: bool = True,
 ):

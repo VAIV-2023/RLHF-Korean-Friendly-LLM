@@ -18,8 +18,8 @@ else:
 
 def main(
     load_8bit: bool = False,
-    base_model: str = "beomi/KoAlpaca-Polyglot-12.8B",
-    lora_weights: str = "Final",
+    base_model: str = "nlpai-lab/kullm-polyglot-12.8b-v2",
+    lora_weights: str = "kullm_lora_weight",
     prompt_template: str = "kullm",  # The prompt template to use, will default to alpaca.
 ):
     base_model = base_model or os.environ.get("BASE_MODEL", "")
