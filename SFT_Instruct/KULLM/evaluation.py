@@ -106,7 +106,7 @@ COLUMNS = ['이해 가능성','자연스러움','맥락 유지','흥미롭기','
 df = pd.DataFrame(columns=COLUMNS)
 
 # 데이터 불러오기
-with open('./conversation_prompt', 'r', encoding='utf-8') as f:
+with open('./conversation_prompt.txt', 'r', encoding='utf-8') as f:
     prompts = f.readlines()
 
 count = 0
