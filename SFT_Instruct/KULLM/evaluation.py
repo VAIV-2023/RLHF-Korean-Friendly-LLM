@@ -127,7 +127,7 @@ for prompt in prompts:
         newDF = score
         newDF = pd.DataFrame(data=[newDF], columns = COLUMNS) 
         df = pd.concat([df,newDF])       
-        df.to_csv("/content/drive/MyDrive/kullm_conversation_eval.csv")  
+        df.to_csv("/content/drive/MyDrive/kullm_ft_conversation_eval.csv")  
         count += 1
     except:
         print("error occur!")
