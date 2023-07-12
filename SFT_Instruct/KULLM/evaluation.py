@@ -37,7 +37,7 @@ def make_evaluation(instruction, output) :
                                                 이 평가 기준을 꼼꼼히 읽고 이해하는 것이 중요합니다. 평가하는 동안 이 문서를 계속 열어두고 필요할 때 참조해 주세요."},
                     {'role':'user','content': '평가 기준:\
                      - 이해 가능성 (1 - 5): Input에 기반하여 Response를 이해 할 수 있나요?\
-                     - 자연스러움 (1 - 5): 친구가 자연스럽게 말할 법한 Instruction 인가요?\
+                     - 자연스러움 (1 - 5): 자연스럽게 말할 법한 Instruction 인가요?\
                      - 맥락 유지 (1 - 5): Input을 고려했을 때 Response가 맥락을 유지하나요?\
                      - 흥미롭기 (1 - 5): Response가 지루한가요, 아니면 흥미로운가요?\
                      - 전반적인 품질 (1 - 5): 위의 답변을 바탕으로 이 발언의 전반적인 품질에 대한 인상은 어떤가요?'},                
@@ -70,10 +70,12 @@ COLUMNS = ['이해 가능성','자연스러움','맥락 유지','흥미롭기','
 df = pd.DataFrame(columns=COLUMNS)
 
 # 데이터 불러오기
-emotion_conversations = pd.read_excel('./emotion_conversation.xlsx', index_col = 0) # 옵션: 인덱스 칼럼 제외
+with open('./conversation_prompt', 'r', encoding='utf-8') as f:
+    prompts = f.readlines()
 
 count = 0
-for instruction in emotion_conversations['사람문장1']:
+for prompt in prompts:
+    instruction = prompt
     print(instruction)
     prompt_format['instruction'] = instruction    
     if count > 100: break # 100개만 돌리고 끝
@@ -87,7 +89,7 @@ for instruction in emotion_conversations['사람문장1']:
         newDF = score
         newDF = pd.DataFrame(data=[newDF], columns = COLUMNS) 
         df = pd.concat([df,newDF])       
-        df.to_csv("./chatgpt_evaluation_emotion_conversation.csv")  
+        df.to_csv("/content/drive/MyDrive/")  
         count += 1
     except:
         print("error occur!")

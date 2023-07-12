@@ -1,8 +1,4 @@
 NIKL_DIALOGUE_2020_v1.3
 NIKL_DIALOGUE_2021_v1.0
-talksets-train-1.txt
-talksets-train-2.txt
-talksets-train-3.txt
-talksets-train-4.txt
-talksets-train-5.txt
+*.txt
 .env

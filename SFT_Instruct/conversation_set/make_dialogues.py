@@ -1,8 +1,9 @@
 import os
 import json
 
-directory1 = './NIKL_DIALOGUE_2020_v1.3/'
-directory2 = './NIKL_DIALOGUE_2021_v1.0/'
+directory1 = './train/NIKL_DIALOGUE_2020_v1.3/'
+directory2 = './train/NIKL_DIALOGUE_2021_v1.0/'
+
 files=[]
 for filename in os.listdir(directory1):
         if filename.endswith('.json'):
