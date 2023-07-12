@@ -26,7 +26,7 @@ device = "cuda"
 load_8bit: bool = False
 base_model: str = "beomi/KoAlpaca-Polyglot-12.8B"
 lora_weights: str = "Final"
-prompt_template: str = "custom"
+prompt_template: str = "kullm"
 
 prompter = Prompter(prompt_template)
 tokenizer = GPTNeoXTokenizerFast.from_pretrained(base_model)

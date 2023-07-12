@@ -20,7 +20,7 @@ def main(
     load_8bit: bool = False,
     base_model: str = "beomi/KoAlpaca-Polyglot-12.8B",
     lora_weights: str = "Final",
-    prompt_template: str = "custom",  # The prompt template to use, will default to alpaca.
+    prompt_template: str = "kullm",  # The prompt template to use, will default to alpaca.
 ):
     base_model = base_model or os.environ.get("BASE_MODEL", "")
     assert (
