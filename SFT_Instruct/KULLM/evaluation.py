@@ -73,10 +73,9 @@ def make_evaluation(instruction, output) :
                                                 당신의 작업은 응답(Response)을 평가 단계에 따라 응답을 평가하는 것입니다.\
                                                 이 평가 기준을 꼼꼼히 읽고 이해하는 것이 중요합니다. 평가하는 동안 이 문서를 계속 열어두고 필요할 때 참조해 주세요."},
                     {'role':'user','content': '평가 기준:\
-                     - 이해 가능성 (1 - 5): Input에 기반하여 Response를 이해 할 수 있나요?\
-                     - 자연스러움 (1 - 5): 자연스럽게 말할 법한 Instruction 인가요?\
-                     - 맥락 유지 (1 - 5): Input을 고려했을 때 Response가 맥락을 유지하나요?\
-                     - 흥미롭기 (1 - 5): Response가 지루한가요, 아니면 흥미로운가요?\
+                     - 이해 가능성 (1 - 5): Instruction에 기반하여 Response를 이해 할 수 있나요?\
+                     - 자연스러움 (1 - 5): 자연스럽게 말할 법한 Response인가요?\
+                     - 맥락 유지 (1 - 5): Instruction을 고려했을 때 Response가 맥락을 유지하나요?\
                      - 전반적인 품질 (1 - 5): 위의 답변을 바탕으로 이 발언의 전반적인 품질에 대한 인상은 어떤가요?'},                
                     {'role':'user','content': f'평가 단계:\
                      1. Instruction, Input, 그리고 Response을 주의깊게 읽습니다.\
@@ -109,17 +108,10 @@ df = pd.DataFrame(columns=COLUMNS)
 # 데이터 불러오기
 with open('./conversation_prompt', 'r', encoding='utf-8') as f:
     prompts = f.readlines()
-    
-prompt_format = {
-    "instruction" : "test instruction",
-    "input" : "",
-    "output" : "test output"
-} 
 
 count = 0
 for prompt in prompts:
-    instruction = prompt
-    prompt_format['instruction'] = instruction    
+    instruction = prompt   
     if count > 100: break # 100개만 돌리고 끝
     try:        
         output = infer_from_fintuned(instruction)
@@ -127,7 +119,6 @@ for prompt in prompts:
         for s in output:
             result+=s
         output = result.split("<|endoftext|>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​")[0]
-        prompt_format['output'] = output
         score = extract_scores_from_string(make_evaluation(instruction, output))
         print(f"instruction : {instruction}")
         print(f"output : {output}")
