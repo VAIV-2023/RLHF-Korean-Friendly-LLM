@@ -7,7 +7,7 @@ import random
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-with open('./talksets-train-1.txt', 'r', encoding='utf-8') as f:
+with open('./talksets-train-2.txt', 'r', encoding='utf-8') as f:
     data = f.readlines()
 
 random_numbers = random.sample(range(0, len(data)), 530)
