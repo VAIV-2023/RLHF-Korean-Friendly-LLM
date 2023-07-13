@@ -129,7 +129,7 @@ for prompt in prompts:
             for s in output:
                 result+=s
             result = result.split("endoftext​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​")[0]
-            if "안녕하세요~~~~~~~~" in result: result = result.split("안녕하세요~~~~~~~~")[0]
+            if "안녕하세요~~~~~~~~" in result: result = result.split("안녕하세요~~~~~~~~")[0] 
             output = result
         else:
             output = infer_from_original(input_text=instruction)
@@ -137,13 +137,17 @@ for prompt in prompts:
         print(f"instruction : {instruction}")
         print(f"output : {output}")
         print(f"evaluation: {score}\n")
-        newDF = list()
         newDF = score
         newDF = pd.DataFrame(data=[newDF], columns = COLUMNS) 
         df = pd.concat([df,newDF])
-        if finetuned: df.to_csv("/content/drive/MyDrive/kullm_ft_conversation_eval.csv")
-        else: df.to_csv("/content/drive/MyDrive/kullm_orig_conversation_eval.csv")  
         count += 1
     except:
         print("error occur!")
         continue
+    
+if finetuned: 
+    df.to_csv("/content/drive/MyDrive/kullm_ft_conversation_eval.csv")
+    df.to_csv("./kullm_ft_conversation_eval.csv")
+else: 
+    df.to_csv("/content/drive/MyDrive/kullm_orig_conversation_eval.csv") 
+    df.to_csv("./kullm_ft_conversation_eval.csv") 
