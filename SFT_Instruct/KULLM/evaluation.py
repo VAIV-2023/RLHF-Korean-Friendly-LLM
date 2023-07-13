@@ -161,13 +161,17 @@ for prompt in prompts:
     except:
         print("error occur!")
         continue
-    
-if finetuned: 
-    df.to_csv("/content/drive/MyDrive/kullm_ft_hatespeech_eval.csv")
-    df.to_csv("./kullm_ft_hatespeech_eval.csv")
-else: 
-    df.to_csv("/content/drive/MyDrive/kullm_orig_hatespeech_eval.csv") 
-    df.to_csv("./kullm_orig_hatespeech_eval.csv") 
+
+if gpt:
+    df.to_csv("/content/drive/MyDrive/gpt_hatespeech_eval.csv")
+    df.to_csv("./gpt_hatespeech_eval.csv")
+else:
+    if finetuned: 
+        df.to_csv("/content/drive/MyDrive/kullm_ft_hatespeech_eval.csv")
+        df.to_csv("./kullm_ft_hatespeech_eval.csv")
+    else: 
+        df.to_csv("/content/drive/MyDrive/kullm_orig_hatespeech_eval.csv") 
+        df.to_csv("./kullm_orig_hatespeech_eval.csv") 
     
 """
 {'role':'user','content': '평가 기준:\
