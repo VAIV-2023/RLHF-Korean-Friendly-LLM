@@ -150,4 +150,4 @@ if finetuned:
     df.to_csv("./kullm_ft_conversation_eval.csv")
 else: 
     df.to_csv("/content/drive/MyDrive/kullm_orig_conversation_eval.csv") 
-    df.to_csv("./kullm_ft_conversation_eval.csv") 
+    df.to_csv("./kullm_orig_conversation_eval.csv") 
