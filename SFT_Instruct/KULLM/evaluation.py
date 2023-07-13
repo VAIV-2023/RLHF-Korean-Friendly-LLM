@@ -10,6 +10,7 @@ openai.api_key = "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"
 
 MODEL = "nlpai-lab/kullm-polyglot-12.8b-v2"
 finetuned=True
+gpt=True
 
 model = AutoModelForCausalLM.from_pretrained(
     MODEL,
@@ -72,6 +73,19 @@ def infer_from_fintuned(
     output = tokenizer.decode(s)
     yield prompter.get_response(output)
 
+def infer_from_gpt(instruction) :
+    response = openai.ChatCompletion.create(
+        model = "gpt-3.5-turbo",
+        messages = [{"role": "system", "content": "두 사람 간의 대화가 주어집니다. 다음의 지시문(Instruction)을 받게 될 것입니다.\
+                                                당신의 작업은 지시문과 입력에 해당하는 답변(response)을 생성하는 것입니다.\
+                                                너무 길지 않고 간결하게 답변을 생성해주세요."},
+                    {'role':'user','content': f'\
+                     Instruction: {instruction}\
+                     Response: '},
+                    ],
+        temperature = 0.5)
+    return response['choices'][0]['message']['content']
+
 
 def make_evaluation(instruction, output) :
     response = openai.ChatCompletion.create(
@@ -123,16 +137,19 @@ for prompt in prompts:
     instruction = prompt   
     if count > 100: break # 100개만 돌리고 끝
     try:   
-        if finetuned:     
-            output = infer_from_fintuned(instruction=instruction)
-            result=""
-            for s in output:
-                result+=s
-            result = result.split("endoftext​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​")[0]
-            if "안녕하세요~~~~~~~~" in result: result = result.split("안녕하세요~~~~~~~~")[0] 
-            output = result
+        if gpt:
+            output = infer_from_gpt(instruction)
         else:
-            output = infer_from_original(input_text=instruction)
+            if finetuned:     
+                output = infer_from_fintuned(instruction=instruction)
+                result=""
+                for s in output:
+                    result+=s
+                result = result.split("endoftext​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​")[0]
+                if "안녕하세요~~~~~~~~" in result: result = result.split("안녕하세요~~~~~~~~")[0] 
+                output = result
+            else:
+                output = infer_from_original(input_text=instruction)
         score = extract_scores_from_string(make_evaluation(instruction, output))
         print(f"instruction : {instruction}")
         print(f"output : {output}")
