@@ -92,6 +92,7 @@ for prompt in prompts:
         output = infer_from_original(input_text=input_text, instruction=instruction)
         score = extract_scores_from_string(make_evaluation(instruction, input_text, output))
         print(f"instruction : {instruction}")
+        print(f"input : {input_text}")
         print(f"output : {output}")
         print(f"evaluation: {score}\n")
         tmp = [instruction, input_text, output]
