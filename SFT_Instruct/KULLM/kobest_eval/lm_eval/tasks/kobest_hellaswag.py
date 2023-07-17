@@ -80,7 +80,7 @@ class KoBESTConfig(datasets.BuilderConfig):
 class KoBEST(datasets.GeneratorBasedBuilder):
     BUILDER_CONFIGS = [
         KoBESTConfig(name=name, description=_DESCRIPTION, data_url=_DATA_URLS[name], citation=_CITATAION, url=_URL)
-        for name in ["boolq", "copa", 'sentineg', 'hellaswag', 'wic']
+        for name in ['hellaswag']
     ]
     BUILDER_CONFIG_CLASS = KoBESTConfig
 
@@ -230,7 +230,7 @@ class KoBEST(datasets.GeneratorBasedBuilder):
 
 
 if __name__ == "__main__":
-    dataset = datasets.load_dataset("kobest_v1.py", 'sentineg', ignore_verifications=True)
+    dataset = datasets.load_dataset("kobest_hellaswag.py", 'hellaswag', ignore_verifications=True)
     ds = dataset['test_originated']
     print(ds)
 
