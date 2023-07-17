@@ -1,8 +1,0 @@
-!python main.py \
-   --model hf-causal-experimental \
-   --model_args pretrained=nlpai-lab/kullm-polyglot-12.8b-v2,peft=../conversation \
-   --tasks kobest_hellaswag \
-   --num_fewshot 0 \
-   --batch_size 32 \
-   --device "cuda" \
-   --output_path "/content/"

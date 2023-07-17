@@ -13,10 +13,6 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/EleutherAI/lm-evaluation-harness",
     packages=setuptools.find_packages(),
-    package_data={
-        "lm_eval": ["**/*.json"]
-    },
-    include_package_data=True,
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Programming Language :: Python :: 3",
@@ -46,9 +42,7 @@ setuptools.setup(
     ],
     extras_require={
         "dev": ["black", "flake8", "pre-commit", "pytest", "pytest-cov"],
-        "multilingual": ["nagisa>=0.2.7", "jieba>=0.42.1"],
+        "multilingual": ["nagisa>=0.2.7", "jieba>=0.42.1", "evaluate>=0.4.0"],
         "sentencepiece": ["sentencepiece>=0.1.98", "protobuf>=4.22.1"],
-        "auto-gptq": ["auto-gptq[triton] @ git+https://github.com/PanQiWei/AutoGPTQ"],
-        "anthropic": ["anthropic"],
     },
 )

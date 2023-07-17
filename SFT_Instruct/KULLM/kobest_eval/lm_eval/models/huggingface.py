@@ -3,12 +3,11 @@ import torch
 import torch.nn.functional as F
 import transformers
 import peft
-from peft import __version__ as PEFT_VERSION
-from pathlib import Path
 from typing import List, Mapping, NewType, Optional, Tuple, Union
 from tqdm import tqdm
 
 from transformers import BatchEncoding
+from accelerate import find_executable_batch_size
 
 from lm_eval import utils
 from lm_eval.base import BaseLM
@@ -70,12 +69,10 @@ class HuggingFaceAutoLM(BaseLM):
     def __init__(
         self,
         pretrained: str,
-        quantized: Optional[Union[bool, str]] = False,
         tokenizer: Optional[str] = None,
         subfolder: Optional[str] = None,
         revision: Optional[str] = "main",
         batch_size: Optional[Union[int, str]] = 1,
-        max_batch_size: Optional[int] = 512,
         max_gen_toks: Optional[int] = 256,
         max_length: Optional[int] = None,
         add_special_tokens: Optional[bool] = None,
@@ -88,11 +85,7 @@ class HuggingFaceAutoLM(BaseLM):
         device: Optional[Union[int, str]] = "cuda",
         peft: str = None,
         load_in_8bit: Optional[bool] = False,
-        load_in_4bit: Optional[bool] = False,
         trust_remote_code: Optional[bool] = False,
-        gptq_use_triton: Optional[bool] = False,
-        bnb_4bit_quant_type: Optional[str] = None,
-        bnb_4bit_compute_dtype: Optional[Union[str, torch.dtype]] = None,
     ):
         """Initializes a HuggingFace `AutoModel` and `AutoTokenizer` for evaluation.
         Args:
@@ -100,9 +93,6 @@ class HuggingFaceAutoLM(BaseLM):
                 The HuggingFace Hub model ID name or the path to a pre-trained
                 model to load. This is effectively the `pretrained_model_name_or_path`
                 argument of `from_pretrained` in the HuggingFace `transformers` API.
-            quantized (str or bool, optional, defaults to False):
-                File name of a GPTQ quantized model to load. Set to `True` to use the
-                default name of the quantized model.
             add_special_tokens (bool, optional, defaults to True):
                 Whether to add special tokens to the input sequences. If `None`, the
                 default value will be set to `True` for seq2seq models (e.g. T5) and
@@ -146,21 +136,9 @@ class HuggingFaceAutoLM(BaseLM):
                 `adapter_model.bin`. Compatible with [PEFT](https://github.com/huggingface/peft)
             load_in_8bit (bool, optional, defaults to False):
                 If True, will convert the loaded model into mixed-8bit quantized model. See:
-                https://huggingface.co/docs/transformers/main/en/main_classes/quantization#load-a-large-model-in-8bit
-            load_in_4bit (bool, optional, defaults to False):
-                If True, will convert the loaded model into mixed-4bit quantized model. See:
-                https://huggingface.co/docs/transformers/main/en/main_classes/quantization#load-a-large-model-in-4bit
+                https://huggingface.co/docs/transformers/main/en/main_classes/model#transformers.PreTrainedModel.from_pretrained.load_in_8bit
             trust_remote_code (bool, optional, defaults to False):
                 If True, will trust the remote code when loading the model.
-            gptq_use_triton (bool, optional, defaults to False):
-                Use Triton for GPTQ inference.
-            bnb_4bit_quant_type (str, optional, defaults to None):
-                The quantization type to use for BnB 4bit quantization. See:
-                https://github.com/huggingface/transformers/blob/main/src/transformers/utils/quantization_config.py#L77
-            bnb_4bit_compute_dtype (Union[str, torch.dtype], optional, defaults to None):
-                The compute dtype to use for BnB 4bit quantization. See:
-                https://github.com/huggingface/transformers/blob/main/src/transformers/utils/quantization_config.py#L74
-
         """
         super().__init__()
 
@@ -181,13 +159,10 @@ class HuggingFaceAutoLM(BaseLM):
             ), "Evaluating causal models with `add_special_tokens=True` is currently not supported."
 
         # setup for automatic batch size detection
-        if str(batch_size).startswith("auto"):
-            batch_size = batch_size.split(":")
-            self._batch_size = batch_size[0]
-            self.batch_schedule = float(batch_size[1]) if len(batch_size) > 1 else 1
+        if batch_size == "auto":
+            self._batch_size = batch_size
         else:
             self._batch_size = int(batch_size)
-        self.max_batch_size = max_batch_size
 
         self._max_gen_toks = max_gen_toks
         self._max_length = max_length
@@ -203,7 +178,6 @@ class HuggingFaceAutoLM(BaseLM):
             revision=revision,
             subfolder=subfolder,
             tokenizer=tokenizer,
-            trust_remote_code=trust_remote_code,
         )
         self.tokenizer.model_max_length = self.max_length
 
@@ -215,18 +189,13 @@ class HuggingFaceAutoLM(BaseLM):
                 max_cpu_memory,
                 offload_folder,
             )
+        model_kwargs["load_in_8bit"] = load_in_8bit
         self.model = self._create_auto_model(
             pretrained=pretrained,
-            quantized=quantized,
             trust_remote_code=trust_remote_code,
             revision=revision,
             subfolder=subfolder,
             torch_dtype=_get_dtype(dtype, self._config),
-            gptq_use_triton=gptq_use_triton,
-            load_in_8bit=load_in_8bit,
-            load_in_4bit=load_in_4bit,
-            bnb_4bit_quant_type=bnb_4bit_quant_type,
-            bnb_4bit_compute_dtype=bnb_4bit_compute_dtype,
             **model_kwargs,
         )
         # note: peft_path can be different than pretrained model path
@@ -236,7 +205,8 @@ class HuggingFaceAutoLM(BaseLM):
                 peft=peft,
                 revision=revision,
                 subfolder=subfolder,
-                load_in_4bit=load_in_4bit,
+                torch_dtype=_get_dtype(dtype, self._config),
+                **model_kwargs,
             )
         self.model.eval()
         torch.set_grad_enabled(False)
@@ -247,65 +217,33 @@ class HuggingFaceAutoLM(BaseLM):
             # the user specified one so we force `self._device` to be the same as
             # `lm_head`'s.
             self._device = self.model.hf_device_map["lm_head"]
-        if not use_accelerate and not (load_in_4bit or load_in_8bit):
-            try:
-                self.model.to(self._device)
-            except:
-                print("Failed to place model onto specified device. This may be because the model is quantized via `bitsandbytes`. If the desired GPU is being used, this message is safe to ignore.")
+        if not use_accelerate:
+            self.model.to(self._device)
 
     def _create_auto_model(
         self,
         *,
         pretrained: str,
-        quantized: Optional[Union[bool, str]] = False,
         revision: str,
         subfolder: str,
         device_map: Optional[Union[str, _DeviceMapping]] = None,
         max_memory: Optional[dict] = None,
         offload_folder: Optional[str] = None,
         load_in_8bit: Optional[bool] = False,
-        load_in_4bit: Optional[bool] = False,
         trust_remote_code: Optional[bool] = False,
         torch_dtype: Optional[Union[str, torch.dtype]] = None,
-        gptq_use_triton: Optional[bool] = False,
-        bnb_4bit_quant_type: Optional[str] = None,
-        bnb_4bit_compute_dtype: Optional[Union[str, torch.dtype]] = None,
     ) -> transformers.AutoModel:
         """Returns a pre-trained pytorch model from a pre-trained model configuration."""
-        if not quantized:
-            if load_in_4bit:
-                assert transformers.__version__ >= "4.30.0", "load_in_4bit requires transformers >= 4.30.0"
-            model_kwargs = {}
-            if transformers.__version__ >= "4.30.0":
-                model_kwargs["load_in_4bit"] = load_in_4bit
-                if load_in_4bit:
-                    if bnb_4bit_quant_type:
-                        model_kwargs["bnb_4bit_quant_type"] = bnb_4bit_quant_type
-                    if bnb_4bit_compute_dtype:
-                        model_kwargs["bnb_4bit_compute_dtype"] = _get_dtype(bnb_4bit_compute_dtype)
-            model = self.AUTO_MODEL_CLASS.from_pretrained(
-                pretrained,
-                revision=revision + ("/" + subfolder if subfolder is not None else ""),
-                device_map=device_map,
-                max_memory=max_memory,
-                offload_folder=offload_folder,
-                load_in_8bit=load_in_8bit,
-                trust_remote_code=trust_remote_code,
-                torch_dtype=torch_dtype,
-                **model_kwargs,
-            )
-        else:
-            from auto_gptq import AutoGPTQForCausalLM
-            model = AutoGPTQForCausalLM.from_quantized(
-                pretrained,
-                model_basename=None if quantized == True else Path(quantized).stem,
-                device_map=device_map,
-                max_memory=max_memory,
-                trust_remote_code=trust_remote_code,
-                use_safetensors=True if quantized == True else quantized.endswith('.safetensors'),
-                use_triton=gptq_use_triton,
-                warmup_triton=gptq_use_triton,
-            )
+        model = self.AUTO_MODEL_CLASS.from_pretrained(
+            pretrained,
+            revision=revision + ("/" + subfolder if subfolder is not None else ""),
+            device_map=device_map,
+            max_memory=max_memory,
+            offload_folder=offload_folder,
+            load_in_8bit=load_in_8bit,
+            trust_remote_code=trust_remote_code,
+            torch_dtype=torch_dtype,
+        )
         return model
 
     def _create_auto_model_peft(
@@ -315,14 +253,23 @@ class HuggingFaceAutoLM(BaseLM):
         peft: str,
         revision: str,
         subfolder: str,
-        load_in_4bit: Optional[bool] = False,
+        device_map: Optional[Union[str, _DeviceMapping]] = None,
+        max_memory: Optional[dict] = None,
+        offload_folder: Optional[str] = None,
+        load_in_8bit: Optional[bool] = False,
+        trust_remote_code: Optional[bool] = False,
+        torch_dtype: Optional[Union[str, torch.dtype]] = None,
     ):
-        if load_in_4bit:
-            assert PEFT_VERSION >= "0.4.0", "load_in_4bit requires peft >= 0.4.0"
         model = self.AUTO_PEFT_CLASS.from_pretrained(
             model,
             peft,
             revision=revision + ("/" + subfolder if subfolder is not None else ""),
+            device_map=device_map,
+            max_memory=max_memory,
+            offload_folder=offload_folder,
+            load_in_8bit=load_in_8bit,
+            trust_remote_code=trust_remote_code,
+            torch_dtype=torch_dtype,
         )
         return model
 
@@ -333,13 +280,11 @@ class HuggingFaceAutoLM(BaseLM):
         revision: str,
         subfolder: str,
         tokenizer: Optional[str] = None,
-        trust_remote_code: Optional[bool] = False,
     ) -> transformers.PreTrainedTokenizer:
         """Returns a pre-trained tokenizer from a pre-trained tokenizer configuration."""
         tokenizer = self.AUTO_TOKENIZER_CLASS.from_pretrained(
             pretrained if tokenizer is None else tokenizer,
             revision=revision + ("/" + subfolder if subfolder is not None else ""),
-            trust_remote_code=trust_remote_code,
         )
         tokenizer.pad_token = tokenizer.eos_token
         return tokenizer
@@ -381,7 +326,7 @@ class HuggingFaceAutoLM(BaseLM):
         """Return the maximum sequence length of the model.
         NOTE: Different model configurations have different max sequence length
         attribute names.
-            - n_positions: (CTRLConfig, T5Config)
+            - n_positions: (CTRLConfig)
             - max_position_embeddings: (BartConfig, RoFormerConfig)
             - n_ctx: (GPT2Config)
         NOTE: For relative position encoded models you should specify the max
@@ -438,7 +383,19 @@ class HuggingFaceAutoLM(BaseLM):
         if self.batch_size == "auto":
             # using rolling window with maximum context
             print("Passed argument batch_size = auto. Detecting largest batch size")
-            batch_size = self._detect_batch_size()
+
+            @find_executable_batch_size(
+                starting_batch_size=512
+            )  # if OOM, then halves batch_size and tries again
+            def forward_batch(batch_size):
+                test_batch = torch.ones(
+                    (batch_size, self.max_length), device=self.device
+                ).long()
+                for _ in range(5):
+                    _ = F.log_softmax(self._model_call(test_batch), dim=-1).cpu()
+                return batch_size
+
+            batch_size = forward_batch()
             print(f"Determined Largest batch size: {batch_size}")
             adaptive_batch_size = batch_size
 
@@ -503,14 +460,12 @@ class AutoCausalLM(HuggingFaceAutoLM):
         revision: str,
         subfolder: str,
         tokenizer: Optional[str] = None,
-        trust_remote_code: Optional[bool] = False,
     ) -> transformers.PreTrainedTokenizer:
         tokenizer = super()._create_auto_tokenizer(
             pretrained=pretrained,
             revision=revision,
             subfolder=subfolder,
             tokenizer=tokenizer,
-            trust_remote_code=trust_remote_code,
         )
         tokenizer.padding_side = "left"
         return tokenizer
@@ -562,6 +517,15 @@ class AutoSeq2SeqLM(HuggingFaceAutoLM):
 
     AUTO_MODEL_CLASS = transformers.AutoModelForSeq2SeqLM
     AUTO_PEFT_CLASS = peft.PeftModel
+
+    @property
+    def max_length(self) -> int:
+        """Return the maximum sequence length of the model.
+        TODO: Currently only works for relative position encoded Seq2Seq models.
+        """
+        if self._max_length is not None:
+            return self._max_length
+        return self._DEFAULT_MAX_LENGTH
 
     def loglikelihood(
         self, requests: List[Tuple[str, str]]

@@ -5,10 +5,8 @@ import collections
 import functools
 import inspect
 import sys
-import fnmatch
 from typing import List, Union
 
-import gc
 import torch
 
 from omegaconf import OmegaConf
@@ -65,11 +63,11 @@ def join_iters(iters):
         yield from iter
 
 
-def chunks(iter, n=0, fn=None):
+def chunks(iter, n):
     arr = []
-    for i, x in enumerate(iter):
+    for x in iter:
         arr.append(x)
-        if len(arr) == (fn(i) if fn else n):
+        if len(arr) == n:
             yield arr
             arr = []
 
@@ -84,42 +82,6 @@ def group(arr, fn):
         res[fn(ob)].append(ob)
 
     return list(res.values())
-
-
-def _is_json_task(task_name):
-    return task_name == "json" or task_name.startswith("json=")
-
-
-class MultiChoice:
-    def __init__(self, choices):
-        self.choices = choices
-
-    # Simple wildcard support (linux filename patterns)
-    def __contains__(self, values):
-        for value in values.split(","):
-            if len(fnmatch.filter(self.choices, value)) == 0 and not _is_json_task(
-                value
-            ):
-                return False
-
-        return True
-
-    def __iter__(self):
-        for choice in self.choices:
-            yield choice
-
-
-# Returns a list containing all values of the source_list that
-# match at least one of the patterns
-def pattern_match(patterns, source_list):
-    task_names = set()
-    for pattern in patterns:
-        if _is_json_task(pattern):
-            task_names.add(pattern)
-
-        for matching in fnmatch.filter(source_list, pattern):
-            task_names.add(matching)
-    return sorted(list(task_names))
 
 
 def general_detokenize(string):
@@ -284,8 +246,3 @@ def run_task_tests(task_list: List[str]):
         raise ValueError(
             f"Not all tests for the specified tasks ({task_list}) ran successfully! Error code: {pytest_return_val}"
         )
-
-
-def clear_torch_cache():
-    gc.collect()
-    torch.cuda.empty_cache()

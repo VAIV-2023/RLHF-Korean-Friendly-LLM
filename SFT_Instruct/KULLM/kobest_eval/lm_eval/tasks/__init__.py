@@ -4,7 +4,6 @@ from typing import List, Union
 import sacrebleu
 import lm_eval.base
 
-from . import babi
 from . import superglue
 from . import glue
 from . import arc
@@ -51,6 +50,15 @@ from . import blimp
 from . import asdiv
 from . import gsm8k
 from . import storycloze
+from . import kobest
+from . import nsmc
+from . import klue
+from . import ko_translation
+from . import korquad
+from . import korunsmile
+from . import kohatespeech
+from . import kold
+from . import kosbi
 from . import toxigen
 from . import crowspairs
 from . import json
@@ -61,21 +69,17 @@ from . import xwinograd
 from . import pawsx
 from . import xnli
 from . import mgsm
-from . import scrolls
-from . import ceval
-from . import csatqa
-from . import kobest_hellaswag
 
 ########################################
 # Translation tasks
 ########################################
+
 
 # 6 total
 gpt3_translation_benchmarks = {
     "wmt14": ["en-fr", "fr-en"],  # French
     "wmt16": ["en-ro", "ro-en", "de-en", "en-de"],  # German, Romanian
 }
-
 
 # 28 total
 selected_translation_benchmarks = {
@@ -95,9 +99,8 @@ all_translation_benchmarks = {
 # All tasks
 ########################################
 
-
+# task 레지스트리에 클래스 추가 
 TASK_REGISTRY = {
-    "babi": babi.Babi,
     # GLUE
     "cola": glue.CoLA,
     "mnli": glue.MNLI,
@@ -320,18 +323,30 @@ TASK_REGISTRY = {
     "crows_pairs_french_nationality": crowspairs.CrowsPairsFrenchNationality,
     "crows_pairs_french_physical_appearance": crowspairs.CrowsPairsFrenchPhysicalAppearance,
     "crows_pairs_french_autre": crowspairs.CrowsPairsFrenchAutre,
-    "csatqa_wr": csatqa.WR,
-    "csatqa_gr": csatqa.GR,
-    "csatqa_rcs": csatqa.RCS,
-    "csatqa_rcss": csatqa.RCSS,
-    "csatqa_rch": csatqa.RCH,
-    "csatqa_li": csatqa.LI,
-    "kobest_hellaswag": kobest_hellaswag.KoBEST,
-    # Requires manual download
     # Requires manual download of data.
     # "storycloze_2016": storycloze.StoryCloze2016,
     # "storycloze_2018": storycloze.StoryCloze2018,
     # "sat": sat.SATAnalogies,
+    "kold_level_a": kold.KoldLevelA,
+    "kold_level_b": kold.KoldLevelB,
+    "klue_sts": klue.STS,
+    "klue_ynat": klue.YNAT,
+    "klue_nli": klue.NLI,
+    "klue_mrc": klue.MRC,
+    "nsmc": nsmc.NSMC,    
+    "korquad": korquad.Korquad,
+    "kobest_boolq": kobest.BoolQ,
+    "kobest_copa": kobest.COPA,
+    "kobest_wic": kobest.WiC,
+    "kobest_hellaswag": kobest.HellaSwag,
+    "kobest_sentineg": kobest.SentiNeg,
+    "ko_en_translation": ko_translation.KoEnTranslation,
+    "en_ko_translation": ko_translation.EnKoTranslation,
+    "korunsmile": korunsmile.KorUnSmile,
+    "kohatespeech":kohatespeech.HateSpeech,
+    "kohatespeech_gen_bias":kohatespeech.GenderBias,
+    "kohatespeech_apeach":kohatespeech.Apeach,
+    "kosbi":kosbi.KoSBi,
     **xcopa.construct_tasks(),
     **bigbench.create_all_tasks(),
     **xstorycloze.create_all_tasks(),
@@ -339,10 +354,7 @@ TASK_REGISTRY = {
     **pawsx.construct_tasks(),
     **xnli.construct_tasks(),
     **mgsm.construct_tasks(),
-    **scrolls.construct_tasks(),
-    **ceval.create_all_tasks(),
 }
-
 
 ALL_TASKS = sorted(list(TASK_REGISTRY))
 
