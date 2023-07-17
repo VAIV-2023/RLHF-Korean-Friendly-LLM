@@ -326,7 +326,7 @@ TASK_REGISTRY = {
     "csatqa_rcss": csatqa.RCSS,
     "csatqa_rch": csatqa.RCH,
     "csatqa_li": csatqa.LI,
-    "kobest_hellaswag": kobest_hellaswag.KoBEST
+    "kobest_hellaswag": kobest_hellaswag.KoBEST,
     # Requires manual download
     # Requires manual download of data.
     # "storycloze_2016": storycloze.StoryCloze2016,
