@@ -17,7 +17,7 @@ parser.add_argument("--openai_key", type=str, default="sk-FZKlriUakiQ0pVtixGfIT3
 parser.add_argument("--base_model", type=str, default="nlpai-lab/kullm-polyglot-12.8b-v2")
 parser.add_argument("--dataset", type=str, default=None)
 parser.add_argument("--output_file", type=str, default='out.csv')
-parser.add_argument("--gpt", type=bool, default=True)
+parser.add_argument("--gpt", type=str, default="True")
 parser.add_argument("--prompt_only", type=str, default=False)
 
 args=parser.parse_args()
@@ -121,7 +121,7 @@ try:
         backoff_time = 10
         retry_cnt=0
         row = {'instruction':instruction, 'input': input_text, 'prompt': prompter.generate_prompt(instruction=instruction, input=input_text)}
-        if args.gpt==True:
+        if args.gpt=="True":
             while retry_cnt<3:
                 try:
                     output = infer_from_gpt(instruction, input_text)
@@ -137,7 +137,7 @@ try:
                         retry_cnt+=1
                     output=str(e)
             row['gpt3_output']=output
-        print(f'@@@{instruction} ### {input_text} ### {prompt}\n###{output}')
+            print(f'@@@{instruction} ### {input_text} ### {prompt}\n###{output}')
         try:
             output = infer_from_original( instruction=instruction, input_text=input_text)
         except Exception as e:
