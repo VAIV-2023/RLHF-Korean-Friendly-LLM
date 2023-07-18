@@ -121,7 +121,7 @@ try:
         backoff_time = 10
         retry_cnt=0
         row = {'instruction':instruction, 'input': input_text, 'prompt': prompter.generate_prompt(instruction=instruction, input=input_text)}
-        if args.gpt:
+        if args.gpt==True:
             while retry_cnt<3:
                 try:
                     output = infer_from_gpt(instruction, input_text)
@@ -137,12 +137,13 @@ try:
                         retry_cnt+=1
                     output=str(e)
             row['gpt3_output']=output
+        print(f'@@@{instruction} ### {input_text} ### {prompt}\n###{output}')
         try:
             output = infer_from_original( instruction=instruction, input_text=input_text)
         except Exception as e:
             output=str(e)
         row['base_model_output']=output
-        print(f'@@@{instruction} ### {input_text} ### {prompt}\n###{output}')
+        print(f'######{output}')
         # score = extract_scores_from_string(make_evaluation(instruction, output))
         # print(f"instruction : {instruction}")
         # print(f"output : {output}")
