@@ -9,6 +9,7 @@ from utils.prompter import Prompter
 import argparse
 import os
 import json
+import time
 
 parser=argparse.ArgumentParser()
 parser.add_argument("--peft_model", type=str, default=None)
@@ -23,6 +24,8 @@ args=parser.parse_args()
 # openai.api_key = "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"
 openai.api_key=args.openai_key
 MODEL = args.base_model
+prompter = Prompter("kullm")
+
 
 def infer_from_gpt(instruction, input) :
     response = openai.ChatCompletion.create(
@@ -48,7 +51,6 @@ model = AutoModelForCausalLM.from_pretrained(
 
 model.eval()
 
-prompter = Prompter("kullm")
 pipe = pipeline("text-generation", model=model, tokenizer=MODEL, device=0)
 
 def infer_from_original(instruction="", input_text=""):
