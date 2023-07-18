@@ -89,7 +89,7 @@ def infer_from_fintuned(
         )
     s = generation_output.sequences[0]
     output = tokenizer.decode(s)
-    yield prompter.get_response(output)
+    return prompter.get_response(output)
 
 
 # 데이터 불러오기
@@ -137,13 +137,13 @@ try:
                         retry_cnt+=1
                     output=str(e)
             row['gpt3_output']=output
-            print(f'@@@{instruction} ### {input_text} ### {prompt}\n###{output}')
+            print(f'@@@{instruction} ### {input_text} ### {prompter.generate_prompt(instruction=instruction, input=input_text)}\n######{output}')
         try:
             output = infer_from_original( instruction=instruction, input_text=input_text)
         except Exception as e:
             output=str(e)
         row['base_model_output']=output
-        print(f'######{output}')
+        print(f'@@@{instruction} ### {input_text} ### {prompter.generate_prompt(instruction=instruction, input=input_text)}\n#######{output}')
         # score = extract_scores_from_string(make_evaluation(instruction, output))
         # print(f"instruction : {instruction}")
         # print(f"output : {output}")
@@ -175,11 +175,11 @@ try:
             except Exception as e:
                 output=str(e)
             df.loc[idx,'model_output']=output
-            print(f'@@@{instruction} ### {input_text} ### {prompt}\n###{output}')
+            print(f'@@@{instruction} ### {input_text} ### {prompter.generate_prompt(instruction=instruction, input=input_text)}\###n###{output}')
             idx+=1
-    df.to_csv(f"./output/{time.strftime('%m-%d-%H-%M-%S')}_{args.output_file}", encoding='utf-8')
+    df.to_csv(f"./{time.strftime('%m-%d-%H-%M-%S')}_{args.output_file}", encoding='utf-8')
 except:
-    df.to_csv(f"./output/{time.strftime('%m-%d-%H-%M-%S')}_{args.output_file}", encoding='utf-8')
+    df.to_csv(f"./{time.strftime('%m-%d-%H-%M-%S')}_{args.output_file}", encoding='utf-8')
     
 """
 {'role':'user','content': '평가 기준:\
