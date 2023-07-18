@@ -62,8 +62,8 @@ def infer_from_original(instruction="", input_text=""):
 # 데이터 불러오기
 prompts=[]
 dataset_type='prompt_only'
-with open(f'./{argparse.dataset}', 'r', encoding='utf-8') as f:
-    if os.path.splitext(argparse.dataset)[1]=='.jsonl':
+with open(f'./{args.dataset}', 'r', encoding='utf-8') as f:
+    if os.path.splitext(args.dataset)[1]=='.jsonl':
         for line in f:
             json_data = json.loads(line)
             if dataset_type=='prompt_only':
@@ -86,8 +86,8 @@ for prompt in prompts:
         input_text=prompt['input']
     backoff_time = 10
     retry_cnt=0
-    row = {'instruction':instruction, 'input': input_text, 'prompt': promper.generate_prompt(instruction=instruction, input=input_text)}
-    if argparse.gpt:
+    row = {'instruction':instruction, 'input': input_text, 'prompt': prompter.generate_prompt(instruction=instruction, input=input_text)}
+    if args.gpt:
         while retry_cnt<10:
             try:
                 output = infer_from_gpt(instruction, input_text)
@@ -173,7 +173,7 @@ if finetuned:
         idx+=1
 
 
-df.to_csv(f"./{argparse.output_file}", encoding='utf-8')
+df.to_csv(f"./{args.output_file}", encoding='utf-8')
     
 """
 {'role':'user','content': '평가 기준:\
