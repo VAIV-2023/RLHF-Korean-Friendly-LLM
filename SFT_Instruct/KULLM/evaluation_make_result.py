@@ -28,7 +28,7 @@ def infer_from_gpt(instruction, input) :
     response = openai.ChatCompletion.create(
         model = "gpt-3.5-turbo",
         messages = [
-            {"role": 'user'
+            {"role": 'user',
              'content': prompter.generate_prompt(instruction, input)
             },
         ],
