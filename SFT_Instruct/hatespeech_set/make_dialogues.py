@@ -17,18 +17,21 @@ for idx in random_numbers:
     line = data[idx]
     item={}
     item['input'] = (line.split('|')[0])[1:]
-    response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {"role": "system", "content": "혐오, 비난적 포함된 발언을 하면 그렇게 하지 않도록 적절히 유도해주세요."},
-            {"role": "user", "content": item['input']},
-        ]
-    )
-    item['output']=response.choices[0].message.content
-    results.append(item)
-
-with open('./dialogues.json', 'w') as f:
-    json.dump(results, f, ensure_ascii=False, indent=4)
+    try:
+        response = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": "혐오, 비난적 포함된 발언을 하면 그렇게 하지 않도록 적절히 유도해주세요."},
+                {"role": "user", "content": item['input']},
+            ]
+        )
+        item['output']=response.choices[0].message.content
+        results.append(item)
+        with open('./dialogues.json', 'w') as f:
+            json.dump(results, f, ensure_ascii=False, indent=4)
+    except:
+        pass
+    
 
 
 

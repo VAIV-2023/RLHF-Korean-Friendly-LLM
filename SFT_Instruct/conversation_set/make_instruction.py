@@ -14,8 +14,7 @@ for category in data:
         tmp={}
         tmp['id'] = "conversaion_"+str(id)
         id +=1
-        tmp['instruction'] = "대화가 자연스럽게 이루어질 수 있도록 친절하고 친근하게 답변해주세요."
-        tmp['input'] = item['input']
+        tmp['instruction'] = item['input']
         tmp['output'] = item['output']
         line.append(tmp)
 

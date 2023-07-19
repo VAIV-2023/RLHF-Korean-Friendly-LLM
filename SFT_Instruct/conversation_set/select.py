@@ -11,7 +11,7 @@ for category in data:
             li.remove(item) 
     
     new=[]
-    random_numbers = random.sample(range(0, len(li)), 30)
+    random_numbers = random.sample(range(0, len(li)), 65)
     for idx in random_numbers:
         new.append(li[idx])
     

@@ -12,8 +12,7 @@ for item in data:
     tmp={}
     tmp['id'] = "hatespeech_"+str(id)
     id +=1
-    tmp['instruction'] = "혐오, 비난적 포함된 발언을 하면 그렇게 하지 않도록 적절히 유도해주세요."
-    tmp['input'] = item['input']
+    tmp['instruction'] = item['input']
     tmp['output'] = item['output']
     line.append(tmp)
 
@@ -21,3 +20,5 @@ with open('./instructions.jsonl', 'w') as f:
     for item in line:
         json_line = json.dumps(item, ensure_ascii=False)
         f.write(json_line + '\n')
+
+

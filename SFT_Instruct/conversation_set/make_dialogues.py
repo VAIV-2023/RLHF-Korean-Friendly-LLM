@@ -6,11 +6,11 @@ directory2 = './train/NIKL_DIALOGUE_2021_v1.0/'
 
 files=[]
 for filename in os.listdir(directory1):
-        if filename.endswith('.json'):
-            files.append(os.path.join(directory1, filename))
+    if filename.endswith('.json'):
+        files.append(os.path.join(directory1, filename))
 for filename in os.listdir(directory2):
-        if filename.endswith('.json'):
-            files.append(os.path.join(directory2, filename))
+    if filename.endswith('.json'):
+        files.append(os.path.join(directory2, filename))
 
 categories = [
     '여행지(국내/해외)', 
