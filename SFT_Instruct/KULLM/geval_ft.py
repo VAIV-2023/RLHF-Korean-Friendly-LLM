@@ -1,15 +1,19 @@
+import os
 import pandas as pd
 import openai
+from dotenv import load_dotenv
 
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, GenerationConfig, pipeline
 from peft import PeftModel
 from utils.prompter import Prompter
 
-openai.api_key = "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"
+load_dotenv()
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 MODEL = "nlpai-lab/kullm-polyglot-12.8b-v2"
 finetuned=True
+task="hatespeech"
 gpt=True
 
 model = AutoModelForCausalLM.from_pretrained(
@@ -21,7 +25,7 @@ model = AutoModelForCausalLM.from_pretrained(
 if finetuned:
     model = PeftModel.from_pretrained(
         model,
-        "hatespeech",
+        "./lora_weights/"+task,
         torch_dtype=torch.float16,
     ).to(device=f"cuda", non_blocking=True)
     
@@ -146,7 +150,7 @@ COLUMNS = ['instruction', 'output', '무해함', '이해 가능성', '자연스�
 df = pd.DataFrame(columns=COLUMNS)
 
 # 데이터 불러오기
-with open('./data/hatespeech_prompt.txt', 'r', encoding='utf-8') as f:
+with open('./data/'+task+'_prompt.txt', 'r', encoding='utf-8') as f:
     prompts = f.readlines()
 
 count = 0
@@ -181,10 +185,10 @@ for prompt in prompts:
         continue
 
 if gpt:
-    df.to_csv("/content/drive/MyDrive/gpt_hatespeech_eval.csv", encoding='utf-8')
+    df.to_csv("/content/drive/MyDrive/gpt_"+task+"_eval.csv", encoding='utf-8')
 else:
-    if finetuned: df.to_csv("/content/drive/MyDrive/kullm_ft_hatespeech_eval.csv", encoding='utf-8')
-    else: df.to_csv("/content/drive/MyDrive/kullm_orig_hatespeech_eval.csv", encoding='utf-8') 
+    if finetuned: df.to_csv("/content/drive/MyDrive/kullm_ft_"+task+"_eval.csv", encoding='utf-8')
+    else: df.to_csv("/content/drive/MyDrive/kullm_orig_"+task+"_eval.csv", encoding='utf-8') 
     
 """
 {'role':'user','content': '평가 기준:\

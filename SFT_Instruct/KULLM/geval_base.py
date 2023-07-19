@@ -1,5 +1,7 @@
+import os
 import pandas as pd
 import openai
+from dotenv import load_dotenv
 import json
 
 import torch
@@ -7,7 +9,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, GenerationConfig, 
 from peft import PeftModel
 from utils.prompter import Prompter
 
-openai.api_key = "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"
+load_dotenv()
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 MODEL = "nlpai-lab/kullm-polyglot-12.8b-v2"
 
@@ -105,5 +108,5 @@ for prompt in prompts:
 
 
 df.to_csv("/content/drive/MyDrive/kullm_orig_eval.csv", encoding='utf-8') 
-df.to_csv("./kullm_orig_eval.csv", encoding='utf-8') 
+df.to_csv("./eval_results/kullm_orig_eval.csv", encoding='utf-8') 
     

@@ -28,8 +28,8 @@ from utils.prompter import Prompter
 def train(
     # model/data params
     base_model: str = "nlpai-lab/kullm-polyglot-12.8b-v2",  # the only required argument
-    data_path: str = "./data/hatespeech.jsonl",
-    output_dir: str = "./hatespeech/",
+    data_path: str = "./data/instructions_all.jsonl",
+    output_dir: str = "./lora_weights/all",
     # training hyperparams
     batch_size: int = 32,
     micro_batch_size: int = 4,

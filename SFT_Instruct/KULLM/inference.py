@@ -12,7 +12,7 @@ model = AutoModelForCausalLM.from_pretrained(
 ).to(device=f"cuda", non_blocking=True)
 model = PeftModel.from_pretrained(
     model,
-    "conversation",
+    "./lora_weights/conversation",
     torch_dtype=torch.float16,
 ).to(device=f"cuda", non_blocking=True)
 model.eval()
