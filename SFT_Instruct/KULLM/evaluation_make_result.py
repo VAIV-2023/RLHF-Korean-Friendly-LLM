@@ -17,8 +17,10 @@ parser.add_argument("--openai_key", type=str, default="sk-FZKlriUakiQ0pVtixGfIT3
 parser.add_argument("--base_model", type=str, default="nlpai-lab/kullm-polyglot-12.8b-v2")
 parser.add_argument("--dataset", type=str, default=None)
 parser.add_argument("--output_file", type=str, default='out.csv')
-parser.add_argument("--gpt", type=str, default="True")
+parser.add_argument("--gpt", type=str, default="False")
 parser.add_argument("--prompt_only", type=str, default=False)
+parser.add_argument("--count_from", type=int, default=0)
+parser.add_argument("--count_to", type=int, default=30)
 
 args=parser.parse_args()
 
@@ -107,11 +109,16 @@ with open(f'./{args.dataset}', 'r', encoding='utf-8') as f:
     else:
         prompts = f.readlines()
 
-COLUMNS = ['instruction', 'input', 'prompt', 'model_output' ,'base_model_output', 'gpt3_output']
+COLUMNS = ['prompt', 'instruction', 'input', 'model_output' ,'base_model_output', 'gpt3_output']
 df = pd.DataFrame(columns=COLUMNS)
 count = 0
 try:
     for prompt in prompts:
+        if count<args.count_from:
+            continue
+        if count>args.count_to:
+            break
+        
         if prompt_only:
             instruction=prompt
             input_text=None
@@ -148,8 +155,8 @@ try:
         # print(f"instruction : {instruction}")
         # print(f"output : {output}")
         # print(f"evaluation: {score}\n")
-        df.append(row,ignore_index=True)
-        count += 1
+        df=df.append(row,ignore_index=True)
+        count+=1
 
     if finetuned:
         model = PeftModel.from_pretrained(
@@ -164,6 +171,10 @@ try:
         model.config.eos_token_id = 2
         idx=0
         for prompt in prompts:
+            if idx<args.count_from:
+                continue
+            if idx>args.count_to:
+                break
             if prompt_only:
                 instruction=prompt
                 input_text=None
