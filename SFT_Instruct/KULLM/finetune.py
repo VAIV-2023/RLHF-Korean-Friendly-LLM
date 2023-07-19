@@ -36,7 +36,7 @@ def train(
     num_epochs: int = 3,
     learning_rate: float = 3e-4,
     cutoff_len: int = 2048,
-    val_set_size: int = 60,
+    val_set_size: int = 250,
     # lora hyperparams
     lora_r: int = 8,
     lora_alpha: int = 16,
