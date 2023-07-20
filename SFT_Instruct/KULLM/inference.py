@@ -15,11 +15,16 @@ model = PeftModel.from_pretrained(
     "./lora_weights/conversation",
     torch_dtype=torch.float16,
 ).to(device=f"cuda", non_blocking=True)
-model.eval()
 
-prompter = Prompter("kullm")
 tokenizer = AutoTokenizer.from_pretrained(MODEL)
+model.config.pad_token_id = tokenizer.pad_token_id = 0  # unk
+model.config.bos_token_id = 1
+model.config.eos_token_id = 2
+
 pipe = pipeline("text-generation", model=model, tokenizer=MODEL, device=0)
+prompter = Prompter("kullm")
+
+model.eval()
 
 def infer_from_original(instruction="", input_text=""):
     prompt = prompter.generate_prompt(instruction, input_text)

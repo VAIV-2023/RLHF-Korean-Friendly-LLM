@@ -13,32 +13,34 @@ load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 MODEL = "nlpai-lab/kullm-polyglot-12.8b-v2"
-finetuned=True
+finetuned=False
 task="all"
-gpt=False
+gpt=True
 
-model = AutoModelForCausalLM.from_pretrained(
-    MODEL,
-    torch_dtype=torch.float16,
-    low_cpu_mem_usage=True,
-).to(device=f"cuda", non_blocking=True)
-
-if finetuned:
-    model = PeftModel.from_pretrained(
-        model,
-        "./lora_weights/"+task,
+if gpt: model = None
+else:
+    model = AutoModelForCausalLM.from_pretrained(
+        MODEL,
         torch_dtype=torch.float16,
+        low_cpu_mem_usage=True,
     ).to(device=f"cuda", non_blocking=True)
-    
-    tokenizer = AutoTokenizer.from_pretrained(MODEL)
-    model.config.pad_token_id = tokenizer.pad_token_id = 0  # unk
-    model.config.bos_token_id = 1
-    model.config.eos_token_id = 2
-    
-model.eval()
 
-prompter = Prompter("kullm")
-pipe = pipeline("text-generation", model=model, tokenizer=MODEL, device=0)
+    if finetuned:
+        model = PeftModel.from_pretrained(
+            model,
+            "./lora_weights/"+task,
+            torch_dtype=torch.float16,
+        ).to(device=f"cuda", non_blocking=True)
+        
+        tokenizer = AutoTokenizer.from_pretrained(MODEL)
+        model.config.pad_token_id = tokenizer.pad_token_id = 0  # unk
+        model.config.bos_token_id = 1
+        model.config.eos_token_id = 2
+    
+    model.eval()
+
+    pipe = pipeline("text-generation", model=model, tokenizer=MODEL, device=0)
+    prompter = Prompter("kullm")
 
 def infer_from_original(instruction="", input_text=""):
     prompt = prompter.generate_prompt(instruction, input_text)
@@ -189,6 +191,7 @@ for prompt in prompts:
             f.write(f"error: {str(e)}\n\n")
 
 if gpt:
+    df.to_csv("./gpt_"+task+"_eval.csv", encoding='utf-8')
     df.to_csv("/content/drive/MyDrive/gpt_"+task+"_eval.csv", encoding='utf-8')
 else:
     if finetuned: df.to_csv("/content/drive/MyDrive/kullm_ft_"+task+"_eval.csv", encoding='utf-8')
