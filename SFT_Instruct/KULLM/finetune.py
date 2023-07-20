@@ -44,7 +44,7 @@ def train(
     lora_target_modules: List[str] = ["query_key_value"],
     # llm hyperparams
     train_on_inputs: bool = True,  # if False, masks out inputs in loss
-    add_eos_token: bool = False,
+    add_eos_token: bool = True,
     group_by_length: bool = False,  # faster, but produces an odd training loss curve
     # wandb params
     wandb_project: str = "",
