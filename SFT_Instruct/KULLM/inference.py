@@ -65,12 +65,17 @@ def infer_from_fintuned(
     yield prompter.get_response(output)
 
 
-result = infer_from_original(input_text="나 어제 여행을 다녀왔어")
-print(result)
+# 데이터 불러오기
+with open('./data/'+'all_prompt.txt', 'r', encoding='utf-8') as f:
+    prompts = f.readlines()
 
-output = infer_from_fintuned(instruction="나 어제 여행을 다녀왔어")
-result=""
-for s in output:
-    result+=s
-result = result.split("<|endoftext|>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​")[0]
-print(result)
+for prompt in prompts:
+    instruction = prompt   
+    output = infer_from_fintuned(instruction=instruction)
+    result=""
+    for s in output:
+        result+=s
+    result = result.split("endoftext​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​")[0]
+    result=result.strip()
+    print(result)
+            
