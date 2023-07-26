@@ -165,7 +165,7 @@ with open('./data/prompts/'+task+'_prompt.txt', 'r', encoding='utf-8') as f:
 count = 0
 for prompt in prompts:
     instruction = prompt   
-    if count > 200: break 
+    if count > 160: break 
     try:   
         if gpt:
             output = infer_from_gpt(instruction)
