@@ -1,6 +1,6 @@
 import pandas as pd
 
-file='./hatespeech/kullm_ft_hatespeech_eval.csv'
+file='./conversation/kullm_orig_conversation_eval.csv'
 
 df = pd.read_csv(file)
 df = df.iloc[:, 1:]  # Remove the first column

@@ -1,7 +1,7 @@
 import pandas as pd
 
 # CSV 파일을 읽어서 DataFrame 객체로 변환
-data = pd.read_csv('./hatespeech/gpt_hatespeech_eval.csv')
+data = pd.read_csv('./hatespeech/koalpaca_hatespeech_eval.csv')
 
 # 원하는 열 선택
 columns = ['무해함', '이해 가능성', '자연스러움', '맥락 유지', '전반적인 품질']
