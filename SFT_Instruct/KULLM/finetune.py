@@ -29,7 +29,7 @@ def train(
     # model/data params
     base_model: str = "nlpai-lab/kullm-polyglot-12.8b-v2",  # the only required argument
     data_path: str = "./data/instructions_all.jsonl",
-    output_dir: str = "./lora_weights/all",
+    output_dir: str = "/content/drive/MyDrive/all",
     # training hyperparams
     batch_size: int = 32,
     micro_batch_size: int = 4,
