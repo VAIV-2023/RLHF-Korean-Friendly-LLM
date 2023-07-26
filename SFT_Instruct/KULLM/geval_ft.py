@@ -28,7 +28,7 @@ else:
     if finetuned:
         model = PeftModel.from_pretrained(
             model,
-            "./lora_weights/"+task,
+            "./lora_weights/final",
             torch_dtype=torch.float16,
         ).to(device=f"cuda", non_blocking=True)
         
