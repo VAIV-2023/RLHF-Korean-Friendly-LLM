@@ -14,7 +14,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 MODEL = "nlpai-lab/kullm-polyglot-12.8b-v2"
 finetuned=False
-task="all"
+task="conversation"
 gpt=True
 
 if gpt: model = None
@@ -155,7 +155,7 @@ COLUMNS = ['instruction', 'output', '친근함', '무해함', '이해 가능성'
 df = pd.DataFrame(columns=COLUMNS)
 
 # 데이터 불러오기
-with open('./data/'+task+'_prompt.txt', 'r', encoding='utf-8') as f:
+with open('./data/prompts/'+task+'_prompt.txt', 'r', encoding='utf-8') as f:
     prompts = f.readlines()
 
 count = 0
@@ -198,3 +198,9 @@ else:
     else: df.to_csv("/content/drive/MyDrive/kullm_orig_"+task+"_eval.csv", encoding='utf-8') 
 
 shutil.copy('./error.txt', '/content/drive/MyDrive/error.txt')
+
+"""
+
+
+
+"""
