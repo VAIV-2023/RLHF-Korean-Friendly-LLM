@@ -64,6 +64,9 @@ def infer_from_fintuned(
     generation_config = GenerationConfig(
         temperature=temperature,
         num_beams=num_beams,
+        pad_token_id = 0,
+        bos_token_id = 1,
+        eos_token_id = 2,
         **kwargs,
     )
 
@@ -170,8 +173,6 @@ for prompt in prompts:
                 result=""
                 for s in output:
                     result+=s
-                result = result.split("endoftext​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​")[0]
-                if "안녕하세요~~~~~~~~" in result: result = result.split("안녕하세요~~~~~~~~")[0] 
                 result=result.strip()
                 output = result
             else:
