@@ -35,7 +35,9 @@ def infer(instruction):
         temperature=1.0,
         num_beams=1,
         return_full_text=False,
-        eos_token_id=2,
+        pad_token_id = 0,
+        bos_token_id = 1,
+        eos_token_id = 2,
     )
     return ans[0]['generated_text']
 
