@@ -28,7 +28,7 @@ model.eval()
 
 def infer_from_original(instruction="", input_text=""):
     prompt = prompter.generate_prompt(instruction, input_text)
-    output = pipe(prompt, max_length=512, temperature=0.2, num_beams=5, eos_token_id=2)
+    output = pipe(prompt, max_length=512, temperature=1.0, num_beams=1, eos_token_id=2)
     s = output[0]["generated_text"]
     result = prompter.get_response(s)
 
@@ -37,8 +37,8 @@ def infer_from_original(instruction="", input_text=""):
 def infer_from_fintuned(
     instruction,
     input=None,
-    temperature=0.2,
-    num_beams=5,
+    temperature=1.0,
+    num_beams=1,
     max_new_tokens=512,
     **kwargs,
 ):
