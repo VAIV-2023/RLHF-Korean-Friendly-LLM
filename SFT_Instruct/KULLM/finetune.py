@@ -28,12 +28,12 @@ from utils.prompter import Prompter
 def train(
     # model/data params
     base_model: str = "nlpai-lab/kullm-polyglot-12.8b-v2",  # the only required argument
-    data_path: str = "./data/instructions_all.jsonl",
-    output_dir: str = "/content/drive/MyDrive/all",
+    data_path: str = "./data/instructions/instructions_all.jsonl",
+    output_dir: str = "/content/drive/MyDrive/final",
     # training hyperparams
-    batch_size: int = 32,
+    batch_size: int = 16,
     micro_batch_size: int = 4,
-    num_epochs: int = 5,
+    num_epochs: int = 6,
     learning_rate: float = 3e-4,
     cutoff_len: int = 2048,
     val_set_size: int = 250,
