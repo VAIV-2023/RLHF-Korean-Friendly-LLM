@@ -1,0 +1,7692 @@
+[
+	{
+		"id": "translation_4",
+		"id3": "translation_0",
+		"prompt": "가끔 속쓰림이 있어요. 줄이는 방법을 추천해 주시겠어요?"
+	},
+	{
+		"id": "translation_6",
+		"id3": "translation_1",
+		"prompt": "새 영화를 찾는 데 도움이 필요해요. 저는 오직 공포 영화만 봐요. 어떤 아이디어가 있을까요?"
+	},
+	{
+		"id": "translation_10",
+		"id3": "translation_2",
+		"prompt": "집에서 크로스핏을 시작하는 방법이 궁금합니다."
+	},
+	{
+		"id": "translation_11",
+		"id3": "translation_3",
+		"prompt": "전기 자동차의 장단점은 무엇인가요?"
+	},
+	{
+		"id": "translation_16",
+		"id3": "translation_4",
+		"prompt": "아기에게 귀여운 별명이 있나요?"
+	},
+	{
+		"id": "translation_17",
+		"id3": "translation_5",
+		"prompt": "어린 아이의 기침을 완화시키려면 어떻게 해야 할까요?"
+	},
+	{
+		"id": "translation_18",
+		"id3": "translation_6",
+		"prompt": "Old Orchard Beach는 어디에 위치해 있나요?"
+	},
+	{
+		"id": "translation_19",
+		"id3": "translation_7",
+		"prompt": "증강 현실과 가상 현실의 차이를 설명해 주실 수 있나요?"
+	},
+	{
+		"id": "translation_21",
+		"id3": "translation_8",
+		"prompt": "폴리프로필렌은 무엇인가요?"
+	},
+	{
+		"id": "translation_24",
+		"id3": "translation_9",
+		"prompt": "전통적인 교육을 하지 않는 사립학교를 찾아주세요."
+	},
+	{
+		"id": "translation_25",
+		"id3": "translation_10",
+		"prompt": "보이스카우트 그룹을 어떻게 시작할 수 있을까요?"
+	},
+	{
+		"id": "translation_26",
+		"id3": "translation_11",
+		"prompt": "노트북의 보증 문제를 도와줄 수 있나요?"
+	},
+	{
+		"id": "translation_27",
+		"id3": "translation_12",
+		"prompt": "IGETC 가 기후 변화 정책에 어떻게 영향을 미칠까요?"
+	},
+	{
+		"id": "translation_32",
+		"id3": "translation_13",
+		"prompt": "겨드랑이 마찰을 어떻게 예방할 수 있을까요?"
+	},
+	{
+		"id": "translation_35",
+		"id3": "translation_14",
+		"prompt": "어떻게 깜짝 파티를 개최하나요?"
+	},
+	{
+		"id": "translation_37",
+		"id3": "translation_15",
+		"prompt": "지난 10년간 유럽의 돌고래와 범고래같은 지능적인 수생 동물을 동물원에서 키우는 것을 둘러싼 논란이 많이 있었어요. 이에 대해 설명해 줄 수 있을까요?"
+	},
+	{
+		"id": "translation_38",
+		"id3": "translation_16",
+		"prompt": "어떻게 새로운 단어를 배우고 사용할 수 있을까요?"
+	},
+	{
+		"id": "translation_39",
+		"id3": "translation_17",
+		"prompt": "페이퍼뷰 이벤트는 무엇인가요?"
+	},
+	{
+		"id": "translation_40",
+		"id3": "translation_18",
+		"prompt": "은행 계좌를 개설하려고 하는데 어떤 은행을 선택해야 할지 모르겠어요."
+	},
+	{
+		"id": "translation_41",
+		"id3": "translation_19",
+		"prompt": "결혼한 사람에게 선물로 줄 추천 사항이 있나요?"
+	},
+	{
+		"id": "translation_43",
+		"id3": "translation_20",
+		"prompt": "탄탄한 공을 어떻게 만들 수 있을까요?"
+	},
+	{
+		"id": "translation_45",
+		"id3": "translation_21",
+		"prompt": "왜 아이들이 저녁에 잠들지 않을까요?"
+	},
+	{
+		"id": "translation_47",
+		"id3": "translation_22",
+		"prompt": "안녕하세요, 몸이 아프다고 느낄 때 어떻게 병을 알고 그 병을 치료해야 할지를 알 수 있을까요?"
+	},
+	{
+		"id": "translation_48",
+		"id3": "translation_23",
+		"prompt": "어려운 동료와 어떻게 잘 지내나요?"
+	},
+	{
+		"id": "translation_49",
+		"id3": "translation_24",
+		"prompt": "직장을 신청할 때 신용 기록을 확인합니까?"
+	},
+	{
+		"id": "translation_52",
+		"id3": "translation_25",
+		"prompt": "어떻게 더 잘 자고 상쾌하게 일어날 수 있을까요?"
+	},
+	{
+		"id": "translation_59",
+		"id3": "translation_26",
+		"prompt": "딸기 우유를 만드는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_61",
+		"id3": "translation_27",
+		"prompt": "줄타기를 배우려면 어떻게 해야하나요?"
+	},
+	{
+		"id": "translation_62",
+		"id3": "translation_28",
+		"prompt": "여성에게 가장 적합한 머리색은 무엇인가요?"
+	},
+	{
+		"id": "translation_63",
+		"id3": "translation_29",
+		"prompt": "제 딸들은 12세와 14세이며, 아직 이웃 소년과 소녀들이 밤을 지낼 수 있도록 초대하고 싶어합니다. 하지만 그렇게 할 때 그들이 문제에 빠질 수 있기 때문에 걱정됩니다. 저는 비교적 긍정적인 안목으로 생각하고 있습니다. 아이들이 얼마나 풍부하거나 부족한 경험을 할 수 있는지는 알 수 없을 수도 있지만, 적어도 어느 정도 수용 가능한 행동에 대한 기대치를 설정하는 데 도움을 줄 수 있습니다. 그러나 제 이해에 따르면, 많은 부모님들은 어린 시절부터 아이들과 이러한 가치관과 기대치에 대해 대화하는 것으로 이와 관련된 준비단계를 거치는 경우가 많다고 합니다. 이를 통해 아이들은 상황에 안좋은 감정을 품을 수 있더라도 서로에 대해 예의 바르고 존중하는 방법을 알고, 문제가 되지 않도록 하거나 신속하고 예의 바르게 해결할 수 있도록 할 수 있습니다."
+	},
+	{
+		"id": "translation_64",
+		"id3": "translation_30",
+		"prompt": "자신의 웹사이트를 만들기 위해 최선의 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_67",
+		"id3": "translation_31",
+		"prompt": "초콜릿 땅콩 버터 스무디를 검색해주세요."
+	},
+	{
+		"id": "translation_71",
+		"id3": "translation_32",
+		"prompt": "마이크 펜스는 누구인가요?"
+	},
+	{
+		"id": "translation_74",
+		"id3": "translation_33",
+		"prompt": "소음 차단 헤드폰을 사고 싶지만 어떤 제품을 선택해야 할지 모르겠어요. 조언 좀 해주세요."
+	},
+	{
+		"id": "translation_77",
+		"id3": "translation_34",
+		"prompt": "팔이 골절 되었을 때 밴드로 고면할지 수술을 받을지 결정해야 할까요?"
+	},
+	{
+		"id": "translation_78",
+		"id3": "translation_35",
+		"prompt": "어떻게 해야 내 아이가 식탁에서 가만히 앉아 있을 수 있을까요?"
+	},
+	{
+		"id": "translation_79",
+		"id3": "translation_36",
+		"prompt": "내 아들이 페럿을 갖고 싶어합니다. 갖기 전에 알아야 할 것이 무엇인가요?"
+	},
+	{
+		"id": "translation_82",
+		"id3": "translation_37",
+		"prompt": "슬픔은 정상적인 감정인가요?"
+	},
+	{
+		"id": "translation_83",
+		"id3": "translation_38",
+		"prompt": "왜 미국 법률은 인간처럼 기업에 법적 권리가 있다고 생각하나요?"
+	},
+	{
+		"id": "translation_85",
+		"id3": "translation_39",
+		"prompt": "동아시아의 예술가나 예술 작품을 추천해주실 수 있을까요? 이 지역의 예술에 대해 알고 싶습니다."
+	},
+	{
+		"id": "translation_91",
+		"id3": "translation_40",
+		"prompt": "롤러블레이딩을 위한 좋은 안전 팁이 있을까요?"
+	},
+	{
+		"id": "translation_92",
+		"id3": "translation_41",
+		"prompt": "봐야 할 범죄 TV 프로그램을 추천해 줄 수 있을까요?"
+	},
+	{
+		"id": "translation_93",
+		"id3": "translation_42",
+		"prompt": "다른 사람들이 내 아기에 대해 요청하지 않은 충고를 할 때 어떻게 대응할 수 있는지 알려주세요."
+	},
+	{
+		"id": "translation_98",
+		"id3": "translation_43",
+		"prompt": "DNA 테스트는 비공개인가요?"
+	},
+	{
+		"id": "translation_100",
+		"id3": "translation_44",
+		"prompt": "나초 슈프림 레시피를 찾아주세요."
+	},
+	{
+		"id": "translation_105",
+		"id3": "translation_45",
+		"prompt": "짜증스러운 아기를 어떻게 잠이 들게 할 수 있을까요?"
+	},
+	{
+		"id": "translation_106",
+		"id3": "translation_46",
+		"prompt": "영적으로 승화되었다는 징후는 무엇인가요? 많은 종교가 이를 추구한다고 합니다."
+	},
+	{
+		"id": "translation_108",
+		"id3": "translation_47",
+		"prompt": "재활용 가능한 플라스틱과 재활용 불가능한 플라스틱을 어떻게 구분할까요?"
+	},
+	{
+		"id": "translation_109",
+		"id3": "translation_48",
+		"prompt": "집 난방이 고장났고 고칠 때까지 며칠이 걸릴 것 같아요. 그런데 날씨가 많이 추워요. 보온하기 위한 실용적인 방법은 무엇일까요?"
+	},
+	{
+		"id": "translation_110",
+		"id3": "translation_49",
+		"prompt": "가장 좋은 방법으로 피부 각질을 제거하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_113",
+		"id3": "translation_50",
+		"prompt": "아내에게 깜짝 생일 파티를 계획하고 싶어요. 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_114",
+		"id3": "translation_51",
+		"prompt": "나쁜 콜레스테롤을 낮추는 가장 좋은 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_115",
+		"id3": "translation_52",
+		"prompt": "중국식 볶음밥을 만들고 싶습니다. 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_117",
+		"id3": "translation_53",
+		"prompt": "치아를 뽑아서 고체 음식을 몇 일 동안 먹을 수 없게 되었어요. 대신 먹을 수 있는 부드러운 음식은 무엇이 있을까요?"
+	},
+	{
+		"id": "translation_118",
+		"id3": "translation_54",
+		"prompt": "애니메이션 디즈니 영화 '알라딘'의 주요 테마는 무엇인가요?"
+	},
+	{
+		"id": "translation_119",
+		"id3": "translation_55",
+		"prompt": "오레가노는 요리에서 어떻게 사용하나요?"
+	},
+	{
+		"id": "translation_123",
+		"id3": "translation_56",
+		"prompt": "아이들과 집안 일을 관리하기 위해 어떻게 집안일 일정표를 사용해야 할까요?"
+	},
+	{
+		"id": "translation_124",
+		"id3": "translation_57",
+		"prompt": "정원에 꽃을 사려고 합니다. 다년생과 일년생의 차이가 무엇인가요?"
+	},
+	{
+		"id": "translation_125",
+		"id3": "translation_58",
+		"prompt": "보통 알람으로 일어나는데, 스스로 일어나는 법을 배우고 싶습니다. 이를 위한 제안이 있을까요?"
+	},
+	{
+		"id": "translation_126",
+		"id3": "translation_59",
+		"prompt": "국토안보부는 무엇을 하는 기관인가요?"
+	},
+	{
+		"id": "translation_127",
+		"id3": "translation_60",
+		"prompt": "긍정적인 생각과 태도를 위한 팁이 있을까요?"
+	},
+	{
+		"id": "translation_128",
+		"id3": "translation_61",
+		"prompt": "일년 중 가장 긴 날은 언제인가요?"
+	},
+	{
+		"id": "translation_134",
+		"id3": "translation_62",
+		"prompt": "콴자와 크리스마스의 차이점은 무엇인가요?"
+	},
+	{
+		"id": "translation_135",
+		"id3": "translation_63",
+		"prompt": "기념일에 어떤 꽃을 사야 할까요?"
+	},
+	{
+		"id": "translation_136",
+		"id3": "translation_64",
+		"prompt": "뷰티 페이지에서 참가하기 위해 재능을 필요로 합니다. 어떤 재능이 인기가 있고 뷰티 페이지로서 독특한 재능은 무엇이 있을까요?"
+	},
+	{
+		"id": "translation_139",
+		"id3": "translation_65",
+		"prompt": "도시에서 최고의 식당을 어떻게 찾나요?"
+	},
+	{
+		"id": "translation_142",
+		"id3": "translation_66",
+		"prompt": "신용카드 청구서를 지불하지 않으면 어떤 일이 벌어질까요?"
+	},
+	{
+		"id": "translation_144",
+		"id3": "translation_67",
+		"prompt": "원주민들이 거의 혹은 전혀 큰 도시로 집단하지 않고 작은 유목민 그룹으로 남아있는 문화적이거나 역사적인 이유가 있나요?"
+	},
+	{
+		"id": "translation_147",
+		"id3": "translation_68",
+		"prompt": "삼성과 아이폰 중 어느 휴대폰이 더 좋습니까?"
+	},
+	{
+		"id": "translation_148",
+		"id3": "translation_69",
+		"prompt": "버거킹은 언제 설립되었나요?"
+	},
+	{
+		"id": "translation_151",
+		"id3": "translation_70",
+		"prompt": "《하울의 움직이는 성》 영화는 어떤 내용인가요?"
+	},
+	{
+		"id": "translation_152",
+		"id3": "translation_71",
+		"prompt": "캠핑 갈 때 가져야 할 몇 가지 물건이 있나요?"
+	},
+	{
+		"id": "translation_153",
+		"id3": "translation_72",
+		"prompt": "인기 있는 뉴 이어의 결심 중 어떤 것들이 있나요?"
+	},
+	{
+		"id": "translation_155",
+		"id3": "translation_73",
+		"prompt": "사막에서 잔디를 어떻게 건강하게 유지할 수 있을까요?"
+	},
+	{
+		"id": "translation_156",
+		"id3": "translation_74",
+		"prompt": "오랜도 플로리다의 대유행 상황은 어떤가요?"
+	},
+	{
+		"id": "translation_158",
+		"id3": "translation_75",
+		"prompt": "설탕 함유량이 낮은 좋은 시리얼은 어떤 것들이 있나요?"
+	},
+	{
+		"id": "translation_159",
+		"id3": "translation_76",
+		"prompt": "부고를 작성하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_161",
+		"id3": "translation_77",
+		"prompt": "아이패드에서 스케치하는데 사용할 수 있는 도구는 어떤 것들이 있나요?"
+	},
+	{
+		"id": "translation_165",
+		"id3": "translation_78",
+		"prompt": "왜 거의 모든 최고의 대학들이 미국에 기반을 두고 있나요?"
+	},
+	{
+		"id": "translation_166",
+		"id3": "translation_79",
+		"prompt": "제 조카는 현재 슈퍼히어로에 대해 정말로 흥미를 느끼고 있어요. 함께 볼 만한 재밌는 슈퍼히어로 영화가 무엇인가요?"
+	},
+	{
+		"id": "translation_167",
+		"id3": "translation_80",
+		"prompt": "추운 날 빠르게 따뜻해지는 방법이 어떤 게 있을까요?"
+	},
+	{
+		"id": "translation_168",
+		"id3": "translation_81",
+		"prompt": "'피은 물보다 진하다'는 말이 무슨 의미인가요?"
+	},
+	{
+		"id": "translation_169",
+		"id3": "translation_82",
+		"prompt": "사고를 당해 다치면 변호사가 필요한가요?"
+	},
+	{
+		"id": "translation_170",
+		"id3": "translation_83",
+		"prompt": "'미국'이라는 단어를 들으면 떠오르는 것들 중 어떤 것들이 있나요, AI? "
+	},
+	{
+		"id": "translation_171",
+		"id3": "translation_84",
+		"prompt": "미국에는 얼마나 많은 종류의 양파가 있나요?"
+	},
+	{
+		"id": "translation_172",
+		"id3": "translation_85",
+		"prompt": "조 바이든은 어디에서 태어났나요?"
+	},
+	{
+		"id": "translation_180",
+		"id3": "translation_86",
+		"prompt": "제가 일론 머스크에 대해 논문을 쓰고 있습니다. 과학계에 가장 큰 기여는 무엇인가요?"
+	},
+	{
+		"id": "translation_182",
+		"id3": "translation_87",
+		"prompt": "인터넷 리뷰를 믿을 만한 가치가 있을까요?"
+	},
+	{
+		"id": "translation_184",
+		"id3": "translation_88",
+		"prompt": "바닐라와 프렌치 바닐라의 차이점을 설명해 주시겠어요?"
+	},
+	{
+		"id": "translation_187",
+		"id3": "translation_89",
+		"prompt": "연필로 그림의 음영을 더 잘 하려면 어떻게 해야 할까요?"
+	},
+	{
+		"id": "translation_191",
+		"id3": "translation_90",
+		"prompt": "어린이가 학교에 가지 않는 것은 불법인가요? 만약 부모가 아이를 학교랑 보내지 않는다면 어떻게 될까요?"
+	},
+	{
+		"id": "translation_195",
+		"id3": "translation_91",
+		"prompt": "벌레를 배수구로 들어오게 하지 않으려면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_199",
+		"id3": "translation_92",
+		"prompt": "장기적인 저축 목표를 달성하려면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_200",
+		"id3": "translation_93",
+		"prompt": "저는 무섭운 비디오 게임을 찾고 있어요, 가능하면 1인칭 게임을 원해요."
+	},
+	{
+		"id": "translation_204",
+		"id3": "translation_94",
+		"prompt": "감사절에 햄을 어떻게 준비하나요?"
+	},
+	{
+		"id": "translation_206",
+		"id3": "translation_95",
+		"prompt": "워싱턴 DC에서 역사적 장소를 보고 싶습니다. 어떤 장소들이 있는지 알려주실 수 있을까요?"
+	},
+	{
+		"id": "translation_211",
+		"id3": "translation_96",
+		"prompt": "저의 아파트에 쥐가 잘못 들어왔어요. 그들을 쫓아내는 가장 좋은 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_212",
+		"id3": "translation_97",
+		"prompt": "콜라에 코카인이 한 때 함유되었다는 사실이 사실인가요?"
+	},
+	{
+		"id": "translation_213",
+		"id3": "translation_98",
+		"prompt": "리듬을 개선하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_216",
+		"id3": "translation_99",
+		"prompt": "사과 파이를 어떻게 만들 수 있나요?"
+	},
+	{
+		"id": "translation_219",
+		"id3": "translation_100",
+		"prompt": "Kmart는 어디에서 찾을 수 있을까요?"
+	},
+	{
+		"id": "translation_222",
+		"id3": "translation_101",
+		"prompt": "집에서 만들 수 있는 맛있는 열대과일 맛 아이스크림 추천 좀 해주세요."
+	},
+	{
+		"id": "translation_224",
+		"id3": "translation_102",
+		"prompt": "학교에서 교복의 장단점은 무엇인가요?"
+	},
+	{
+		"id": "translation_229",
+		"id3": "translation_103",
+		"prompt": "윈도우 10에서 업데이트 후 재시작하는 방법을 알려주세요."
+	},
+	{
+		"id": "translation_231",
+		"id3": "translation_104",
+		"prompt": "미국에서는 낙태가 합법인가요?"
+	},
+	{
+		"id": "translation_238",
+		"id3": "translation_105",
+		"prompt": "인터넷 때문에 케이블을 사용하는 사람들의 수가 매년 줄어들고 있습니다. 인터넷때문에 TV가 언젠가는 관심 없는 것이 될까요?"
+	},
+	{
+		"id": "translation_239",
+		"id3": "translation_106",
+		"prompt": "소고기 패티에 섞을 수 있는 재미있는 맛은 어떤 것들이 있을까요?"
+	},
+	{
+		"id": "translation_248",
+		"id3": "translation_107",
+		"prompt": "어린 조카가 주말동안 제가 집에서 머물 예정이에요. 재미있는 1일 여행지나 외출 몇 곳을 추천해주실 수 있을까요?"
+	},
+	{
+		"id": "translation_250",
+		"id3": "translation_108",
+		"prompt": "보통 어떻게 물위에 뜰 수 있게 배우나요?"
+	},
+	{
+		"id": "translation_253",
+		"id3": "translation_109",
+		"prompt": "정보 기술은 좋은 직업인가요?"
+	},
+	{
+		"id": "translation_254",
+		"id3": "translation_110",
+		"prompt": "크랜베리 주스의 이점은 무엇인가요?"
+	},
+	{
+		"id": "translation_255",
+		"id3": "translation_111",
+		"prompt": "안녕, 나는 삶에 더 많은 기쁨을 가져오기 위해 감사의 마음을 더 키우는 방법을 찾고 있어. 어떤 제안이 있나요?"
+	},
+	{
+		"id": "translation_256",
+		"id3": "translation_112",
+		"prompt": "오프라 윈프리는 꽤 성공한 기업가입니다. 그녀는 때때로 자신의 폭력적인 어린 시절에 대해 이야기했나요?"
+	},
+	{
+		"id": "translation_257",
+		"id3": "translation_113",
+		"prompt": "담배 중독을 극복하기 위해 누군가를 도와주는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_259",
+		"id3": "translation_114",
+		"prompt": "토르 브라우저란 무엇인가요?"
+	},
+	{
+		"id": "translation_261",
+		"id3": "translation_115",
+		"prompt": "이사를 갈 친구를 도우려고 합니다. 어떻게 도움을 제공할 수 있는 좋은 방법이 있나요?"
+	},
+	{
+		"id": "translation_264",
+		"id3": "translation_116",
+		"prompt": "러시아어를 배우는 방법은 어떻게 되나요?"
+	},
+	{
+		"id": "translation_265",
+		"id3": "translation_117",
+		"prompt": "오랜도로 플로리다에서 데스틴 플로리다로 이동하는 방법은 어떻게 되나요?"
+	},
+	{
+		"id": "translation_267",
+		"id3": "translation_118",
+		"prompt": "대학 1학년에 대한 조언이 있나요?"
+	},
+	{
+		"id": "translation_274",
+		"id3": "translation_119",
+		"prompt": "향수를 느끼는 것이 어떤 기분인가요?"
+	},
+	{
+		"id": "translation_275",
+		"id3": "translation_120",
+		"prompt": "아마존에서 받은 상자를 어떻게 활용할 수 있을까요?"
+	},
+	{
+		"id": "translation_276",
+		"id3": "translation_121",
+		"prompt": "블루베리 치즈케이크 레시피를 알려주세요"
+	},
+	{
+		"id": "translation_277",
+		"id3": "translation_122",
+		"prompt": "가족과 함께 키울 수 있는 좋은 개종은 무엇인가요?"
+	},
+	{
+		"id": "translation_279",
+		"id3": "translation_123",
+		"prompt": "크리스마스를 위해 가기 좋은 여행지가 필요합니다."
+	},
+	{
+		"id": "translation_280",
+		"id3": "translation_124",
+		"prompt": "콧물을 멈출 수 있는 방법이 있을까요?"
+	},
+	{
+		"id": "translation_281",
+		"id3": "translation_125",
+		"prompt": "후두염을 어떻게 치료하나요?"
+	},
+	{
+		"id": "translation_283",
+		"id3": "translation_126",
+		"prompt": "금융 플래너는 실제로 무슨 일을 하나요?"
+	},
+	{
+		"id": "translation_285",
+		"id3": "translation_127",
+		"prompt": "보트 타기에 알아두면 좋은 안전 팁은 무엇인가요?"
+	},
+	{
+		"id": "translation_289",
+		"id3": "translation_128",
+		"prompt": "양자 컴퓨터가 일반 대중에게 제공되기까지 예상되는 시간표가 있을까요?"
+	},
+	{
+		"id": "translation_290",
+		"id3": "translation_129",
+		"prompt": "옷에서 스컹크 냄새를 어떻게 제거하나요?"
+	},
+	{
+		"id": "translation_292",
+		"id3": "translation_130",
+		"prompt": "미국의 입법부는 무엇인가요?"
+	},
+	{
+		"id": "translation_293",
+		"id3": "translation_131",
+		"prompt": "코 피어싱을 어떻게 관리하나요?"
+	},
+	{
+		"id": "translation_295",
+		"id3": "translation_132",
+		"prompt": "COPD의 증상은 무엇인가요?"
+	},
+	{
+		"id": "translation_296",
+		"id3": "translation_133",
+		"prompt": "세금 신고에서 표준 공제를 사용해야 할지 여부를 어떻게 알 수 있을까요?"
+	},
+	{
+		"id": "translation_297",
+		"id3": "translation_134",
+		"prompt": "채식주의의 장단점은 무엇인가요?"
+	},
+	{
+		"id": "translation_299",
+		"id3": "translation_135",
+		"prompt": "저는 불안장애가 있어서 불안 발작을 진정시키는 전략을 찾고 있어요. 조언 좀 해주실 수 있을까요?"
+	},
+	{
+		"id": "translation_300",
+		"id3": "translation_136",
+		"prompt": "어떻게 하면 제 아이가 학교에서 더 집중력을 발휘할 수 있도록 도울 수 있을까요?"
+	},
+	{
+		"id": "translation_308",
+		"id3": "translation_137",
+		"prompt": "여성을 사물로 대하는 것은 무엇을 의미하나요?"
+	},
+	{
+		"id": "translation_310",
+		"id3": "translation_138",
+		"prompt": "씨앗으로 재배하기 가장 쉬운 야채는 무엇인가요?"
+	},
+	{
+		"id": "translation_314",
+		"id3": "translation_139",
+		"prompt": "오토바이를 안전하게 타는 법을 배우고 싶습니다. 오토바이 안전 팁이 있으신가요?"
+	},
+	{
+		"id": "translation_317",
+		"id3": "translation_140",
+		"prompt": "물 내는 변기를 어떻게 고칠 수 있을까요?"
+	},
+	{
+		"id": "translation_318",
+		"id3": "translation_141",
+		"prompt": "어느 나이에 어린이가 동물원에 가는 게 좋을까요?"
+	},
+	{
+		"id": "translation_319",
+		"id3": "translation_142",
+		"prompt": "넷플릭스에서 어떤 액션을 담은 쇼를 보고 싶어요. 어떤 추천을 해줄 수 있을까요?"
+	},
+	{
+		"id": "translation_323",
+		"id3": "translation_143",
+		"prompt": "발바닥이 거칠어지면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_324",
+		"id3": "translation_144",
+		"prompt": "왜 체르노빌은 아직 방사능이 남아있을까요? 누군가 다시 거기에 살 수 있을까요?"
+	},
+	{
+		"id": "translation_326",
+		"id3": "translation_145",
+		"prompt": "하원 의장의 역할은 무엇인가요?"
+	},
+	{
+		"id": "translation_328",
+		"id3": "translation_146",
+		"prompt": "미식축구에서 안전 장비를 착용하기 시작한 시기는 언제인가요?"
+	},
+	{
+		"id": "translation_331",
+		"id3": "translation_147",
+		"prompt": "다른 종류의 콘돔이 다른 종류보다 효과적일까요? 예를 들어 양피지 콘돔은 에이즈 바이러스를 막지 못합니다. 출생 통제로 사용하기 가장 안전한 콘돔 브랜드는 무엇인가요?"
+	},
+	{
+		"id": "translation_332",
+		"id3": "translation_148",
+		"prompt": "3D 프린팅 과정에 대해 알려주세요. 어떻게 이루어지는 건가요?"
+	},
+	{
+		"id": "translation_335",
+		"id3": "translation_149",
+		"prompt": "집에 중앙 난방이 없을 경우 겨울에 따뜻하게 유지하는 방법이 있을까요?"
+	},
+	{
+		"id": "translation_339",
+		"id3": "translation_150",
+		"prompt": "전기 자동차를 사려고 생각 중인데, 배터리 충전에 걸리는 시간이 너무 긴 것이 걱정입니다. 이에 대해 아무런 정보를 알고 계신가요?"
+	},
+	{
+		"id": "translation_341",
+		"id3": "translation_151",
+		"prompt": "밴쿠버에서 방문할만한 장소는 어디가 있나요?"
+	},
+	{
+		"id": "translation_342",
+		"id3": "translation_152",
+		"prompt": "왜 우리는 더 이상 아동 노동을 실시하지 않나요?"
+	},
+	{
+		"id": "translation_344",
+		"id3": "translation_153",
+		"prompt": "스테이크 타르타르의 레시피를 알려주실 수 있나요?"
+	},
+	{
+		"id": "translation_345",
+		"id3": "translation_154",
+		"prompt": "카모마일 차를 어떻게 만들 수 있을까요?"
+	},
+	{
+		"id": "translation_351",
+		"id3": "translation_155",
+		"prompt": "저는 저의 위치에서 휴대폰 수신이 어렵습니다. 수신률을 강화하기 위해 무엇을 할 수 있을까요?"
+	},
+	{
+		"id": "translation_353",
+		"id3": "translation_156",
+		"prompt": "어떻게 거짓말쟁이를 식별하나요?"
+	},
+	{
+		"id": "translation_357",
+		"id3": "translation_157",
+		"prompt": "ARPANET은 무엇을 의미하나요?"
+	},
+	{
+		"id": "translation_360",
+		"id3": "translation_158",
+		"prompt": "한 번 나쁜 짓을 하고 어떻게 고쳤는지에 대해 이야기해 보세요."
+	},
+	{
+		"id": "translation_361",
+		"id3": "translation_159",
+		"prompt": "키드 록의 대표적인 히트곡은 무엇인가요?"
+	},
+	{
+		"id": "translation_366",
+		"id3": "translation_160",
+		"prompt": "이혼 후에 어떻게 아이의 양육권을 얻을 수 있나요?"
+	},
+	{
+		"id": "translation_367",
+		"id3": "translation_161",
+		"prompt": "우리 집에서 아들의 숙식을 위해 어떻게 도움을 줄 수 있을까요?"
+	},
+	{
+		"id": "translation_369",
+		"id3": "translation_162",
+		"prompt": "차량 수리 비용을 절약하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_370",
+		"id3": "translation_163",
+		"prompt": "PVA 접착제는 어떻게 제작되나요?"
+	},
+	{
+		"id": "translation_372",
+		"id3": "translation_164",
+		"prompt": "어린 아이들에게 어떤 간식이 좋나요?"
+	},
+	{
+		"id": "translation_374",
+		"id3": "translation_165",
+		"prompt": "부동산 대출에서 연체료를 피하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_375",
+		"id3": "translation_166",
+		"prompt": "아내가 둘째를 임신했어요. 하지만 이 아이를 어떻게 할지 잘 모르겠어요. 어린 딸 때부터 이미 체면을 지키면서 지냈는데, 아직 2살도 안 됐는데도 경제적으로 어려울 거 같아요. 법을 어기지 않고 약간의 추가 수입을 어떻게 올릴지에 대한 아이디어를 알려주세요. 있나요?"
+	},
+	{
+		"id": "translation_379",
+		"id3": "translation_167",
+		"prompt": "안녕하세요, 저는 장거리 트럭 운전사로 진로를 삼고 싶습니다. 그러기 위해서는 어떤 조건을 충족해야 할까요?"
+	},
+	{
+		"id": "translation_392",
+		"id3": "translation_168",
+		"prompt": "스카이다이빙을 할 때 낙하산이 고장 날 확률은 얼마나 될까요?"
+	},
+	{
+		"id": "translation_394",
+		"id3": "translation_169",
+		"prompt": "피아노 실력을 향상시키는 방법은 무엇이 있나요?"
+	},
+	{
+		"id": "translation_399",
+		"id3": "translation_170",
+		"prompt": "10대 자녀에게 어떤 좋은 첫 직장을 제안할 수 있을까요?"
+	},
+	{
+		"id": "translation_400",
+		"id3": "translation_171",
+		"prompt": "인공지능은 인종주의적으로 프로그래밍될 수 있나요?"
+	},
+	{
+		"id": "translation_401",
+		"id3": "translation_172",
+		"prompt": "집에서 사용할 수 있는 다양한 운동 기계는 어떤 것이 있나요?"
+	},
+	{
+		"id": "translation_403",
+		"id3": "translation_173",
+		"prompt": "프라이드 데이를 어떻게 축하할까요?"
+	},
+	{
+		"id": "translation_407",
+		"id3": "translation_174",
+		"prompt": "4세 어린이에게 어떻게 책 읽기를 가르칠 수 있을까요?"
+	},
+	{
+		"id": "translation_409",
+		"id3": "translation_175",
+		"prompt": "모든 소방관들은 소방서에서 자고 있을까요?"
+	},
+	{
+		"id": "translation_410",
+		"id3": "translation_176",
+		"prompt": "한발에 균형 잡는 법을 더 잘하려면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_415",
+		"id3": "translation_177",
+		"prompt": "태양계에서 가장 흥미로운 행성은 무엇인가요?"
+	},
+	{
+		"id": "translation_416",
+		"id3": "translation_178",
+		"prompt": "아기에게 분유를 먹이는데 젖꼭지 중독이 생기지 않도록 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_419",
+		"id3": "translation_179",
+		"prompt": "식중독 의심이 있다면 어떻게 해야 할까요?"
+	},
+	{
+		"id": "translation_421",
+		"id3": "translation_180",
+		"prompt": "프로젝트 차량의 내부를 맞춤 설정하려면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_423",
+		"id3": "translation_181",
+		"prompt": "어떤 즐거운 초콜릿 스무디를 만들 수 있을까요?"
+	},
+	{
+		"id": "translation_426",
+		"id3": "translation_182",
+		"prompt": "말 비루병을 막는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_427",
+		"id3": "translation_183",
+		"prompt": "기차 좋아하는 아이들을 위한 좋은 TV 프로그램은 무엇인가요?"
+	},
+	{
+		"id": "translation_428",
+		"id3": "translation_184",
+		"prompt": "크리스탈 코브 주립공원에서 할 수 있는 것들은 무엇이 있나요?"
+	},
+	{
+		"id": "translation_429",
+		"id3": "translation_185",
+		"prompt": "에이미 아담스의 영화를 검색해주세요."
+	},
+	{
+		"id": "translation_431",
+		"id3": "translation_186",
+		"prompt": "여름에 시원하게 지내는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_433",
+		"id3": "translation_187",
+		"prompt": "프라이드 퍼레이드에는 어떻게 옷을 입어야 하나요?"
+	},
+	{
+		"id": "translation_436",
+		"id3": "translation_188",
+		"prompt": "안녕하세요, 저는 팬케이크가 먹고 싶어요. 만드는 방법을 알려주시겠어요?"
+	},
+	{
+		"id": "translation_438",
+		"id3": "translation_189",
+		"prompt": "파란 줄무늬 넥타이와 어울리는 좋은 셔츠가 무엇인가요?"
+	},
+	{
+		"id": "translation_439",
+		"id3": "translation_190",
+		"prompt": "스테이크를 구워야 하는 시간은 어떻게 되나요?"
+	},
+	{
+		"id": "translation_442",
+		"id3": "translation_191",
+		"prompt": "밀레니얼란 무엇인가요?"
+	},
+	{
+		"id": "translation_444",
+		"id3": "translation_192",
+		"prompt": "여행 보험은 어디에서 구매할 수 있나요?"
+	},
+	{
+		"id": "translation_445",
+		"id3": "translation_193",
+		"prompt": "하나의 당근, 두 개의 감자, 하나의 오이, 하나의 붉은 양파, 일부 렌즈콩, 냉동 콩과 자스민 쌀만 있는 상황에서 레시피를 알려주세요."
+	},
+	{
+		"id": "translation_447",
+		"id3": "translation_194",
+		"prompt": "왜 레이건 행정부가 정신 병원을 폐쇄했나요?"
+	},
+	{
+		"id": "translation_448",
+		"id3": "translation_195",
+		"prompt": "내 팔의 아랫면에 벌레가 파고들었습니다. 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_456",
+		"id3": "translation_196",
+		"prompt": "크리스마스 이야기란 무엇인가요?"
+	},
+	{
+		"id": "translation_457",
+		"id3": "translation_197",
+		"prompt": "나는 예술 작품을 감상하고 싶다고 생각했습니다. 작가 Susan Seddon Boulet에 대해 더 자세히 알려주시겠어요?"
+	},
+	{
+		"id": "translation_459",
+		"id3": "translation_198",
+		"prompt": "탄소 발자국을 줄이는 데 어떤 일을 할 수 있을까요?"
+	},
+	{
+		"id": "translation_462",
+		"id3": "translation_199",
+		"prompt": "차의 페인트에 스크래치가 생기면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_468",
+		"id3": "translation_200",
+		"prompt": "인생의 의미는 무엇인가요?"
+	},
+	{
+		"id": "translation_469",
+		"id3": "translation_201",
+		"prompt": "리유저블 가방을 어떻게 관리해야 하나요?"
+	},
+	{
+		"id": "translation_472",
+		"id3": "translation_202",
+		"prompt": "장난감 디자이너가 재미있는 직업이 될 수 있을까요?"
+	},
+	{
+		"id": "translation_474",
+		"id3": "translation_203",
+		"prompt": "순수한 산소를 들이쉬는 건강상의 이점이 무엇인가요?"
+	},
+	{
+		"id": "translation_475",
+		"id3": "translation_204",
+		"prompt": "하이킹을 할 때에 가장 좋은 신발은 무엇인가요?"
+	},
+	{
+		"id": "translation_477",
+		"id3": "translation_205",
+		"prompt": "나는 최근 고대 이집트 신화에 대해 궁금해지고 있어요. 신 호루스에 대한 이야기가 무엇인가요?"
+	},
+	{
+		"id": "translation_481",
+		"id3": "translation_206",
+		"prompt": "로또 복권을 너무 많이 사요. 어떻게 해야 할까요?"
+	},
+	{
+		"id": "translation_482",
+		"id3": "translation_207",
+		"prompt": "중고차에 좋은 가격을 얻는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_483",
+		"id3": "translation_208",
+		"prompt": "새로운 강아지를 기존의 개에 소개하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_484",
+		"id3": "translation_209",
+		"prompt": "기상학은 무엇을 연구하는 학문인가요?"
+	},
+	{
+		"id": "translation_486",
+		"id3": "translation_210",
+		"prompt": "뾰루지를 없애려면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_488",
+		"id3": "translation_211",
+		"prompt": "마리 캐리의 과학에 대한 기여에 대해 어떤 정보를 알려주세요."
+	},
+	{
+		"id": "translation_489",
+		"id3": "translation_212",
+		"prompt": "혼합 미디어 콜라주를 만드는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_493",
+		"id3": "translation_213",
+		"prompt": "어떻게 좋은 재무 기획자를 선택할까요?"
+	},
+	{
+		"id": "translation_500",
+		"id3": "translation_214",
+		"prompt": "변호사는 돈을 많이 벌까요?"
+	},
+	{
+		"id": "translation_504",
+		"id3": "translation_215",
+		"prompt": "제 아이에게 피아노 또는 키보드를 시작시키는 게 좋을까요?"
+	},
+	{
+		"id": "translation_507",
+		"id3": "translation_216",
+		"prompt": "b12가 든 음식은 무엇인가요?"
+	},
+	{
+		"id": "translation_509",
+		"id3": "translation_217",
+		"prompt": "신용 평가를 어떻게 좋게 받을 수 있나요?"
+	},
+	{
+		"id": "translation_511",
+		"id3": "translation_218",
+		"prompt": "감사절은 어떻게 시작되었나요?"
+	},
+	{
+		"id": "translation_512",
+		"id3": "translation_219",
+		"prompt": "새로운 아기를 기대할 때 어떤 준비를 해야 하나요?"
+	},
+	{
+		"id": "translation_513",
+		"id3": "translation_220",
+		"prompt": "일곱 살 소녀와 할 수 있는 일은 무엇인가요?"
+	},
+	{
+		"id": "translation_514",
+		"id3": "translation_221",
+		"prompt": "PS4에 50달러 이하로 좋은 마이크는 무엇인가요?"
+	},
+	{
+		"id": "translation_518",
+		"id3": "translation_222",
+		"prompt": "면접에서 자신의 기술과 장점을 어떻게 얘기해야 할까요?"
+	},
+	{
+		"id": "translation_520",
+		"id3": "translation_223",
+		"prompt": "로켓트(Rockette)이 되기위해서는 어떤 조건이 필요한가요?"
+	},
+	{
+		"id": "translation_521",
+		"id3": "translation_224",
+		"prompt": "다양한 식품을 어떻게 절여야 할까요?"
+	},
+	{
+		"id": "translation_523",
+		"id3": "translation_225",
+		"prompt": "저는 암호화폐로 돈을 가지고 있는데, 도난당하는 걱정이 됩니다. 어떻게 보호할 수 있을까요?"
+	},
+	{
+		"id": "translation_524",
+		"id3": "translation_226",
+		"prompt": "스컹크 오일은 어떤 용도로 사용되나요?"
+	},
+	{
+		"id": "translation_525",
+		"id3": "translation_227",
+		"prompt": "태양의 색깔은 무슨 색인가요?"
+	},
+	{
+		"id": "translation_528",
+		"id3": "translation_228",
+		"prompt": "베이킹 소다 없이 설탕 쿠키를 만드는 방법은 어떻게 되나요?"
+	},
+	{
+		"id": "translation_534",
+		"id3": "translation_229",
+		"prompt": "더블 턱을 없애기 위한 특정 운동이 있을까요?"
+	},
+	{
+		"id": "translation_536",
+		"id3": "translation_230",
+		"prompt": "체중 감량 후 다시 체중이 증가하는 이유는 무엇인가요?"
+	},
+	{
+		"id": "translation_537",
+		"id3": "translation_231",
+		"prompt": "어떤 일에 실패하는 것은 어떤 느낌인가요?"
+	},
+	{
+		"id": "translation_540",
+		"id3": "translation_232",
+		"prompt": "정말 실감나는 비디오 게임을 하고 싶습니다. 어떤 것을 추천하시나요?"
+	},
+	{
+		"id": "translation_542",
+		"id3": "translation_233",
+		"prompt": "부엌을 청소할 때 듣기 좋은 신나는 록 송을 찾고 있습니다. 어떤 좋은 록 송을 추천해주실 수 있나요?"
+	},
+	{
+		"id": "translation_543",
+		"id3": "translation_234",
+		"prompt": "어떤 나이 때부터 아이들이 자기 손톱을 자를 수 있을까요?"
+	},
+	{
+		"id": "translation_547",
+		"id3": "translation_235",
+		"prompt": "주말에 여자친구와 함께 볼만한 영화를 추천해 주실 수 있나요?"
+	},
+	{
+		"id": "translation_548",
+		"id3": "translation_236",
+		"prompt": "캠프파이어를 어떻게 피우나요?"
+	},
+	{
+		"id": "translation_549",
+		"id3": "translation_237",
+		"prompt": "운동을 시작하려고 합니다. 어떤 운동이 좋을까요?"
+	},
+	{
+		"id": "translation_550",
+		"id3": "translation_238",
+		"prompt": "저는 서부 영화를 좋아하는데, 최근에는 서부 영화가 많이 나오지 않아요. 2015년 이후에 나온 좋은 서부 영화를 추천해주실 수 있을까요?"
+	},
+	{
+		"id": "translation_551",
+		"id3": "translation_239",
+		"prompt": "어떻게 하면 더 좋은 작가가 될 수 있을까요?"
+	},
+	{
+		"id": "translation_554",
+		"id3": "translation_240",
+		"prompt": "팝콘의 맛을 어떻게 개선할 수 있을까요?"
+	},
+	{
+		"id": "translation_557",
+		"id3": "translation_241",
+		"prompt": "쉼포라는 사람들이 일반적으로 샴푸와 컨디셔너가 필요 없다고 생각하며, 머리에 더 이상의 세정제를 사용하지 않으면 우리 머리는 자연스럽게 자체 세정될 수 있다고 믿습니다. 그게 사실일까요?"
+	},
+	{
+		"id": "translation_558",
+		"id3": "translation_242",
+		"prompt": "사이언톨로지에 대해 알려주세요."
+	},
+	{
+		"id": "translation_560",
+		"id3": "translation_243",
+		"prompt": "달에 착륙하기 위해 한 노력들은 정말 그 가치가 있었을까요? 그 비용에 비해 우리가 실제로 얻은 것은 무엇일까요?"
+	},
+	{
+		"id": "translation_561",
+		"id3": "translation_244",
+		"prompt": "미국은 정치에 대해 왜 이렇게 분열되는 걸까요?"
+	},
+	{
+		"id": "translation_562",
+		"id3": "translation_245",
+		"prompt": "겨울철에 안전운전을 위한 팁을 알려주세요."
+	},
+	{
+		"id": "translation_563",
+		"id3": "translation_246",
+		"prompt": "왜 때때로 YouTube 동영상을 보려고 할 때 해당 동영상이 내 나라에서 사용할 수 없다고 나오는 걸까요?"
+	},
+	{
+		"id": "translation_564",
+		"id3": "translation_247",
+		"prompt": "어떻게 하면 아이들에게 집에서 요새를 만들기 가르칠 수 있을까요?"
+	},
+	{
+		"id": "translation_568",
+		"id3": "translation_248",
+		"prompt": "의료용 대마초 법안에 대한 의원들에게 투표 찬성을 부탁하는 편지를 작성해 줄 수 있나요?"
+	},
+	{
+		"id": "translation_569",
+		"id3": "translation_249",
+		"prompt": "회사 소개서를 작성할 때 설명에 무엇을 포함해야 할까요?"
+	},
+	{
+		"id": "translation_571",
+		"id3": "translation_250",
+		"prompt": "외국어 학습에 대해 조언 좀 해주세요."
+	},
+	{
+		"id": "translation_572",
+		"id3": "translation_251",
+		"prompt": "효율적으로 주제를 연구하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_575",
+		"id3": "translation_252",
+		"prompt": "어떻게 하면 내 아이가 스스로 키보드 연주를 배울 수 있을까요?"
+	},
+	{
+		"id": "translation_581",
+		"id3": "translation_253",
+		"prompt": "일반 바나나에는 몇 칼로리가 있나요?"
+	},
+	{
+		"id": "translation_582",
+		"id3": "translation_254",
+		"prompt": "피자 반죽을 어떻게 만들까요?"
+	},
+	{
+		"id": "translation_583",
+		"id3": "translation_255",
+		"prompt": "머리가 아파서 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_584",
+		"id3": "translation_256",
+		"prompt": "생존 키트에는 어떤 물품이 있어야 하나요?"
+	},
+	{
+		"id": "translation_599",
+		"id3": "translation_257",
+		"prompt": "오스트리아 음식은 대체로 어떤 종류가 있나요?"
+	},
+	{
+		"id": "translation_600",
+		"id3": "translation_258",
+		"prompt": "거의 모든 야생동물은 매우 마른 상태이고 체지방이 적은 편인가요?"
+	},
+	{
+		"id": "translation_601",
+		"id3": "translation_259",
+		"prompt": "제 아이의 학교에서 봉사하는 방법은 어떤 게 있을까요?"
+	},
+	{
+		"id": "translation_602",
+		"id3": "translation_260",
+		"prompt": "제 친구를 위해 비디오 게임을 사려는데 아이디어가 필요합니다. 스카이림과 유사한 게임은 어떤 게 있나요?"
+	},
+	{
+		"id": "translation_606",
+		"id3": "translation_261",
+		"prompt": "작은 개들은 항상 소리를 지르고 공격적인가요?"
+	},
+	{
+		"id": "translation_608",
+		"id3": "translation_262",
+		"prompt": "비싼 가격으로 시금치를 대량으로 구할 수 있는 좋은 방법이 어떤 게 있을까요?"
+	},
+	{
+		"id": "translation_610",
+		"id3": "translation_263",
+		"prompt": "뇌는 어떻게 작동하나요?"
+	},
+	{
+		"id": "translation_611",
+		"id3": "translation_264",
+		"prompt": "어떻게 속독을 배울 수 있을까요?"
+	},
+	{
+		"id": "translation_617",
+		"id3": "translation_265",
+		"prompt": "만화가가 되려면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_618",
+		"id3": "translation_266",
+		"prompt": "미국에서 가장 긴 강은 무엇인가요?"
+	},
+	{
+		"id": "translation_620",
+		"id3": "translation_267",
+		"prompt": "감기를 걸리지 않도록 면역체계를 강화하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_621",
+		"id3": "translation_268",
+		"prompt": "영화 티켓을 온라인으로 어디서 구매할 수 있나요?"
+	},
+	{
+		"id": "translation_624",
+		"id3": "translation_269",
+		"prompt": "어떻게 하면 아이들이 저를 도와 휴일 장식을 할 수 있을까요?"
+	},
+	{
+		"id": "translation_626",
+		"id3": "translation_270",
+		"prompt": "어린이를 위한 최고의 게임 콘솔은 무엇인가요?"
+	},
+	{
+		"id": "translation_627",
+		"id3": "translation_271",
+		"prompt": "옥수수 빵을 만들었는데 예전보다 무너지는 현상이 더 심하게 나타납니다. 무엇이 잘못되었을까요?"
+	},
+	{
+		"id": "translation_628",
+		"id3": "translation_272",
+		"prompt": "운동 후에 회복하기 위해 어떤 작업을 해야 하나요?"
+	},
+	{
+		"id": "translation_630",
+		"id3": "translation_273",
+		"prompt": "N-Gage 게임기를 발명한 회사는 어디인가요?"
+	},
+	{
+		"id": "translation_632",
+		"id3": "translation_274",
+		"prompt": "기니피그는 좋은 애완동물인가요?"
+	},
+	{
+		"id": "translation_633",
+		"id3": "translation_275",
+		"prompt": "사람들은 커피에 중독될 수 있을까요?"
+	},
+	{
+		"id": "translation_634",
+		"id3": "translation_276",
+		"prompt": "대중교통을 이용하는 장단점은 무엇인가요?"
+	},
+	{
+		"id": "translation_635",
+		"id3": "translation_277",
+		"prompt": "저는 가끔 계절성 우울장애에 걸립니다. 지금은 겨울 중인데 회색 날씨로 인해 기분이 나빠지고 피곤함을 자주 느끼게 됩니다. 이를 극복하기 위해 무엇을 할 수 있을까요?"
+	},
+	{
+		"id": "translation_636",
+		"id3": "translation_278",
+		"prompt": "Javascript란 무엇인가요?"
+	},
+	{
+		"id": "translation_646",
+		"id3": "translation_279",
+		"prompt": "스트리밍을 위해 Netflix와 Hulu 중 어느 것을 사용해야 할까요?"
+	},
+	{
+		"id": "translation_647",
+		"id3": "translation_280",
+		"prompt": "해군 장교들은 저런 모자를 왜 쓰는 걸까요?"
+	},
+	{
+		"id": "translation_649",
+		"id3": "translation_281",
+		"prompt": "청바지에 잔디 자국을 어떻게 제거하나요?"
+	},
+	{
+		"id": "translation_652",
+		"id3": "translation_282",
+		"prompt": "최고의 귀신이 나오는 공포 영화는 어떤 것들이 있나요?"
+	},
+	{
+		"id": "translation_655",
+		"id3": "translation_283",
+		"prompt": "11세 때 내가 경험한 커다란 해적 모험에 대한 이야기를 들려주세요."
+	},
+	{
+		"id": "translation_664",
+		"id3": "translation_284",
+		"prompt": "전기 공학 학위를 얻는 데 얼마나 걸릴까요?"
+	},
+	{
+		"id": "translation_666",
+		"id3": "translation_285",
+		"prompt": "영어 사전에서 가장 긴 단어를 찾아주세요."
+	},
+	{
+		"id": "translation_667",
+		"id3": "translation_286",
+		"prompt": "에어컨이 없을 때 여름에 시원하게 지낼 수 있는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_670",
+		"id3": "translation_287",
+		"prompt": "어떻게 하면 제 아이들이 화장지를 덜 사용하게 할 수 있을까요?"
+	},
+	{
+		"id": "translation_672",
+		"id3": "translation_288",
+		"prompt": "라즈베리 식초를 만드는 방법을 알려주세요."
+	},
+	{
+		"id": "translation_673",
+		"id3": "translation_289",
+		"prompt": "자전거 타는 법을 배우고 싶어요."
+	},
+	{
+		"id": "translation_676",
+		"id3": "translation_290",
+		"prompt": "학교 동창회에 좋은 활동은 무엇인가요?"
+	},
+	{
+		"id": "translation_678",
+		"id3": "translation_291",
+		"prompt": "닥터 필은 꽤 오랜 기간동안 활동해왔지만, 과거에 신뢰성 문제가 있었습니다. 당신은 그에 대해 많이 알고 있나요? 혹은 그의 논란에 대해 알고 있나요?"
+	},
+	{
+		"id": "translation_684",
+		"id3": "translation_292",
+		"prompt": "다운증후군을 가진 사람을 어떻게 대해야 할까요?"
+	},
+	{
+		"id": "translation_685",
+		"id3": "translation_293",
+		"prompt": "완벽한 계란 오믈렛을 만들고 싶습니다. 도와주실 수 있나요?"
+	},
+	{
+		"id": "translation_687",
+		"id3": "translation_294",
+		"prompt": "크리스마스를 축하하는 이유는 무엇인가요?"
+	},
+	{
+		"id": "translation_688",
+		"id3": "translation_295",
+		"prompt": "고양이에게서 어떤 고기를 요리할 수 있나요?"
+	},
+	{
+		"id": "translation_689",
+		"id3": "translation_296",
+		"prompt": "자동차의 천 시트를 어떻게 청소해야 하나요?"
+	},
+	{
+		"id": "translation_690",
+		"id3": "translation_297",
+		"prompt": "블랙 프라이데이에 최고의 거래를 어떻게 찾을 수 있나요?"
+	},
+	{
+		"id": "translation_692",
+		"id3": "translation_298",
+		"prompt": "블루베리 와플 만드는 법을 가르쳐 주실 수 있나요?"
+	},
+	{
+		"id": "translation_695",
+		"id3": "translation_299",
+		"prompt": "수의사 조수는 무엇을 하나요?"
+	},
+	{
+		"id": "translation_696",
+		"id3": "translation_300",
+		"prompt": "10~12년 후에 은퇴할 예정입니다. 401k는 갖고 있지 않아요. 돈이 많지 않을 때 저축하는 가장 좋은 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_697",
+		"id3": "translation_301",
+		"prompt": "베이비 짐의 장점은 무엇인가요?"
+	},
+	{
+		"id": "translation_698",
+		"id3": "translation_302",
+		"prompt": "LED 전구는 얼마나 오래 가는 건가요?"
+	},
+	{
+		"id": "translation_699",
+		"id3": "translation_303",
+		"prompt": "급여 인상을 목표로 할 때 제 업적을 어떻게 제시하는 것이 가장 좋은 방법인가요?"
+	},
+	{
+		"id": "translation_701",
+		"id3": "translation_304",
+		"prompt": "어떻게 제대로 저녁식사용 식탁을 차려야 하나요?"
+	},
+	{
+		"id": "translation_703",
+		"id3": "translation_305",
+		"prompt": "기쁘지 않은 친구를 위로하려고 합니다. 어떤 제안이 있을까요?"
+	},
+	{
+		"id": "translation_706",
+		"id3": "translation_306",
+		"prompt": "식민지주의자들은 왜 영국과 싸웠나요? 세금 때문이었나요?"
+	},
+	{
+		"id": "translation_709",
+		"id3": "translation_307",
+		"prompt": "메스꺼움을 완화시킬 수 있는 좋은 방법이 있을까요?"
+	},
+	{
+		"id": "translation_711",
+		"id3": "translation_308",
+		"prompt": "안녕하세요, New England 스타일의 조개 수프를 만들고 싶습니다. 해당 레시피를 알려주실 수 있을까요?"
+	},
+	{
+		"id": "translation_717",
+		"id3": "translation_309",
+		"prompt": "와이파이 연결을 개선하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_718",
+		"id3": "translation_310",
+		"prompt": "탄산음료보다 생수가 좋을까요?"
+	},
+	{
+		"id": "translation_720",
+		"id3": "translation_311",
+		"prompt": "LED 조명이 얼굴과 목의 피부에 도움이 되나요?"
+	},
+	{
+		"id": "translation_722",
+		"id3": "translation_312",
+		"prompt": "갈비와 잘 어울리는 좋은 사이드 요리는 어떤 것이 있나요?"
+	},
+	{
+		"id": "translation_724",
+		"id3": "translation_313",
+		"prompt": "유카를 어떻게 재배하나요?"
+	},
+	{
+		"id": "translation_731",
+		"id3": "translation_314",
+		"prompt": "저는 어깨 수술을 받은 후 만성 통증을 겪고 있으며 수술의 오류가 있는 증거가 있는 것 같습니다. 이 상황에서 수술의 의사나 병원에 소송을 제기할 수 있는 권리가 있을까요?"
+	},
+	{
+		"id": "translation_733",
+		"id3": "translation_315",
+		"prompt": "애완용 로봇을 어디에서 구입할 수 있을까요?"
+	},
+	{
+		"id": "translation_734",
+		"id3": "translation_316",
+		"prompt": "어떤 말씀드릴 만한 건강한 견과류가 있을까요?"
+	},
+	{
+		"id": "translation_736",
+		"id3": "translation_317",
+		"prompt": "저의 남편을 위해 더 섹시해지려면 어떻게 해야 할까요?"
+	},
+	{
+		"id": "translation_738",
+		"id3": "translation_318",
+		"prompt": "어린이에게 신발끈을 매는 법에 대한 조언은 있나요?"
+	},
+	{
+		"id": "translation_741",
+		"id3": "translation_319",
+		"prompt": "토네이도가 발생할 때 창문을 열어야 할까요?"
+	},
+	{
+		"id": "translation_742",
+		"id3": "translation_320",
+		"prompt": "프로자악을 섭취하는 것은 얼마나 안전한 건가요?"
+	},
+	{
+		"id": "translation_743",
+		"id3": "translation_321",
+		"prompt": "제 아이 생일 파티에서 퍼포머를 고용하려고 생각 중입니다. 7세 아이들에게 가장 인기 있는 퍼포머는 무엇인가요?"
+	},
+	{
+		"id": "translation_748",
+		"id3": "translation_322",
+		"prompt": "감기를 빨리 나을 수 있는 방법은 있을까요?"
+	},
+	{
+		"id": "translation_749",
+		"id3": "translation_323",
+		"prompt": "전기 자동차의 장점은 무엇인가요?"
+	},
+	{
+		"id": "translation_751",
+		"id3": "translation_324",
+		"prompt": "맥 또는 윈도우 컴퓨터 중 어느 것이 좋을까요?"
+	},
+	{
+		"id": "translation_752",
+		"id3": "translation_325",
+		"prompt": "비타민 결핍 증상이 있는지 어떻게 알 수 있을까요?"
+	},
+	{
+		"id": "translation_753",
+		"id3": "translation_326",
+		"prompt": "언제 폰을 업그레이드해야 할지 어떻게 알 수 있을까요?"
+	},
+	{
+		"id": "translation_755",
+		"id3": "translation_327",
+		"prompt": "정원에 나무들이 토마토를 먹고 있습니다. 이를 어떻게 막을 수 있을까요?"
+	},
+	{
+		"id": "translation_757",
+		"id3": "translation_328",
+		"prompt": "소고기와 브로콜리를 어떻게 만들죠?"
+	},
+	{
+		"id": "translation_760",
+		"id3": "translation_329",
+		"prompt": "수면마비란 무엇인가요?"
+	},
+	{
+		"id": "translation_761",
+		"id3": "translation_330",
+		"prompt": "각각의 경쟁 범죄의 차이점은 무엇인가요?"
+	},
+	{
+		"id": "translation_762",
+		"id3": "translation_331",
+		"prompt": "에이브러햄 링컨이 암살된 이후에 대통령이 된 사람은 누구인가요?"
+	},
+	{
+		"id": "translation_764",
+		"id3": "translation_332",
+		"prompt": "경미한 강박관련 행동을 극복하기 위한 조언을 알려주세요."
+	},
+	{
+		"id": "translation_765",
+		"id3": "translation_333",
+		"prompt": "선배 해외 유학 4학년 계획이 너무 바빠서 1개 선택 필수교과목이 필요해요. 재미있고 쉬운 것이 어떤 것이 있을까요?"
+	},
+	{
+		"id": "translation_766",
+		"id3": "translation_334",
+		"prompt": "그레이슬랜드에 관한 일반인 관람 투어가 있을까요?"
+	},
+	{
+		"id": "translation_773",
+		"id3": "translation_335",
+		"prompt": "저는 방금 임신한 사실을 알게 되었어요. 제 선택지는 무엇인가요?"
+	},
+	{
+		"id": "translation_777",
+		"id3": "translation_336",
+		"prompt": "세균이 첫 번째 생명 형태였을까요?"
+	},
+	{
+		"id": "translation_778",
+		"id3": "translation_337",
+		"prompt": "나는 야채 차오민을 만들고 싶습니다. 어떤 종류의 면을 사야 할까요?"
+	},
+	{
+		"id": "translation_783",
+		"id3": "translation_338",
+		"prompt": "새로운 언어를 배우고 싶은데, 어디서부터 시작해야 할지 모르겠습니다. 새로운 언어를 배우는 데 도움이 되는 유용한 앱이 있을까요?"
+	},
+	{
+		"id": "translation_787",
+		"id3": "translation_339",
+		"prompt": "지난 몇 달 동안 에너지가 낮다는 느낌을 받고 있어요. 때때로 침대에서 일어나기 힘들게 느껴져요. 문제가 무엇일까요?"
+	},
+	{
+		"id": "translation_788",
+		"id3": "translation_340",
+		"prompt": "베드 앤 브렉퍼스트(B&B)는 무엇인가요?"
+	},
+	{
+		"id": "translation_789",
+		"id3": "translation_341",
+		"prompt": "여드름을 어떻게 치료하나요?"
+	},
+	{
+		"id": "translation_790",
+		"id3": "translation_342",
+		"prompt": "내 개가 다른 사람의 잔디 위에 배변하게 할 수 있는 방법이 있을까요?"
+	},
+	{
+		"id": "translation_794",
+		"id3": "translation_343",
+		"prompt": "최고의 다섯 가지 휴가지 정보를 알려주세요."
+	},
+	{
+		"id": "translation_797",
+		"id3": "translation_344",
+		"prompt": "크리스마스 파티에 어울리는 찬 음식은 무엇인가요?"
+	},
+	{
+		"id": "translation_799",
+		"id3": "translation_345",
+		"prompt": "온라인으로 음식을 어디서 구매할 수 있나요?"
+	},
+	{
+		"id": "translation_801",
+		"id3": "translation_346",
+		"prompt": "2차 세계대전에 관한 연구 논문을 위해 정보 수집을 도와줄 수 있나요?"
+	},
+	{
+		"id": "translation_804",
+		"id3": "translation_347",
+		"prompt": "평균적인 사람들은 일생 동안 같은 직장 분야에서 일하나요?"
+	},
+	{
+		"id": "translation_808",
+		"id3": "translation_348",
+		"prompt": "세계에서 가장 따뜻한 지역은 어디인가요?"
+	},
+	{
+		"id": "translation_809",
+		"id3": "translation_349",
+		"prompt": "동료들의 지속적인 방해로 인해 업무를 어떻게 처리하나요?"
+	},
+	{
+		"id": "translation_810",
+		"id3": "translation_350",
+		"prompt": "Glen Campbell은 유명한 가수였는데요. 그의 대표적인 곡 몇 개를 소개해 주세요."
+	},
+	{
+		"id": "translation_812",
+		"id3": "translation_351",
+		"prompt": "다음 달에 시애틀로 출장을 가게 될 것 같습니다. 출장 중에 하루 시간이 나는데, 현지 사이트와 풍경을 몇 군데 방문하고 싶습니다. 그 날을 위한 일정을 만들어 주실 수 있을까요? 3-4 군데의 사이트를 포함하도록 해주세요."
+	},
+	{
+		"id": "translation_814",
+		"id3": "translation_352",
+		"prompt": "벌을 유치하기 위해 어떤 꽃을 키워야 할까요?"
+	},
+	{
+		"id": "translation_817",
+		"id3": "translation_353",
+		"prompt": "블록체인은 간단하게 무엇인가요?"
+	},
+	{
+		"id": "translation_819",
+		"id3": "translation_354",
+		"prompt": "요즘 종아리에 통증이나 겨드랑이에 덩어리가 있는 것 같습니다. 걱정해야 할까요?"
+	},
+	{
+		"id": "translation_820",
+		"id3": "translation_355",
+		"prompt": "헤어 컬러 예약을 위해 준비를 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_821",
+		"id3": "translation_356",
+		"prompt": "저는 처음으로 로데오에 참가할 예정입니다. 무엇을 기대할 수 있을까요?"
+	},
+	{
+		"id": "translation_824",
+		"id3": "translation_357",
+		"prompt": "시에라 클럽은 무엇인가요?"
+	},
+	{
+		"id": "translation_828",
+		"id3": "translation_358",
+		"prompt": "C.E. Byrd 고등학교는 어디에 있나요?"
+	},
+	{
+		"id": "translation_835",
+		"id3": "translation_359",
+		"prompt": "과민한 아이를 어떻게 진정시킬 수 있을까요?"
+	},
+	{
+		"id": "translation_836",
+		"id3": "translation_360",
+		"prompt": "외부력으로 핵폭탄을 폭발시키면, 의도된 대로 핵폭탄을 폭발시킨 것과 동일한 결과가 나타날까요?"
+	},
+	{
+		"id": "translation_838",
+		"id3": "translation_361",
+		"prompt": "쉽게 만들 수 있는 케이크가 있을까요?"
+	},
+	{
+		"id": "translation_839",
+		"id3": "translation_362",
+		"prompt": "운동할 때 들을 수 있는 좋은 음악을 추천해주세요. Lizzo의 노래 중 하나 또는 두 개를 언급할 수 있나요?"
+	},
+	{
+		"id": "translation_843",
+		"id3": "translation_363",
+		"prompt": "케이터링 회사를 시작하려면 어떻게 해야 할까요?"
+	},
+	{
+		"id": "translation_844",
+		"id3": "translation_364",
+		"prompt": "습진은 치료될 수 있을까요?"
+	},
+	{
+		"id": "translation_847",
+		"id3": "translation_365",
+		"prompt": "물고기 쇼를 보러 가는 것은 윤리적인 일일까요?"
+	},
+	{
+		"id": "translation_848",
+		"id3": "translation_366",
+		"prompt": "어린이가 체조를 배우는 것이 좋을까요?"
+	},
+	{
+		"id": "translation_852",
+		"id3": "translation_367",
+		"prompt": "리프라이드 비언즈를 어떻게 만들까요?"
+	},
+	{
+		"id": "translation_854",
+		"id3": "translation_368",
+		"prompt": "로스앤젤레스에서 인기 있는 음식은 어떤 종류인가요?"
+	},
+	{
+		"id": "translation_855",
+		"id3": "translation_369",
+		"prompt": "기침을 어떻게 멈출 수 있을까요?"
+	},
+	{
+		"id": "translation_858",
+		"id3": "translation_370",
+		"prompt": "새우나 로브스터를 먹으면 목이 따가운 느낌이 들어요. 아픔은 없이 그저 따끈거리는 감각만 있습니다. 이런 현상은 왜 일어날까요?"
+	},
+	{
+		"id": "translation_860",
+		"id3": "translation_371",
+		"prompt": "건설 작업자의 장기적인 부정적인 영향은 무엇인가요?"
+	},
+	{
+		"id": "translation_861",
+		"id3": "translation_372",
+		"prompt": "현금을 숨기기 좋은 장소는 어디인가요?"
+	},
+	{
+		"id": "translation_864",
+		"id3": "translation_373",
+		"prompt": "올 가을 처음으로 대형 호수에서 오리 사냥을 가볼 예정입니다. 이전에는 사냥을 가본 적이 없는데, 가져갈 물건이나 준비 사항이 있을까요?"
+	},
+	{
+		"id": "translation_868",
+		"id3": "translation_374",
+		"prompt": "온라인 은행 계좌를 안전하게 유지하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_869",
+		"id3": "translation_375",
+		"prompt": "부엌에서 입은 화상을 어떻게 처리해야 하나요?"
+	},
+	{
+		"id": "translation_870",
+		"id3": "translation_376",
+		"prompt": "레몬 스퀘어 쿠키를 만드는 레시피를 알려주세요."
+	},
+	{
+		"id": "translation_871",
+		"id3": "translation_377",
+		"prompt": "블루스는 누가 만들었나요?"
+	},
+	{
+		"id": "translation_882",
+		"id3": "translation_378",
+		"prompt": "연기는 어려운 직업인가요?"
+	},
+	{
+		"id": "translation_883",
+		"id3": "translation_379",
+		"prompt": "페이데이 대출은 무엇이며 사람들은 항상 피해야 한다고 말하는 이유는 무엇인가요?"
+	},
+	{
+		"id": "translation_884",
+		"id3": "translation_380",
+		"prompt": "노스롭(Northrop)과 합병하기 전 그러먼(Grumman)에서 마지막으로 만든 제트 전투기는 무엇이었나요?"
+	},
+	{
+		"id": "translation_886",
+		"id3": "translation_381",
+		"prompt": "근처에서 등반 중인 암벽 등반이 추락한 사람을 위해 응급 헬리콥터를 호출하려고 합니다. 저는 그 헬리콥터 탑승료에 책임이 있을까요?"
+	},
+	{
+		"id": "translation_890",
+		"id3": "translation_382",
+		"prompt": "2024년 미국 대선에 누가 출마할 것 같으며, 그 이유는 무엇인가요?"
+	},
+	{
+		"id": "translation_891",
+		"id3": "translation_383",
+		"prompt": "제 노트북은 어떤 힘든 작업도 수행하지 않고도 계속해서 과열되는데요. 이 문제를 해결하기 위해 어떻게 해볼 수 있을까요?"
+	},
+	{
+		"id": "translation_893",
+		"id3": "translation_384",
+		"prompt": "매우 적은 돈으로 돈을 절약하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_895",
+		"id3": "translation_385",
+		"prompt": "어떻게 명상을 하나요?"
+	},
+	{
+		"id": "translation_897",
+		"id3": "translation_386",
+		"prompt": "나는 직장에서 영어 실력 향상을 도우고 있는 동료가 있습니다. 그를 도울 수 있는 구체적인 조언을 알려주실 수 있을까요?"
+	},
+	{
+		"id": "translation_898",
+		"id3": "translation_387",
+		"prompt": "크리스 비어드의 재산은 얼마나 되나요?"
+	},
+	{
+		"id": "translation_900",
+		"id3": "translation_388",
+		"prompt": "아연 보충제의 이점은 무엇인가요?"
+	},
+	{
+		"id": "translation_907",
+		"id3": "translation_389",
+		"prompt": "gaslighting이란 무엇인가요?"
+	},
+	{
+		"id": "translation_908",
+		"id3": "translation_390",
+		"prompt": "인터넷에 소요되는 시간을 줄이려면 어떻게 해야 할까요?"
+	},
+	{
+		"id": "translation_910",
+		"id3": "translation_391",
+		"prompt": "자선 단체와 비영리 단체의 차이점은 무엇인가요?"
+	},
+	{
+		"id": "translation_911",
+		"id3": "translation_392",
+		"prompt": "과학자가 되려면 어떻게 해야 할까요?"
+	},
+	{
+		"id": "translation_912",
+		"id3": "translation_393",
+		"prompt": "딸기 스무디를 만들고 싶은데, 도와주실 수 있을까요?"
+	},
+	{
+		"id": "translation_916",
+		"id3": "translation_394",
+		"prompt": "에세이에서 출처를 어떻게 인용해야 하나요?"
+	},
+	{
+		"id": "translation_917",
+		"id3": "translation_395",
+		"prompt": "저녁에 휴식을 취하는 몇가지 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_918",
+		"id3": "translation_396",
+		"prompt": "체스를 배우고 싶습니다."
+	},
+	{
+		"id": "translation_919",
+		"id3": "translation_397",
+		"prompt": "서양 세계는 왜 플라스틱 생산량을 줄이려고 하나요?"
+	},
+	{
+		"id": "translation_921",
+		"id3": "translation_398",
+		"prompt": "소고기 제키를 어떻게 만들 수 있을까요?"
+	},
+	{
+		"id": "translation_923",
+		"id3": "translation_399",
+		"prompt": "스텐레스 강을 어떻게 도색할 수 있을까요?"
+	},
+	{
+		"id": "translation_924",
+		"id3": "translation_400",
+		"prompt": "아보리의 날이 무엇인지 알려주세요."
+	},
+	{
+		"id": "translation_927",
+		"id3": "translation_401",
+		"prompt": "피아노를 배우는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_929",
+		"id3": "translation_402",
+		"prompt": "라즈베리 크럼블 바 레시피 검색해주세요."
+	},
+	{
+		"id": "translation_931",
+		"id3": "translation_403",
+		"prompt": "식사 준비하는 올바른 방법은 어떤 걸까요? 예쁜 저녁 파티를 열 예정이라서 이 정보를 잘 모르겠습니다."
+	},
+	{
+		"id": "translation_932",
+		"id3": "translation_404",
+		"prompt": "저는 워싱턴DC에 가 본 적이 없어요. 그런데 내년에 가볼 생각인데, 거기서 뭘 볼까요?"
+	},
+	{
+		"id": "translation_934",
+		"id3": "translation_405",
+		"prompt": "렌즈를 사용할까요 아니면 안경을 사용할까요?"
+	},
+	{
+		"id": "translation_940",
+		"id3": "translation_406",
+		"prompt": "페스토 만드는 데 어떤 종류의 오일이 가장 좋을까요?"
+	},
+	{
+		"id": "translation_942",
+		"id3": "translation_407",
+		"prompt": "저는 희귀한 골동품 시계를 갖고 있습니다. 그 가치가 어떻게 되는지 알 수 있는 방법이 있을까요?"
+	},
+	{
+		"id": "translation_947",
+		"id3": "translation_408",
+		"prompt": "새 신발을 샀는데 이미 주름이 지어졌어요. 그 주름을 펴는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_950",
+		"id3": "translation_409",
+		"prompt": "자기 인식이 다른 사람을 이해하는 데 어떤 역할을 할 수 있나요?"
+	},
+	{
+		"id": "translation_953",
+		"id3": "translation_410",
+		"prompt": "사회에서 노숙자가 되는 요인은 무엇인가요?"
+	},
+	{
+		"id": "translation_954",
+		"id3": "translation_411",
+		"prompt": "날씨가 추워지지만 남자친구와 좋은 데이트를 하고 싶어요. 추위로부터 어느 정도 보호되는 야외 공간에서 재미있는 활동을 할 수 있는 장소가 있을까요?"
+	},
+	{
+		"id": "translation_959",
+		"id3": "translation_412",
+		"prompt": "'Zoomer'란 무엇인가요?"
+	},
+	{
+		"id": "translation_961",
+		"id3": "translation_413",
+		"prompt": "친구가 어려운 시기를 겪고 있어 도움을 주고 싶습니다. 편지를 작성하는데 도와주실 수 있을까요?\n\n\"안녕 John,\" 으로 시작하고, 열정을 유지하고 힘든 시기를 이겨내며 목표를 달성하는 것에 대해 언급해주세요."
+	},
+	{
+		"id": "translation_962",
+		"id3": "translation_414",
+		"prompt": "의견과 사실의 차이는 무엇인가요?"
+	},
+	{
+		"id": "translation_964",
+		"id3": "translation_415",
+		"prompt": "다음 달에 영국 맨체스터로 출장을 가게 될 것 같습니다. 이 출장 도중에 하루 동안 여가 시간이 생기는데, 현지 명소와 경치를 보고 싶습니다. 다양한 명소가 있는 하루 일정을 만들어주시겠어요?"
+	},
+	{
+		"id": "translation_974",
+		"id3": "translation_416",
+		"prompt": "매운 음식을 좋아한다면 어떤 양념과 소스를 준비해야 할까요?"
+	},
+	{
+		"id": "translation_980",
+		"id3": "translation_417",
+		"prompt": "\"Hell은 선한 의도로 포장된 길\"이란 문구는 어떤 뜻인가요?"
+	},
+	{
+		"id": "translation_982",
+		"id3": "translation_418",
+		"prompt": "어떻게 하면 피아노로 재즈 음악을 즉흥 연주할 수 있을까요?"
+	},
+	{
+		"id": "translation_985",
+		"id3": "translation_419",
+		"prompt": "따뜻한 보푸라기를 만드는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_986",
+		"id3": "translation_420",
+		"prompt": "Dateline과 같은 프로그램을 좋아하신다면 어떤 쇼를 추천해 주실 수 있나요?"
+	},
+	{
+		"id": "translation_987",
+		"id3": "translation_421",
+		"prompt": "백신 접종 후에 팔이 아프지 않게 하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_988",
+		"id3": "translation_422",
+		"prompt": "하모니카는 오래된 악기입니다. 그 역사는 어떻게 되나요?"
+	},
+	{
+		"id": "translation_990",
+		"id3": "translation_423",
+		"prompt": "LASIK 수술은 시력을 어떻게 개선시키나요?"
+	},
+	{
+		"id": "translation_991",
+		"id3": "translation_424",
+		"prompt": "더러운 야구공을 어떻게 청소하나요?"
+	},
+	{
+		"id": "translation_995",
+		"id3": "translation_425",
+		"prompt": "머리카락을 어떻게 빨리 자라게 할 수 있을까요?"
+	},
+	{
+		"id": "translation_996",
+		"id3": "translation_426",
+		"prompt": "온실가스란 무엇인가요?"
+	},
+	{
+		"id": "translation_997",
+		"id3": "translation_427",
+		"prompt": "스토킹은 어떤 행동을 의미하나요?"
+	},
+	{
+		"id": "translation_998",
+		"id3": "translation_428",
+		"prompt": "그레이 아나토미에 어떤 배우들이 출연하나요?"
+	},
+	{
+		"id": "translation_1001",
+		"id3": "translation_429",
+		"prompt": "공간 기업 중 특별한 부서인 \"The Skunk Works\"을 누가 가지고 있나요?"
+	},
+	{
+		"id": "translation_1003",
+		"id3": "translation_430",
+		"prompt": "소셜 미디어를 사용하는 것이 좋은 생각인지 어떻게 생각하십니까?"
+	},
+	{
+		"id": "translation_1008",
+		"id3": "translation_431",
+		"prompt": "집에서 더 좋은 냄새가 나게하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_1009",
+		"id3": "translation_432",
+		"prompt": "2019년 5월에 AMD 주가가 얼마였나요?"
+	},
+	{
+		"id": "translation_1013",
+		"id3": "translation_433",
+		"prompt": "저는 자폐 아이를 키우면서 집에서 잘 돌봐줄 수 없고, 그는 학교에서 많은 어려움을 겪고 있어요. 어떻게 해야할까요?"
+	},
+	{
+		"id": "translation_1014",
+		"id3": "translation_434",
+		"prompt": "왜 크레용은 왁스같이 느껴지나요?"
+	},
+	{
+		"id": "translation_1017",
+		"id3": "translation_435",
+		"prompt": "비디오 게임 크라이시스에 대해 더 알아보고 싶습니다."
+	},
+	{
+		"id": "translation_1021",
+		"id3": "translation_436",
+		"prompt": "C++ 공부하는데 어려움을 겪고 있어요. 시작하기에 더 쉬운 언어가 있을까요?"
+	},
+	{
+		"id": "translation_1023",
+		"id3": "translation_437",
+		"prompt": "은하수에 지적 생명체가 있는 가능성은 현재 어느 정도일까요?"
+	},
+	{
+		"id": "translation_1025",
+		"id3": "translation_438",
+		"prompt": "대형 매장에서 쇼핑하는 장점과 단점은 무엇인가요?"
+	},
+	{
+		"id": "translation_1028",
+		"id3": "translation_439",
+		"prompt": "성경의 모세에 대해 정보를 알려주세요."
+	},
+	{
+		"id": "translation_1029",
+		"id3": "translation_440",
+		"prompt": "저는 시청할 프로그램을 생각 중인데, 프랜시스 맥도맨드가 출연한 작품을 추천해주시겠어요?"
+	},
+	{
+		"id": "translation_1030",
+		"id3": "translation_441",
+		"prompt": "제 생일을 지나친 지역에서 뭐 할지 고민 중이에요"
+	},
+	{
+		"id": "translation_1031",
+		"id3": "translation_442",
+		"prompt": "미국 대통령 40번째 제라르드 R. 포드에 대한 정보가 필요해요."
+	},
+	{
+		"id": "translation_1033",
+		"id3": "translation_443",
+		"prompt": "어떤 종류의 비스코티를 만들 수 있을까요?"
+	},
+	{
+		"id": "translation_1037",
+		"id3": "translation_444",
+		"prompt": "심폐소생술(CPR)을 배워야 할까요?"
+	},
+	{
+		"id": "translation_1038",
+		"id3": "translation_445",
+		"prompt": "초록색 수영장을 어떻게 청소해야 하나요?"
+	},
+	{
+		"id": "translation_1039",
+		"id3": "translation_446",
+		"prompt": "강아지의 배변 훈련은 어떻게 하나요?"
+	},
+	{
+		"id": "translation_1040",
+		"id3": "translation_447",
+		"prompt": "프로그래밍 습관이 나쁘고 미숙한 코드를 작성하는 사람을 도와주는 팁이 있을까요?"
+	},
+	{
+		"id": "translation_1041",
+		"id3": "translation_448",
+		"prompt": "집의 가치를 어떻게 알 수 있을까요?"
+	},
+	{
+		"id": "translation_1043",
+		"id3": "translation_449",
+		"prompt": "커피 원두로 커피를 우려내는 방법을 알려주세요."
+	},
+	{
+		"id": "translation_1047",
+		"id3": "translation_450",
+		"prompt": "은퇴 후에도 바쁘게 생활하기 위해 어떤 일을 할 수 있을까요?"
+	},
+	{
+		"id": "translation_1049",
+		"id3": "translation_451",
+		"prompt": "친구가 내 컴퓨터에 바이러스가 있을 수도 있다고 말했으며, 그 이야기를 듣고 걱정이 되네요. 바이러스가 있는지 확인하는 방법은 어떻게 하면 될까요?"
+	},
+	{
+		"id": "translation_1056",
+		"id3": "translation_452",
+		"prompt": "팔 근육을 빠르게 키우려면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_1058",
+		"id3": "translation_453",
+		"prompt": "아기를 위한 어떤 만져서 느낄 수 있는 장난감이 있나요?"
+	},
+	{
+		"id": "translation_1061",
+		"id3": "translation_454",
+		"prompt": "해군 특수전전단은 어떤 임무를 수행하나요?"
+	},
+	{
+		"id": "translation_1063",
+		"id3": "translation_455",
+		"prompt": "친구를 상담에 가도록 설득하는 것이 어렵습니다. 그 친구의 여동생이 지난 해 사망해서 정신적으로 힘들어하는 상황입니다. 그 친구는 아무 문제도 없다고 생각하고 있는데, 저는 그녀가 힘들어하고 있다는 것을 알 수 있습니다. 어떻게 그녀를 전문 심리치료사에게 상담하도록 설득할 수 있을까요?"
+	},
+	{
+		"id": "translation_1068",
+		"id3": "translation_456",
+		"prompt": "결혼 신고를 어떻게 하나요?"
+	},
+	{
+		"id": "translation_1069",
+		"id3": "translation_457",
+		"prompt": "압력솥 없이 콩을 어떻게 익힐 수 있을까요?"
+	},
+	{
+		"id": "translation_1072",
+		"id3": "translation_458",
+		"prompt": "여자친구 가족과 함께 볼 좋은 콴자 영화를 찾아주실 수 있을까요?"
+	},
+	{
+		"id": "translation_1073",
+		"id3": "translation_459",
+		"prompt": "직업 세계에서 좋은 네트워킹 방법은 어떤 게 있을까요?"
+	},
+	{
+		"id": "translation_1076",
+		"id3": "translation_460",
+		"prompt": "남성 성인이 매일 아침에 오트밀을 먹는 것이 건강에 좋을까요? 영양에 대해 잘 모르기 때문에 궁금합니다."
+	},
+	{
+		"id": "translation_1080",
+		"id3": "translation_461",
+		"prompt": "성접근 시 콘돔을 착용해야 하는 이유는 무엇인가요? 이에 따른 장단점이 뭔가요?"
+	},
+	{
+		"id": "translation_1081",
+		"id3": "translation_462",
+		"prompt": "나는 식당을 개업하고 준비하기 위해 어떤 도움이 필요합니다."
+	},
+	{
+		"id": "translation_1082",
+		"id3": "translation_463",
+		"prompt": "저는 18세이고 첫 번째 데이트로 음식점에 갈 예정입니다. 제가 어떻게 행동하는 게 가장 좋을까요? 돈이 많다는 것을 보여주기 위해 비싼 음식을 주문해야 할까요, 아니면 고상하기 위해 저렴한 음식을 주문해야 할까요?"
+	},
+	{
+		"id": "translation_1083",
+		"id3": "translation_464",
+		"prompt": "어떻게 내 기억력을 향상시킬 수 있을까요?"
+	},
+	{
+		"id": "translation_1084",
+		"id3": "translation_465",
+		"prompt": "제 낡은 책들을 잘 보관하는 방법을 알려주세요."
+	},
+	{
+		"id": "translation_1085",
+		"id3": "translation_466",
+		"prompt": "건강한 간식 몇 가지 알려주세요."
+	},
+	{
+		"id": "translation_1087",
+		"id3": "translation_467",
+		"prompt": "사과 파이를 어떻게 굽나요?"
+	},
+	{
+		"id": "translation_1088",
+		"id3": "translation_468",
+		"prompt": "저는 헨리 8세에 관해 에세이를 쓰고 있는데, 시작할 곳에 대한 조언이 필요합니다."
+	},
+	{
+		"id": "translation_1091",
+		"id3": "translation_469",
+		"prompt": "나는 나초를 만들고 싶어요. 어떻게 해야 하죠?"
+	},
+	{
+		"id": "translation_1092",
+		"id3": "translation_470",
+		"prompt": "우노 게임은 어디에서 시작되었나요?"
+	},
+	{
+		"id": "translation_1093",
+		"id3": "translation_471",
+		"prompt": "수영 수업을 신청하는 방법을 알려주세요. 수영을 배우기 위해요."
+	},
+	{
+		"id": "translation_1094",
+		"id3": "translation_472",
+		"prompt": "기타를 배우고 싶어요. 시작하려면 어떤 좋은 자습서를 추천해 주세요."
+	},
+	{
+		"id": "translation_1096",
+		"id3": "translation_473",
+		"prompt": "여성도 남성과 마찬가지로 탈모와 탈모 현상을 경험할 수 있을까요?"
+	},
+	{
+		"id": "translation_1097",
+		"id3": "translation_474",
+		"prompt": "오븐의 자가 청소 기능을 어떻게 사용하나요?"
+	},
+	{
+		"id": "translation_1100",
+		"id3": "translation_475",
+		"prompt": "집에서 벼룩을 어떻게 제거할 수 있을까요?"
+	},
+	{
+		"id": "translation_1101",
+		"id3": "translation_476",
+		"prompt": "어떻게 내 아이에게 다른 사람과 나누는 법을 가르칠 수 있을까요?"
+	},
+	{
+		"id": "translation_1102",
+		"id3": "translation_477",
+		"prompt": "왜 수플레는 정확히 맞추기가 어려운 걸까요?"
+	},
+	{
+		"id": "translation_1106",
+		"id3": "translation_478",
+		"prompt": "어느 정도 자주 머리를 감겨야 할까요?"
+	},
+	{
+		"id": "translation_1107",
+		"id3": "translation_479",
+		"prompt": "신코 데 마요 파티를 어떻게 열면 좋을까요?"
+	},
+	{
+		"id": "translation_1114",
+		"id3": "translation_480",
+		"prompt": "칵테일에서 아가베 시럽의 목적은 무엇인가요?"
+	},
+	{
+		"id": "translation_1116",
+		"id3": "translation_481",
+		"prompt": "인간이 들을 수 있는 정상 주파수 범위는 무엇인가요?"
+	},
+	{
+		"id": "translation_1118",
+		"id3": "translation_482",
+		"prompt": "X-선 기계는 어떻게 작동하나요?"
+	},
+	{
+		"id": "translation_1119",
+		"id3": "translation_483",
+		"prompt": "Microsoft Windows는 무엇인가요?"
+	},
+	{
+		"id": "translation_1120",
+		"id3": "translation_484",
+		"prompt": "페니실린은 언제 발견되었나요?"
+	},
+	{
+		"id": "translation_1123",
+		"id3": "translation_485",
+		"prompt": "클린턴 행정부가 직면한 가장 어려운 도전 과제는 무엇이었나요?"
+	},
+	{
+		"id": "translation_1124",
+		"id3": "translation_486",
+		"prompt": "콜레스테롤을 개선하는 방법 중 일부를 배우고 싶습니다."
+	},
+	{
+		"id": "translation_1126",
+		"id3": "translation_487",
+		"prompt": "왜 와규 비프는 특별한 건가요?"
+	},
+	{
+		"id": "translation_1130",
+		"id3": "translation_488",
+		"prompt": "좋은 이혼 변호사가 필요합니다. 도와줄 수 있을까요?"
+	},
+	{
+		"id": "translation_1132",
+		"id3": "translation_489",
+		"prompt": "그릴 치즈 샌드위치와 잘 어울리는 음식은 무엇일까요?"
+	},
+	{
+		"id": "translation_1134",
+		"id3": "translation_490",
+		"prompt": "협상을 잘하기 위해 어떻게 해야 할까요?"
+	},
+	{
+		"id": "translation_1136",
+		"id3": "translation_491",
+		"prompt": "어떤 대사방식으로 죽는 게 가장 끔찍할까요?"
+	},
+	{
+		"id": "translation_1137",
+		"id3": "translation_492",
+		"prompt": "이웃에게 생일 선물을 주고 싶은데 무엇을 줄지 잘 모르겠어요. 도와줄 수 있을까요?"
+	},
+	{
+		"id": "translation_1139",
+		"id3": "translation_493",
+		"prompt": "물고기는 아픔을 느끼지 않는다고 들었습니다. 이게 사실인가요?"
+	},
+	{
+		"id": "translation_1140",
+		"id3": "translation_494",
+		"prompt": "크리스마스 리스를 어떻게 만들 수 있을까요?"
+	},
+	{
+		"id": "translation_1141",
+		"id3": "translation_495",
+		"prompt": "고도가 당뇨 환자에게 어떤 영향을 미치나요?"
+	},
+	{
+		"id": "translation_1142",
+		"id3": "translation_496",
+		"prompt": "여자 친구가 최근에 생리를 놓친 것에 대해 정말 스트레스를 받고 있습니다. 임신 검사는 얼마나 빨리 임신 여부를 확인하거나 부정할 수 있나요?"
+	},
+	{
+		"id": "translation_1143",
+		"id3": "translation_497",
+		"prompt": "한 사람의 인생 동안 인텔리전스 지수(IQ)는 바뀔 수 있나요?"
+	},
+	{
+		"id": "translation_1144",
+		"id3": "translation_498",
+		"prompt": "리마콩을 어떻게 재배하나요?"
+	},
+	{
+		"id": "translation_1148",
+		"id3": "translation_499",
+		"prompt": "스쿠터 타기를 어떻게 배울 수 있을까요?"
+	},
+	{
+		"id": "translation_1151",
+		"id3": "translation_500",
+		"prompt": "요양원에 계시는 할머니를 위한 좋은 선물이 무엇인가요?"
+	},
+	{
+		"id": "translation_1154",
+		"id3": "translation_501",
+		"prompt": "어떻게 스탬프를 직접 만들 수 있나요?"
+	},
+	{
+		"id": "translation_1155",
+		"id3": "translation_502",
+		"prompt": "Sirius 위성 라디오 서비스에 가입하는 방법을 알려주세요."
+	},
+	{
+		"id": "translation_1158",
+		"id3": "translation_503",
+		"prompt": "아기 셔츠의 칼라에 얼룩을 어떻게 제거할 수 있을까요?"
+	},
+	{
+		"id": "translation_1159",
+		"id3": "translation_504",
+		"prompt": "VPN이란 무엇이며 사용해야 하나요?"
+	},
+	{
+		"id": "translation_1161",
+		"id3": "translation_505",
+		"prompt": "고양이들이 왜 그렇게 많이 잘까요?"
+	},
+	{
+		"id": "translation_1162",
+		"id3": "translation_506",
+		"prompt": "달콤한 양파 소스를 어떻게 만들 수 있을까요?"
+	},
+	{
+		"id": "translation_1163",
+		"id3": "translation_507",
+		"prompt": "매치박스 20의 최고의 노래는 무엇인가요?"
+	},
+	{
+		"id": "translation_1164",
+		"id3": "translation_508",
+		"prompt": "어떻게 하면 아이가 더 자주 저와 이야기할 수 있을까요?"
+	},
+	{
+		"id": "translation_1165",
+		"id3": "translation_509",
+		"prompt": "제 폰이 충전되지 않아요. 폰 배터리를 어떻게 교체할 수 있나요?"
+	},
+	{
+		"id": "translation_1166",
+		"id3": "translation_510",
+		"prompt": "Snap On 도구는 추가 비용을 지불하는 가치가 있을까요?"
+	},
+	{
+		"id": "translation_1167",
+		"id3": "translation_511",
+		"prompt": "왜 사람들은 선물로 과일 케이크를 싫어할까요?"
+	},
+	{
+		"id": "translation_1169",
+		"id3": "translation_512",
+		"prompt": "온라인에서 어떻게 댄스를 가르칠 수 있을까요?"
+	},
+	{
+		"id": "translation_1170",
+		"id3": "translation_513",
+		"prompt": "로마에서 인기 있는 음료수를 알려주세요."
+	},
+	{
+		"id": "translation_1173",
+		"id3": "translation_514",
+		"prompt": "비건들이 먹는 음식은 어떤 것들이 있나요?"
+	},
+	{
+		"id": "translation_1175",
+		"id3": "translation_515",
+		"prompt": "5G란 무엇인가요?"
+	},
+	{
+		"id": "translation_1177",
+		"id3": "translation_516",
+		"prompt": "이차원과 같은 불취 또는 불과 가죽처럼 인간의 건강에 뛰어난 특징이 있는 향품이나 세이지 같은 것들이 있나요? 저는 프랑킨센스와 몰 그리고 성경적 의미를 가지고 있다는 걸 알고 있습니다."
+	},
+	{
+		"id": "translation_1180",
+		"id3": "translation_517",
+		"prompt": "시카고 스타일 피자가 무엇인가요?"
+	},
+	{
+		"id": "translation_1185",
+		"id3": "translation_518",
+		"prompt": "아침에 일어나서 침대를 어떻게 정리하나요?"
+	},
+	{
+		"id": "translation_1186",
+		"id3": "translation_519",
+		"prompt": "수업 글을 작성하기 전에 미리 글 쓰기를 해야 한다는 제안이 있었는데, 미리 글 쓰기는 어떤 과정인가요?"
+	},
+	{
+		"id": "translation_1187",
+		"id3": "translation_520",
+		"prompt": "어린이를 위한 편안한 바지 스타일은 어떤 것들이 있나요?"
+	},
+	{
+		"id": "translation_1189",
+		"id3": "translation_521",
+		"prompt": "집 사무실에 필요한 몇 가지 물품은 무엇인가요?"
+	},
+	{
+		"id": "translation_1191",
+		"id3": "translation_522",
+		"prompt": "전자 책 리더를 사려고 하는데 어떤 것을 사야 할지 모르겠어요. 추천해 주실 만한 게 있으신가요?"
+	},
+	{
+		"id": "translation_1194",
+		"id3": "translation_523",
+		"prompt": "크리스마스에 아내에게 무엇을 선물할지 고민 중입니다. 도와주세요."
+	},
+	{
+		"id": "translation_1198",
+		"id3": "translation_524",
+		"prompt": "문학 독서 모임에서 독서의 이점은 무엇인가요?"
+	},
+	{
+		"id": "translation_1200",
+		"id3": "translation_525",
+		"prompt": "유기 아동으로 입양한 아이가 나를 믿게 하려면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_1202",
+		"id3": "translation_526",
+		"prompt": "스무디에 넣기에 가장 건강한 과일은 무엇인가요?"
+	},
+	{
+		"id": "translation_1204",
+		"id3": "translation_527",
+		"prompt": "암은 얼마나 고통스러울까요?"
+	},
+	{
+		"id": "translation_1207",
+		"id3": "translation_528",
+		"prompt": "봄방학을 위한 여행지를 정하려고 합니다. 인기 있는 목적지를 알려주시겠어요?"
+	},
+	{
+		"id": "translation_1210",
+		"id3": "translation_529",
+		"prompt": "하루 중 대부분을 사무실에서 앉아서 일하고 있어요. 등이 구부러져 나가기 시작했어요. 자세를 바로잡기 위해 쉽게 실천할 수 있는 습관은 무엇인가요?"
+	},
+	{
+		"id": "translation_1215",
+		"id3": "translation_530",
+		"prompt": "리트는에서 Lindberg Heilige Schutzengel 아티스트에 대해 더 알고 싶습니다. 어떤 정보를 아시나요?"
+	},
+	{
+		"id": "translation_1217",
+		"id3": "translation_531",
+		"prompt": "오래된 화장대를 재구성하고 싶어요"
+	},
+	{
+		"id": "translation_1221",
+		"id3": "translation_532",
+		"prompt": "추출한 차를 만들기 위한 단계가 무엇인가요?"
+	},
+	{
+		"id": "translation_1222",
+		"id3": "translation_533",
+		"prompt": "믿음의 도약은 어떻게 이루어질까요?"
+	},
+	{
+		"id": "translation_1224",
+		"id3": "translation_534",
+		"prompt": "세계 기록 3가지를 말해주세요."
+	},
+	{
+		"id": "translation_1225",
+		"id3": "translation_535",
+		"prompt": "리튬 채굴은 어떤 제품과 서비스에 사용되나요?"
+	},
+	{
+		"id": "translation_1227",
+		"id3": "translation_536",
+		"prompt": "현재 가장 큰 음역을 갖는 가수는 누구인가요?"
+	},
+	{
+		"id": "translation_1228",
+		"id3": "translation_537",
+		"prompt": "차를 끓이는 것이 녹차에 좋지 않다는 말이 사실인가요?"
+	},
+	{
+		"id": "translation_1230",
+		"id3": "translation_538",
+		"prompt": "집을 난방하는 좋은 방법으로 목재 난로가 좋을까요?"
+	},
+	{
+		"id": "translation_1244",
+		"id3": "translation_539",
+		"prompt": "아크릴 페인트와 오일 페인트로 그리는 방법의 주요 차이점은 무엇인가요?"
+	},
+	{
+		"id": "translation_1245",
+		"id3": "translation_540",
+		"prompt": "라틴어를 배우고 싶어요. 정말 아름다워요. 교황님이 종종 라틴어로 설교를 하시는데, 그 설교를 이해하고 싶어요."
+	},
+	{
+		"id": "translation_1247",
+		"id3": "translation_541",
+		"prompt": "협동 사업이란 무엇인가요?"
+	},
+	{
+		"id": "translation_1248",
+		"id3": "translation_542",
+		"prompt": "제 아이들은 교과서가 너무 많아서 등에 무리가 가는 것 같아요. 선생님께 어떻게 말씀드려야 할까요?"
+	},
+	{
+		"id": "translation_1249",
+		"id3": "translation_543",
+		"prompt": "집의 벽돌을 보호할 수 있는 방법이 무엇이 있을까요?"
+	},
+	{
+		"id": "translation_1250",
+		"id3": "translation_544",
+		"prompt": "호박 등을 청소하는 방법이 궁금합니다."
+	},
+	{
+		"id": "translation_1259",
+		"id3": "translation_545",
+		"prompt": "멕시코시티에서 방문하기 좋은 장소가 어디인가요?"
+	},
+	{
+		"id": "translation_1260",
+		"id3": "translation_546",
+		"prompt": "제가 하리에트 터브만에 대해 쓰려는 논문을 위해 몇 가지 주요 사항을 알고 싶어요. 그녀의 생애를 포함한 타임라인을 포함하고 싶어요. 도와주실 수 있나요?"
+	},
+	{
+		"id": "translation_1263",
+		"id3": "translation_547",
+		"prompt": "저는 기억하는 것에 어려움이 있어요. 기억력을 강화하거나 중요한 것을 잊지 않기 위한 팁이 있을까요?"
+	},
+	{
+		"id": "translation_1265",
+		"id3": "translation_548",
+		"prompt": "폭스 뉴스는 신뢰할 만한 뉴스 자료인가요?"
+	},
+	{
+		"id": "translation_1267",
+		"id3": "translation_549",
+		"prompt": "내 발코니에 앉을 수 있는 공간을 마련하려고 합니다. 어디서부터 시작해야 할까요?"
+	},
+	{
+		"id": "translation_1268",
+		"id3": "translation_550",
+		"prompt": "애완용 쥐를 키우고 싶은데 어떻게 돌봐야 할지 도움을 받고 싶습니다."
+	},
+	{
+		"id": "translation_1269",
+		"id3": "translation_551",
+		"prompt": "머핀에 섞을 수 있는 재료가 어떤 게 있을까요?"
+	},
+	{
+		"id": "translation_1271",
+		"id3": "translation_552",
+		"prompt": "손글씨 연습을 어떻게 향상시킬 수 있을까요?"
+	},
+	{
+		"id": "translation_1273",
+		"id3": "translation_553",
+		"prompt": "소금 크래커와 함께 무엇을 먹을 수 있을까요?"
+	},
+	{
+		"id": "translation_1274",
+		"id3": "translation_554",
+		"prompt": "제 친구가 아기를 가질 예정이에요. 새로운 엄마와 아기에게 좋은 선물은 무엇인가요?"
+	},
+	{
+		"id": "translation_1279",
+		"id3": "translation_555",
+		"prompt": "나이아가라 폭포를 방문하기 좋은 시기는 언제인가요?"
+	},
+	{
+		"id": "translation_1282",
+		"id3": "translation_556",
+		"prompt": "지나친 운동이나 일반적인 운동은 단점이 있을까요? 보통 이에 대해서는 긍정적인 면만 듣는데 궁금합니다."
+	},
+	{
+		"id": "translation_1283",
+		"id3": "translation_557",
+		"prompt": "여러 해 동안 말하지 않았던 오랜 친구와 어떻게 다시 연락할 수 있을까요?"
+	},
+	{
+		"id": "translation_1284",
+		"id3": "translation_558",
+		"prompt": "체스 게임의 기초를 가르쳐 주실 수 있나요?"
+	},
+	{
+		"id": "translation_1287",
+		"id3": "translation_559",
+		"prompt": "북한에서 방문할 만한 장소는 어떤 곳이 있나요?"
+	},
+	{
+		"id": "translation_1288",
+		"id3": "translation_560",
+		"prompt": "김정은에 대해 알고 싶어요. 그는 누구인가요?"
+	},
+	{
+		"id": "translation_1290",
+		"id3": "translation_561",
+		"prompt": "마라톤을 위해 어떻게 훈련해야 하나요?"
+	},
+	{
+		"id": "translation_1291",
+		"id3": "translation_562",
+		"prompt": "인플레이션이 높은 상황에서 어떻게 돈을 벌 수 있을까요? 이런 시기에 수익을 올릴 수 있는 방법이 있다고 알고 있습니다."
+	},
+	{
+		"id": "translation_1292",
+		"id3": "translation_563",
+		"prompt": "자전거 경주를 위해 훈련 중인데, 초콜릿 우유가 회복에 좋다고 들었습니다. 이에 대한 이유가 무엇일까요?"
+	},
+	{
+		"id": "translation_1294",
+		"id3": "translation_564",
+		"prompt": "성인은 얼마나 자주 샤워해야 할까요?"
+	},
+	{
+		"id": "translation_1295",
+		"id3": "translation_565",
+		"prompt": "왜 특정 음식들이 우리 몸에 더 건강한지요? 왜 인간의 몸은 아무 음식이나 섭취하고 영양소를 동일하게 분해할 수 있도록 진화하지 않았을까요?"
+	},
+	{
+		"id": "translation_1296",
+		"id3": "translation_566",
+		"prompt": "영화 한 편을 보려고 생각 중입니다. Elvis Presley가 출연한 영화를 추천해주실 수 있을까요?"
+	},
+	{
+		"id": "translation_1300",
+		"id3": "translation_567",
+		"prompt": "타이어가 펑크되었는데 어떻게 해야 할지 조언해주실 수 있을까요?"
+	},
+	{
+		"id": "translation_1302",
+		"id3": "translation_568",
+		"prompt": "차량 수리를 위해 어떤 도구가 필요할까요?"
+	},
+	{
+		"id": "translation_1303",
+		"id3": "translation_569",
+		"prompt": "세계에는 몇 개의 대륙이 있나요?"
+	},
+	{
+		"id": "translation_1306",
+		"id3": "translation_570",
+		"prompt": "어떻게 좋은 모래성을 만들 수 있을까요?"
+	},
+	{
+		"id": "translation_1308",
+		"id3": "translation_571",
+		"prompt": "제2차 세계대전은 어땠나요?"
+	},
+	{
+		"id": "translation_1309",
+		"id3": "translation_572",
+		"prompt": "오페라 가수들은 대개 35세 이후로 최고의 목소리를 가진다고 소문이 나있다고 들었어요. 훈련을 여러 해 받을 수록 범위가 넓어지고, 최적의 연령대는 무엇인가요?"
+	},
+	{
+		"id": "translation_1310",
+		"id3": "translation_573",
+		"prompt": "낮에 너무 피곤해서 수면시간을 좀 더 가지고 싶습니다. 어떻게 하면 밤에 더 일찍 잠자리에 들 수 있을까요?"
+	},
+	{
+		"id": "translation_1311",
+		"id3": "translation_574",
+		"prompt": "어떤 힙합 아티스트가 좋을까요?"
+	},
+	{
+		"id": "translation_1315",
+		"id3": "translation_575",
+		"prompt": "손자들을 위한 나무 인형 집을 만들기 위한 계획을 찾아주세요."
+	},
+	{
+		"id": "translation_1316",
+		"id3": "translation_576",
+		"prompt": "술집에서 주문하기 좋은 일반 음료 몇 가지가 무엇인가요?"
+	},
+	{
+		"id": "translation_1317",
+		"id3": "translation_577",
+		"prompt": "소년이 귀에 피어싱을 해도 괜찮을까요?"
+	},
+	{
+		"id": "translation_1321",
+		"id3": "translation_578",
+		"prompt": "할머니 생일을 위한 시를 써주세요."
+	},
+	{
+		"id": "translation_1322",
+		"id3": "translation_579",
+		"prompt": "왜 미국 남부에서 튀긴 음식이 인기가 많을까요?"
+	},
+	{
+		"id": "translation_1323",
+		"id3": "translation_580",
+		"prompt": "일정을 잘 지키고 할 일을 추적하는 방법을 더 능숙하게 하려면 어떻게 해야 할까요?"
+	},
+	{
+		"id": "translation_1325",
+		"id3": "translation_581",
+		"prompt": "스포츠 경기에 베팅하는 방법은 어떻게 하면 되나요?"
+	},
+	{
+		"id": "translation_1327",
+		"id3": "translation_582",
+		"prompt": "어린이가 가져야 할 예방 접종은 무엇인가요?"
+	},
+	{
+		"id": "translation_1328",
+		"id3": "translation_583",
+		"prompt": "형제 자매 사이의 화합을 위해 어떻게 해야 할까요?"
+	},
+	{
+		"id": "translation_1330",
+		"id3": "translation_584",
+		"prompt": "하루에 얼마나 많은 운동을 해야 할까요?"
+	},
+	{
+		"id": "translation_1333",
+		"id3": "translation_585",
+		"prompt": "인생의 의미는 무엇인가요?"
+	},
+	{
+		"id": "translation_1334",
+		"id3": "translation_586",
+		"prompt": "Google Voice는 무엇인가요?"
+	},
+	{
+		"id": "translation_1335",
+		"id3": "translation_587",
+		"prompt": "수면 중 모기의 물림을 어떻게 막을 수 있을까요?"
+	},
+	{
+		"id": "translation_1337",
+		"id3": "translation_588",
+		"prompt": "좋은 콜롬비아 음식은 어떤 것이 있나요?"
+	},
+	{
+		"id": "translation_1338",
+		"id3": "translation_589",
+		"prompt": "새로운 직장에 지원해야 합니다. 눈에 띄기 위해 할 수 있는 몇 가지 방법이 무엇인가요?"
+	},
+	{
+		"id": "translation_1340",
+		"id3": "translation_590",
+		"prompt": "오트밀을 더 간식이 될 수 있도록 어떤 재료를 추가할 수 있나요?"
+	},
+	{
+		"id": "translation_1341",
+		"id3": "translation_591",
+		"prompt": "미국과 일본이 왜 종합한 좋은 관계를 유지하고 있을까요? 왜냐하면 제2차 세계대전에서 미국이 일본에 핵 폭탄을 떨어뜨렸기 때문인데요."
+	},
+	{
+		"id": "translation_1343",
+		"id3": "translation_592",
+		"prompt": "그래픽 미디어 컨텐츠에서 어린이에게 더 위험한 요소는 무엇일까요? 폭력인가 아니면 음란성인가요?"
+	},
+	{
+		"id": "translation_1345",
+		"id3": "translation_593",
+		"prompt": "Pb(납)는 왜 유독물로 알려져 있을까요?"
+	},
+	{
+		"id": "translation_1346",
+		"id3": "translation_594",
+		"prompt": "차량 렌트를 위해 가져가야 할 것들이 무엇인가요?"
+	},
+	{
+		"id": "translation_1347",
+		"id3": "translation_595",
+		"prompt": "새들은 자면서 날 수 있을까요?"
+	},
+	{
+		"id": "translation_1349",
+		"id3": "translation_596",
+		"prompt": "저는 어른이 되어서 운동으로 자전거 타기를 시작하려고 하는데, 어떤 안전장비가 필요한지 궁금합니다."
+	},
+	{
+		"id": "translation_1351",
+		"id3": "translation_597",
+		"prompt": "겨울에 어떻게 아이들의 면역체계를 강화할 수 있을까요?"
+	},
+	{
+		"id": "translation_1352",
+		"id3": "translation_598",
+		"prompt": "자동차 보험을 선택할 때 무엇을 찾아야 할까요?"
+	},
+	{
+		"id": "translation_1355",
+		"id3": "translation_599",
+		"prompt": "알비노(Albino)란 무엇인가요?"
+	},
+	{
+		"id": "translation_1357",
+		"id3": "translation_600",
+		"prompt": "농구에서 자유투 던지기를 더 잘하려면 어떻게 해야 할까요?"
+	},
+	{
+		"id": "translation_1358",
+		"id3": "translation_601",
+		"prompt": "성명을 법적으로 변경하는 것은 어렵지 않습니다."
+	},
+	{
+		"id": "translation_1359",
+		"id3": "translation_602",
+		"prompt": "성인이 자전거 타기를 배울 수 있을까요?"
+	},
+	{
+		"id": "translation_1360",
+		"id3": "translation_603",
+		"prompt": "지붕에 얼음 댐이 생기는 것을 어떻게 방지할 수 있을까요?"
+	},
+	{
+		"id": "translation_1361",
+		"id3": "translation_604",
+		"prompt": "어린이가 처음으로 영화관에 가는 준비를 어떻게 해야 할까요?"
+	},
+	{
+		"id": "translation_1362",
+		"id3": "translation_605",
+		"prompt": "누가 DVD 플레이어를 발명했을까요?"
+	},
+	{
+		"id": "translation_1364",
+		"id3": "translation_606",
+		"prompt": "백감몬 게임에 대해 설명해 주세요."
+	},
+	{
+		"id": "translation_1369",
+		"id3": "translation_607",
+		"prompt": "제1차 세계대전을 설명해주세요."
+	},
+	{
+		"id": "translation_1372",
+		"id3": "translation_608",
+		"prompt": "상사에게 휴가 신청서를 작성하는 방법을 알려주세요."
+	},
+	{
+		"id": "translation_1374",
+		"id3": "translation_609",
+		"prompt": "스포티파이 노래를 인스타그램에 공유하는 방법을 알려주세요."
+	},
+	{
+		"id": "translation_1376",
+		"id3": "translation_610",
+		"prompt": "내 헛간에 올빼미가 머물고 있다면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_1377",
+		"id3": "translation_611",
+		"prompt": "빨리 체중을 감량하는 방법에 대한 팁이 있을까요?"
+	},
+	{
+		"id": "translation_1378",
+		"id3": "translation_612",
+		"prompt": "결혼 전 부부간의 사전협정은 무엇인가요?"
+	},
+	{
+		"id": "translation_1381",
+		"id3": "translation_613",
+		"prompt": "제가 자물쇠 잠금 장치 기술을 배우고 싶습니다. 어떤 도구가 필요할까요?"
+	},
+	{
+		"id": "translation_1382",
+		"id3": "translation_614",
+		"prompt": "탄두리 치킨과 잘 어울리는 부 side dish가 어떤 것들이 있나요?"
+	},
+	{
+		"id": "translation_1383",
+		"id3": "translation_615",
+		"prompt": "왜 사람들 중 일부가 땅콩에 알레르기가 있는 걸까요?"
+	},
+	{
+		"id": "translation_1384",
+		"id3": "translation_616",
+		"prompt": "개가 먹으면 안 되는 음식은 어떤 것들이 있나요?"
+	},
+	{
+		"id": "translation_1385",
+		"id3": "translation_617",
+		"prompt": "2020년에 첫 방송된 TV 프로그램은 어떤 것들이 있나요?"
+	},
+	{
+		"id": "translation_1390",
+		"id3": "translation_618",
+		"prompt": "오트밀을 맛있게 먹기 위해 어떤 것을 추가할 수 있을까요?"
+	},
+	{
+		"id": "translation_1393",
+		"id3": "translation_619",
+		"prompt": "가장 희귀한 아타리 게임은 무엇인가요?"
+	},
+	{
+		"id": "translation_1395",
+		"id3": "translation_620",
+		"prompt": "어떻게 알코올 섭취량을 줄일 수 있을까요?"
+	},
+	{
+		"id": "translation_1396",
+		"id3": "translation_621",
+		"prompt": "유령이 너무 무서워요. 어떻게 해야 하죠?"
+	},
+	{
+		"id": "translation_1397",
+		"id3": "translation_622",
+		"prompt": "역사상 최고의 농구 선수는 누구이며 그 이유는 무엇인가요?"
+	},
+	{
+		"id": "translation_1399",
+		"id3": "translation_623",
+		"prompt": "소고기와 브로콜리를 어떻게 만들 수 있을까요?"
+	},
+	{
+		"id": "translation_1400",
+		"id3": "translation_624",
+		"prompt": "달에 있는 흙에 어떤 미네랄이 있나요?"
+	},
+	{
+		"id": "translation_1406",
+		"id3": "translation_625",
+		"prompt": "어떻게 하면 젖병 길들이기를 할 수 있을까요?"
+	},
+	{
+		"id": "translation_1409",
+		"id3": "translation_626",
+		"prompt": "우리의 대가는 대단한 진화에 기여한 바로 그 엄지 손가락인데요. 대체 어떤 이유에서 우리가 우리의 엄지 손가락 때문에 도구를 만들 수 있다고 말할까요?"
+	},
+	{
+		"id": "translation_1411",
+		"id3": "translation_627",
+		"prompt": "공항까지 어떻게 가야 하나요?"
+	},
+	{
+		"id": "translation_1416",
+		"id3": "translation_628",
+		"prompt": "저는 방금 래틀스네이크에 물려서 병원에 입원했고, 항독소를 맞았습니다. 저는 지금 괜찮은데, 청구서 금액이 너무 높고 갚을 방법이 없습니다. 병원은 어떻게 할까요?"
+	},
+	{
+		"id": "translation_1417",
+		"id3": "translation_629",
+		"prompt": "스테이크 요리의 다양한 방법들을 정리해주세요."
+	},
+	{
+		"id": "translation_1418",
+		"id3": "translation_630",
+		"prompt": "제 룸메이트가 실종된 것 같습니다. 실종자 신고를 어떻게 해야하나요?"
+	},
+	{
+		"id": "translation_1421",
+		"id3": "translation_631",
+		"prompt": "슈퍼히어로 망토를 만드는 방법이 궁금합니다."
+	},
+	{
+		"id": "translation_1422",
+		"id3": "translation_632",
+		"prompt": "중요한 서류를 어디에 보관해야 할까요?"
+	},
+	{
+		"id": "translation_1424",
+		"id3": "translation_633",
+		"prompt": "카트휠을 배우고 싶은데 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_1426",
+		"id3": "translation_634",
+		"prompt": "시암고양이는 다른 품종보다 똑똑한가요?"
+	},
+	{
+		"id": "translation_1427",
+		"id3": "translation_635",
+		"prompt": "이커머스 웹사이트를 어떻게 시작하나요?"
+	},
+	{
+		"id": "translation_1430",
+		"id3": "translation_636",
+		"prompt": "어떤 종류의 새가 가장 좋은 애완동물이 될까요?"
+	},
+	{
+		"id": "translation_1431",
+		"id3": "translation_637",
+		"prompt": "프로그래밍 장난감은 아이들에게 도움이 될까요?"
+	},
+	{
+		"id": "translation_1432",
+		"id3": "translation_638",
+		"prompt": "80년대 스타일의 옷을 입을 때는 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_1435",
+		"id3": "translation_639",
+		"prompt": "자외선(UV) 빛은 플라스틱 재료를 파손시킨다고 들었습니다. 이것은 왜 그런 것일까요?"
+	},
+	{
+		"id": "translation_1438",
+		"id3": "translation_640",
+		"prompt": "아이들이 할 수 있는 소규모 비즈니스는 어떤 것들이 있나요?"
+	},
+	{
+		"id": "translation_1439",
+		"id3": "translation_641",
+		"prompt": "가정에서 항상 소화제를 준비해야 할까요?"
+	},
+	{
+		"id": "translation_1443",
+		"id3": "translation_642",
+		"prompt": "신용카드를 비교할 만한 좋은 방법은 있을까요?"
+	},
+	{
+		"id": "translation_1444",
+		"id3": "translation_643",
+		"prompt": "내 재생 목록을 위한 할로윈 노래가 어떤 것이 있나요?"
+	},
+	{
+		"id": "translation_1445",
+		"id3": "translation_644",
+		"prompt": "흔히 연례 제작이 어딘가에서 '바이 흑진주 이야기(Black Pearl Tale)'라고 인용되도록 하는 '닛크래커 스위트(Nutcracker Suite)'가 곧 연주될 예정입니다. 이야기의 요점이 궁금합니다."
+	},
+	{
+		"id": "translation_1447",
+		"id3": "translation_645",
+		"prompt": "보트를 조작하는 데 알아야 할 사항이 무엇인가요?"
+	},
+	{
+		"id": "translation_1448",
+		"id3": "translation_646",
+		"prompt": "별은 어떻게 해서 별이 되나요?"
+	},
+	{
+		"id": "translation_1451",
+		"id3": "translation_647",
+		"prompt": "첫 번째 휴대용 비디오 게임기는 어느 해에 출시되었나요?"
+	},
+	{
+		"id": "translation_1452",
+		"id3": "translation_648",
+		"prompt": "집에서 어떻게 일할 수 있을까요?"
+	},
+	{
+		"id": "translation_1453",
+		"id3": "translation_649",
+		"prompt": "2020년 현재까지 우리가 구글의 검색 알고리즘에 대해 알고 있는 것들은 무엇인가요? 그 동작 원리는 어떻게 되나요?"
+	},
+	{
+		"id": "translation_1459",
+		"id3": "translation_650",
+		"prompt": "창의적인 글쓰기 기술을 향상시키려면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_1461",
+		"id3": "translation_651",
+		"prompt": "7세 여자 아이에게 어떤 선물이 좋을까요?"
+	},
+	{
+		"id": "translation_1462",
+		"id3": "translation_652",
+		"prompt": "인슐린 수치를 낮추는 방법은 어떻게 하면 될까요?"
+	},
+	{
+		"id": "translation_1466",
+		"id3": "translation_653",
+		"prompt": "19세기 중반부터 말기에 미국에서 골드 러시가 일어난 이유가 무엇인가요?"
+	},
+	{
+		"id": "translation_1467",
+		"id3": "translation_654",
+		"prompt": "친구에게 남편이 마음에 들지 않는다고 말하는 가장 좋은 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_1468",
+		"id3": "translation_655",
+		"prompt": "분만 중 여성이 겪을 수 있는 다양한 신체 손상과 문제는 무엇인가요?"
+	},
+	{
+		"id": "translation_1469",
+		"id3": "translation_656",
+		"prompt": "만약 여러분이 슈퍼파워를 선택할 수 있다면 무엇을 선택하겠습니까?"
+	},
+	{
+		"id": "translation_1470",
+		"id3": "translation_657",
+		"prompt": "4학년 학생에게 분수에 대해 가르칠 생각이 있습니다. 어떤 아이디어가 있나요?"
+	},
+	{
+		"id": "translation_1471",
+		"id3": "translation_658",
+		"prompt": "프렌치 토스트는 어떻게 만들까요?"
+	},
+	{
+		"id": "translation_1472",
+		"id3": "translation_659",
+		"prompt": "집에서 토마토 소스를 만드는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_1474",
+		"id3": "translation_660",
+		"prompt": "무얼 잃게 되면 어떻게 되나요?"
+	},
+	{
+		"id": "translation_1475",
+		"id3": "translation_661",
+		"prompt": "2016년 3월에 아르셀로미탈 주식 가격을 알 수 있을까요?"
+	},
+	{
+		"id": "translation_1477",
+		"id3": "translation_662",
+		"prompt": "색 팔레트를 사용하여 상호 보완적인 색상을 찾는 방법에 대해 알려주세요."
+	},
+	{
+		"id": "translation_1487",
+		"id3": "translation_663",
+		"prompt": "파리에서 볼 수 있는 역사적인 장소는 무엇인가요?"
+	},
+	{
+		"id": "translation_1488",
+		"id3": "translation_664",
+		"prompt": "플라스틱 구두 상자를 다른 방식으로 사용할 수 있는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_1491",
+		"id3": "translation_665",
+		"prompt": "신발 깔창은 어떻게 도움이 되나요?"
+	},
+	{
+		"id": "translation_1494",
+		"id3": "translation_666",
+		"prompt": "IPA 맥주와 APA 맥주의 차이점은 무엇인가요?"
+	},
+	{
+		"id": "translation_1496",
+		"id3": "translation_667",
+		"prompt": "매일 충분한 물을 마셔야 한다는 걱정이 있습니다. 적정한 수분 섭취량은 어떻게 추천하나요?"
+	},
+	{
+		"id": "translation_1497",
+		"id3": "translation_668",
+		"prompt": "세계에서 어떤 나라들이 추수감사절을 축하하나요?"
+	},
+	{
+		"id": "translation_1498",
+		"id3": "translation_669",
+		"prompt": "제 아들이 해외로 대학에 갔는데, 벌써 그를 너무 보고싶습니다. 어떤 조언이 있을까요?"
+	},
+	{
+		"id": "translation_1499",
+		"id3": "translation_670",
+		"prompt": "한국 정부가 어떻게 작동하는지 설명해 줄 수 있을까요?"
+	},
+	{
+		"id": "translation_1500",
+		"id3": "translation_671",
+		"prompt": "어느 나이부터 연금을 위해 저축을 시작해야 할까요?"
+	},
+	{
+		"id": "translation_1502",
+		"id3": "translation_672",
+		"prompt": "두 가지 색을 섞으면 다른 색이 만들어지는 이유가 무엇인가요?"
+	},
+	{
+		"id": "translation_1504",
+		"id3": "translation_673",
+		"prompt": "저는 크리스마스 저녁 식사를 계획하고 있습니다. 테이블 장식에 대한 아이디어가 필요합니다."
+	},
+	{
+		"id": "translation_1505",
+		"id3": "translation_674",
+		"prompt": "올해 블랙 프라이데이를 최대한 활용하고 싶습니다. 크리스마스 쇼핑을 위한 최고의 할인과 거래 정보를 어떻게 찾을 수 있을까요?"
+	},
+	{
+		"id": "translation_1509",
+		"id3": "translation_675",
+		"prompt": "다음 달에는 미국 미네소타주의 세인트 폴로 출장을 가야 합니다. 이 여행 중에는 하루가 비어 있는데, 현지의 몇 가지 관광지와 경치를 둘러보고 싶습니다. 하루 동안의 일정을 다른 관광지 몇 군데를 포함하여 만들어 주실 수 있을까요?"
+	},
+	{
+		"id": "translation_1511",
+		"id3": "translation_676",
+		"prompt": "윌리엄 셰익스피어는 누구인가요?"
+	},
+	{
+		"id": "translation_1513",
+		"id3": "translation_677",
+		"prompt": "산소가 한정되어 있는 고도가 매우 높은 곳에서 인간은 살 수 있을까요?"
+	},
+	{
+		"id": "translation_1517",
+		"id3": "translation_678",
+		"prompt": "새로운 언어를 배우기 좋은 앱이나 소프트웨어는 어떤 것이 좋을까요?"
+	},
+	{
+		"id": "translation_1518",
+		"id3": "translation_679",
+		"prompt": "알람이 나를 깨우지 않으면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_1520",
+		"id3": "translation_680",
+		"prompt": "어떻게 빠르게 새로운 언어를 배울 수 있을까요?"
+	},
+	{
+		"id": "translation_1521",
+		"id3": "translation_681",
+		"prompt": "내 아들의 할머니가 방금 돌아가셨어요. 어떻게 그의 애도를 도와줄 수 있을까요?"
+	},
+	{
+		"id": "translation_1523",
+		"id3": "translation_682",
+		"prompt": "게재물을 어떻게 대해야 하나요?"
+	},
+	{
+		"id": "translation_1526",
+		"id3": "translation_683",
+		"prompt": "야채를 얼리는 가장 좋은 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_1527",
+		"id3": "translation_684",
+		"prompt": "외교관은 무엇을 하는 사람인가요?"
+	},
+	{
+		"id": "translation_1531",
+		"id3": "translation_685",
+		"prompt": "다임 방어와 니켈 방어의 차이는 무엇인가요?"
+	},
+	{
+		"id": "translation_1532",
+		"id3": "translation_686",
+		"prompt": "어떤 재미있는 것들을 뜨개질로 만들 수 있을까요?"
+	},
+	{
+		"id": "translation_1534",
+		"id3": "translation_687",
+		"prompt": "오를랜도에서 어린이와 함께 갈 수 있는 곳은 어디인가요?"
+	},
+	{
+		"id": "translation_1536",
+		"id3": "translation_688",
+		"prompt": "파소 도블레(paso doble)는 무엇인가요?"
+	},
+	{
+		"id": "translation_1541",
+		"id3": "translation_689",
+		"prompt": "싸움을 한 후에 고양이를 진정시키는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_1542",
+		"id3": "translation_690",
+		"prompt": "치킨 앤 와플 레시피를 검색해주세요."
+	},
+	{
+		"id": "translation_1543",
+		"id3": "translation_691",
+		"prompt": "스테프드 쉘을 위한 좋은 사이드 디시가 어떤 것이 있나요?"
+	},
+	{
+		"id": "translation_1545",
+		"id3": "translation_692",
+		"prompt": "내 안의 아이를 어떻게 치유할 수 있을까요?"
+	},
+	{
+		"id": "translation_1547",
+		"id3": "translation_693",
+		"prompt": "집에 꼭 필요한 도구들이 어떤 것들이 있는지 알 수 있을까요?"
+	},
+	{
+		"id": "translation_1548",
+		"id3": "translation_694",
+		"prompt": "지난 100년 동안 최고의 가수는 누구인가요?"
+	},
+	{
+		"id": "translation_1549",
+		"id3": "translation_695",
+		"prompt": "우유와 함께 즐길 수 있는 좋은 쿠키는 어떤 것이 있나요?"
+	},
+	{
+		"id": "translation_1550",
+		"id3": "translation_696",
+		"prompt": "iCloud는 안전한가요?"
+	},
+	{
+		"id": "translation_1552",
+		"id3": "translation_697",
+		"prompt": "현미경을 발명한 사람은 누구인가요?"
+	},
+	{
+		"id": "translation_1553",
+		"id3": "translation_698",
+		"prompt": "옥스퍼드 콤마의 사용에 대해 설명해 줄 수 있을까요?"
+	},
+	{
+		"id": "translation_1557",
+		"id3": "translation_699",
+		"prompt": "내 식단을 어떻게 개선할 수 있을까요?"
+	},
+	{
+		"id": "translation_1560",
+		"id3": "translation_700",
+		"prompt": "두 번째 대통령은 누구였나요?"
+	},
+	{
+		"id": "translation_1562",
+		"id3": "translation_701",
+		"prompt": "요즘 강아지가 우울해 보입니다. 강아지가 우울해지는 이유는 무엇인가요?"
+	},
+	{
+		"id": "translation_1565",
+		"id3": "translation_702",
+		"prompt": "광합성 과정을 설명해주시겠어요?"
+	},
+	{
+		"id": "translation_1568",
+		"id3": "translation_703",
+		"prompt": "감자 튀김에 어떤 양념을 사용하는 것이 좋을까요?"
+	},
+	{
+		"id": "translation_1574",
+		"id3": "translation_704",
+		"prompt": "내게 유산이 물려왔어요. 어떻게 해야 할까요?"
+	},
+	{
+		"id": "translation_1577",
+		"id3": "translation_705",
+		"prompt": "미국에서 컬러 게임보이는 어느 해에 출시되었나요?"
+	},
+	{
+		"id": "translation_1579",
+		"id3": "translation_706",
+		"prompt": "감정을 더 잘 통제하기 위한 방법은 무엇일까요?"
+	},
+	{
+		"id": "translation_1580",
+		"id3": "translation_707",
+		"prompt": "CPU가 1개 이상의 코어를 가지는 것의 이점은 무엇인가요?"
+	},
+	{
+		"id": "translation_1581",
+		"id3": "translation_708",
+		"prompt": "연필로 간단한 꽃을 그리는 가장 좋은 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_1582",
+		"id3": "translation_709",
+		"prompt": "새로운 기술을 배우고 싶습니다. 시간이 많지 않은 주부에게 어떤 것을 추천하시겠어요?"
+	},
+	{
+		"id": "translation_1584",
+		"id3": "translation_710",
+		"prompt": "남성이 대장내시경을 받기에 좋은 나이는 언제인가요?"
+	},
+	{
+		"id": "translation_1585",
+		"id3": "translation_711",
+		"prompt": "코로나 이후로 가게에 물건이 적어진 이유는 무엇인가요?"
+	},
+	{
+		"id": "translation_1586",
+		"id3": "translation_712",
+		"prompt": "체스를 어떻게 배울 수 있을까요?"
+	},
+	{
+		"id": "translation_1587",
+		"id3": "translation_713",
+		"prompt": "벌에 찔렸을 때는 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_1591",
+		"id3": "translation_714",
+		"prompt": "이가 아프다면 어떻게 완화시킬까요?"
+	},
+	{
+		"id": "translation_1594",
+		"id3": "translation_715",
+		"prompt": "최고의 초콜릿은 무엇인가요?"
+	},
+	{
+		"id": "translation_1597",
+		"id3": "translation_716",
+		"prompt": "현재 가장 스마트한 로봇은 무엇인가요?"
+	},
+	{
+		"id": "translation_1601",
+		"id3": "translation_717",
+		"prompt": "패스트푸드 식당에서 프랜차이즈란 무엇인가요?"
+	},
+	{
+		"id": "translation_1602",
+		"id3": "translation_718",
+		"prompt": "누군가가 심장 마비가 발생하는 이유는 무엇인가요?"
+	},
+	{
+		"id": "translation_1603",
+		"id3": "translation_719",
+		"prompt": "스시에 사용되는 생선은 완전히 생으로 먹나요? 그렇다면, 왜 생선을 먹어도 병에 걸리지 않을까요?"
+	},
+	{
+		"id": "translation_1604",
+		"id3": "translation_720",
+		"prompt": "마리화나가 미국에서 금지된 이유를 알고 싶어요. 제가 들은 바로는 다양한 이유가 있는데요."
+	},
+	{
+		"id": "translation_1605",
+		"id3": "translation_721",
+		"prompt": "오르빌 펙과 비슷한 가수나 밴드를 추천해줄 수 있을까요?"
+	},
+	{
+		"id": "translation_1606",
+		"id3": "translation_722",
+		"prompt": "스테이케이션의 장점은 무엇인가요?"
+	},
+	{
+		"id": "translation_1608",
+		"id3": "translation_723",
+		"prompt": "왜 저는 항상 악몽을 꿀까요?"
+	},
+	{
+		"id": "translation_1617",
+		"id3": "translation_724",
+		"prompt": "다른 사람이 내 뒤에서 나를 비방하거나 다른 사람에게 나에 대해 이야기할 때, 왜 불편한 기분이 들까요?"
+	},
+	{
+		"id": "translation_1619",
+		"id3": "translation_725",
+		"prompt": "12 더하기 4는 얼마인가요?"
+	},
+	{
+		"id": "translation_1620",
+		"id3": "translation_726",
+		"prompt": "어떻게 하면 내 아이의 친구가 그녀를 괴롭히는 것을 막을 수 있을까요?"
+	},
+	{
+		"id": "translation_1623",
+		"id3": "translation_727",
+		"prompt": "타히티는 어디에 있나요?"
+	},
+	{
+		"id": "translation_1626",
+		"id3": "translation_728",
+		"prompt": "역사상 가장 큰 두 제국은 무엇인가요?"
+	},
+	{
+		"id": "translation_1627",
+		"id3": "translation_729",
+		"prompt": "CCleaner는 컴퓨터에 어떤 기능을 제공하나요?"
+	},
+	{
+		"id": "translation_1628",
+		"id3": "translation_730",
+		"prompt": "저녁으로 친구를 초대했는데, 그 친구는 비건입니다. 비건 음식에 대해 아무것도 몰라서 메인 요리로 뭘 준비해야 할지 모르겠어요."
+	},
+	{
+		"id": "translation_1629",
+		"id3": "translation_731",
+		"prompt": "라즈베리 치즈 케이크 레시피 검색"
+	},
+	{
+		"id": "translation_1630",
+		"id3": "translation_732",
+		"prompt": "마리화나 판매 비즈니스를 시작하는 방법이 궁금합니다."
+	},
+	{
+		"id": "translation_1631",
+		"id3": "translation_733",
+		"prompt": "기억력 향상에 도움을 주는 뇌 운동 방법이 있을까요?"
+	},
+	{
+		"id": "translation_1633",
+		"id3": "translation_734",
+		"prompt": "우리 집 벽돌에서 물이 스윽 흘러나오는 이유는 무엇일까요?"
+	},
+	{
+		"id": "translation_1634",
+		"id3": "translation_735",
+		"prompt": "이번 달에 차 사고를 목격한 친구를 위로하고 싶은데 아무 생각 없으신가요?"
+	},
+	{
+		"id": "translation_1637",
+		"id3": "translation_736",
+		"prompt": "배우가 되고 싶다면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_1642",
+		"id3": "translation_737",
+		"prompt": "중고차를 구매할 때 가장 중요한 질문은 무엇인가요?"
+	},
+	{
+		"id": "translation_1643",
+		"id3": "translation_738",
+		"prompt": "벨기에 와플과 미국 와플의 차이는 무엇인가요?"
+	},
+	{
+		"id": "translation_1647",
+		"id3": "translation_739",
+		"prompt": "제가 가죽 구두를 닦아야 하는데, 이전에 가죽을 닦은 적이 없습니다. 첫 단계는 어떤 것인가요?"
+	},
+	{
+		"id": "translation_1648",
+		"id3": "translation_740",
+		"prompt": "제 딸이 학교에서 모금 활동을 하고 있고, 최다 쿠키 반죽 판매 상을 받기를 원합니다. 딸이 최대한 많이 쿠키 반죽을 팔기 위해 어떻게 해야 할까요?"
+	},
+	{
+		"id": "translation_1650",
+		"id3": "translation_741",
+		"prompt": "북부 주 출신 사람들이 왜 플로리다와 같은 남부지역으로 은퇴하는 경향이 있나요?"
+	},
+	{
+		"id": "translation_1660",
+		"id3": "translation_742",
+		"prompt": "콘크리트를 어떻게 부어야 하나요?"
+	},
+	{
+		"id": "translation_1661",
+		"id3": "translation_743",
+		"prompt": "크리스마스 양말을 어디에 걸어야 할까요?"
+	},
+	{
+		"id": "translation_1665",
+		"id3": "translation_744",
+		"prompt": "재택근무와 대면근무 중 어떤 게 더 좋을까요?"
+	},
+	{
+		"id": "translation_1669",
+		"id3": "translation_745",
+		"prompt": "분노를 해소하는 건강한 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_1671",
+		"id3": "translation_746",
+		"prompt": "플리마켓에서 협상하는 방법이 뭐에요?"
+	},
+	{
+		"id": "translation_1672",
+		"id3": "translation_747",
+		"prompt": "슈퍼마켓에서 돈을 아낄 수 있는 방법이 뭐에요?"
+	},
+	{
+		"id": "translation_1673",
+		"id3": "translation_748",
+		"prompt": "플리마켓이 뭔가요?"
+	},
+	{
+		"id": "translation_1674",
+		"id3": "translation_749",
+		"prompt": "갑작스러운 우울함에 대처하는 방법에 대해 도움을 받고 싶어요."
+	},
+	{
+		"id": "translation_1675",
+		"id3": "translation_750",
+		"prompt": "어떤 종류의 엠파나다를 만들 수 있을까요?"
+	},
+	{
+		"id": "translation_1677",
+		"id3": "translation_751",
+		"prompt": "좋은 그래픽 앱을 찾고 있어요. 어떤 걸 추천해주시겠어요?"
+	},
+	{
+		"id": "translation_1678",
+		"id3": "translation_752",
+		"prompt": "길고양이에게 신뢰를 받으려면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_1679",
+		"id3": "translation_753",
+		"prompt": "성적 불안을 어떻게 극복할 수 있나요?"
+	},
+	{
+		"id": "translation_1681",
+		"id3": "translation_754",
+		"prompt": "미국에서 햄버거가 어떻게 인기있는 패스트푸드 식사로 되었을까요?"
+	},
+	{
+		"id": "translation_1685",
+		"id3": "translation_755",
+		"prompt": "다이아몬드 크레이터를 방문하려고 합니다. 방문객이 가져갈 수 있는 다이아몬드의 수에는 제한이 있을까요?"
+	},
+	{
+		"id": "translation_1686",
+		"id3": "translation_756",
+		"prompt": "저는 가끔씩 집에서 손님들을 접대하고 있으며, 재미있도록 다양한 요리와 음료의 레시피를 모으고 있습니다. 이라크 요리를 몇 가지 시도해 보기로 했습니다. 팔라펠의 레시피를 알려주실 수 있을까요?"
+	},
+	{
+		"id": "translation_1687",
+		"id3": "translation_757",
+		"prompt": "미국 공군은 무엇일까요?"
+	},
+	{
+		"id": "translation_1692",
+		"id3": "translation_758",
+		"prompt": "미국에서 가장 많은 허리케인이 발생하는 지역은 어디인가요?"
+	},
+	{
+		"id": "translation_1693",
+		"id3": "translation_759",
+		"prompt": "고양이가 catnip의 냄새를 맡으면 왜 그렇게 미친 듯한 행동을 할까요?"
+	},
+	{
+		"id": "translation_1694",
+		"id3": "translation_760",
+		"prompt": "이별 후에 어떻게 상처를 극복할 수 있나요?"
+	},
+	{
+		"id": "translation_1697",
+		"id3": "translation_761",
+		"prompt": "동물원에서 어떤 동물들을 아이에게 보여줘야 하나요?"
+	},
+	{
+		"id": "translation_1699",
+		"id3": "translation_762",
+		"prompt": "학사 상담원이 어떻게 도움을 줄 수 있나요?"
+	},
+	{
+		"id": "translation_1701",
+		"id3": "translation_763",
+		"prompt": "나는 경력에 대해 다시 생각하고 있는데, 지금 바꾸기에는 너무 늦은 것 같아요. 어떻게 해야 새로운 직업을 찾고 다시 시작할 수 있을까요?"
+	},
+	{
+		"id": "translation_1702",
+		"id3": "translation_764",
+		"prompt": "스코프스 몽키 재판을 설명해주세요."
+	},
+	{
+		"id": "translation_1703",
+		"id3": "translation_765",
+		"prompt": "사람의 잔해로 할 수 있는 독특한 일들은 무엇인가요?"
+	},
+	{
+		"id": "translation_1705",
+		"id3": "translation_766",
+		"prompt": "새로운 도시로 이사를 가면 어떻게 친구를 사귈 수 있나요?"
+	},
+	{
+		"id": "translation_1707",
+		"id3": "translation_767",
+		"prompt": "자작 팝콘을 만드는 방법은 어떻게 되나요?"
+	},
+	{
+		"id": "translation_1709",
+		"id3": "translation_768",
+		"prompt": "가끔 내 집에서 손님을 맞이하는 걸 좋아하고, 흥미롭게 만들기 위해 다양한 요리와 음료의 레시피를 모으고 있어요. 칠레 요리를 시도해보고 싶은데, 만하의 레시피를 알려주실 수 있을까요?"
+	},
+	{
+		"id": "translation_1711",
+		"id3": "translation_769",
+		"prompt": "자연에서 할 수 있는 기도는 무엇일까요?"
+	},
+	{
+		"id": "translation_1714",
+		"id3": "translation_770",
+		"prompt": "요가 강사가 되고 싶어요. 어떻게 해야 할까요?"
+	},
+	{
+		"id": "translation_1719",
+		"id3": "translation_771",
+		"prompt": "밀수란 무엇인가요?"
+	},
+	{
+		"id": "translation_1720",
+		"id3": "translation_772",
+		"prompt": "어떻게 방랑하는 고양이들이 정원에서 똥을 안 싸게 할 수 있나요?"
+	},
+	{
+		"id": "translation_1730",
+		"id3": "translation_773",
+		"prompt": "캘리포니아의 할리우드 블루바드에서 볼 수 있는 인기있는 명소는 무엇인가요?"
+	},
+	{
+		"id": "translation_1731",
+		"id3": "translation_774",
+		"prompt": "미국에서는 크리스마스날에 어떤 상점들이 영업하나요?"
+	},
+	{
+		"id": "translation_1735",
+		"id3": "translation_775",
+		"prompt": "꿀을 사용하는 여러가지 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_1736",
+		"id3": "translation_776",
+		"prompt": "어드밴스드 헬스케어 디렉티브(Advanced Healthcare Directive)란 무엇인가요?"
+	},
+	{
+		"id": "translation_1737",
+		"id3": "translation_777",
+		"prompt": "물감 화가가 되기 위해 필요한 것에 대해 궁금합니다. 어떤 공부가 도움이 될까요?"
+	},
+	{
+		"id": "translation_1739",
+		"id3": "translation_778",
+		"prompt": "베이컨 요리의 최적 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_1742",
+		"id3": "translation_779",
+		"prompt": "HIV는 어떻게 전염되나요?"
+	},
+	{
+		"id": "translation_1743",
+		"id3": "translation_780",
+		"prompt": "지난 주말 도시에서 계속되는 정전이 있었는데, 아이들이 정말 지루했습니다. 정전 동안 아이들을 즐겁게 유지할 수 있는 활동은 어떤 것들이 있을까요?"
+	},
+	{
+		"id": "translation_1745",
+		"id3": "translation_781",
+		"prompt": "말을 그릴 때 어떻게 그리나요?"
+	},
+	{
+		"id": "translation_1747",
+		"id3": "translation_782",
+		"prompt": "미국이 식민지화된 후 이후 이민의 주요한 웨이브는 몇 개인가요?"
+	},
+	{
+		"id": "translation_1755",
+		"id3": "translation_783",
+		"prompt": "세상에서 가장 오래된 나무는 무엇인가요?"
+	},
+	{
+		"id": "translation_1757",
+		"id3": "translation_784",
+		"prompt": "대부분의 시간을 피로하게 느낀다면 그것은 무슨 의미인가요?"
+	},
+	{
+		"id": "translation_1759",
+		"id3": "translation_785",
+		"prompt": "다음 주에 런던에 가려고 합니다. 정착할 동안 무엇을 보는 것이 좋을까요?"
+	},
+	{
+		"id": "translation_1762",
+		"id3": "translation_786",
+		"prompt": "영원히 만족스러운 느낌이 들지 않은 경우 어떻게 해야 할까요?"
+	},
+	{
+		"id": "translation_1765",
+		"id3": "translation_787",
+		"prompt": "글루텐 프리 복숭아 코블러를 어떻게 만들 수 있을까요?"
+	},
+	{
+		"id": "translation_1771",
+		"id3": "translation_788",
+		"prompt": "낚싯바늘을 줄에 매는 방법을 알려주세요."
+	},
+	{
+		"id": "translation_1772",
+		"id3": "translation_789",
+		"prompt": "사망에 대처하기 위한 대처 전략을 몇 가지 배우는 데 도움을 줄 수 있을까요? 최근에 가까운 사람을 잃었습니다."
+	},
+	{
+		"id": "translation_1775",
+		"id3": "translation_790",
+		"prompt": "로버트 제임스 톰슨은 얼마나 가치가 있는가요?"
+	},
+	{
+		"id": "translation_1776",
+		"id3": "translation_791",
+		"prompt": "몇 달 동안 다이어트를 하고 있어요. 복부 지방을 많이 잃었지만 사랑 핸들이 작아지지 않아요. 어떻게 해결할 수 있나요?"
+	},
+	{
+		"id": "translation_1781",
+		"id3": "translation_792",
+		"prompt": "외로움을 어떻게 극복하나요?"
+	},
+	{
+		"id": "translation_1784",
+		"id3": "translation_793",
+		"prompt": "말리부를 사용하여 만들 수 있는 칵테일은 어떤 것이 있을까요?"
+	},
+	{
+		"id": "translation_1786",
+		"id3": "translation_794",
+		"prompt": "복부 성형수술의 부작용은 어떤 것이 있을까요?"
+	},
+	{
+		"id": "translation_1787",
+		"id3": "translation_795",
+		"prompt": "안녕하세요! 어떤 팟캐스트를 들어야 할까요?"
+	},
+	{
+		"id": "translation_1789",
+		"id3": "translation_796",
+		"prompt": "타일을 어떻게 관리해야 할까요?"
+	},
+	{
+		"id": "translation_1790",
+		"id3": "translation_797",
+		"prompt": "자신의 청바지에 구멍이 났을 때 어떻게 할 수 있을까요?"
+	},
+	{
+		"id": "translation_1793",
+		"id3": "translation_798",
+		"prompt": "왜 자주 피곤한 걸까요?"
+	},
+	{
+		"id": "translation_1796",
+		"id3": "translation_799",
+		"prompt": "다른 VR 시스템과 비교해서 오쿨루스는 좋은 VR 시스템일까요?"
+	},
+	{
+		"id": "translation_1800",
+		"id3": "translation_800",
+		"prompt": "상대성 이론에 대해 설명해주실래요?"
+	},
+	{
+		"id": "translation_1801",
+		"id3": "translation_801",
+		"prompt": "백벤드는 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_1802",
+		"id3": "translation_802",
+		"prompt": "에너지 비용을 줄이는 방법은 어떤 것이 있나요?"
+	},
+	{
+		"id": "translation_1803",
+		"id3": "translation_803",
+		"prompt": "아킬레스 건 상처는 몇 년이 걸릴 수 있나요?"
+	},
+	{
+		"id": "translation_1804",
+		"id3": "translation_804",
+		"prompt": "David M. Solomon에 대한 순자산을 알려주세요."
+	},
+	{
+		"id": "translation_1805",
+		"id3": "translation_805",
+		"prompt": "쥬키니를 사용할 수 있는 음식은 무엇인가요?"
+	},
+	{
+		"id": "translation_1806",
+		"id3": "translation_806",
+		"prompt": "비뇨기과 의사는 무엇을 하나요?"
+	},
+	{
+		"id": "translation_1807",
+		"id3": "translation_807",
+		"prompt": "왜 피부에 물집이 생기고 어떻게 생기나요?"
+	},
+	{
+		"id": "translation_1808",
+		"id3": "translation_808",
+		"prompt": "어떻게 기타 연주 학습을 시작해야 하나요?"
+	},
+	{
+		"id": "translation_1809",
+		"id3": "translation_809",
+		"prompt": "아이가 처음 학교에 갈 준비를 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_1810",
+		"id3": "translation_810",
+		"prompt": "오늘 밤에 영화를 보고 싶습니다. Angelica Houston의 영화 하나 또는 두 개를 추천해 주실 수 있나요?"
+	},
+	{
+		"id": "translation_1811",
+		"id3": "translation_811",
+		"prompt": "그린 스크린은 어떻게 작동하나요?"
+	},
+	{
+		"id": "translation_1812",
+		"id3": "translation_812",
+		"prompt": "엘비스 프레슬리에 대해 알려주세요."
+	},
+	{
+		"id": "translation_1813",
+		"id3": "translation_813",
+		"prompt": "화장실이 예전처럼 잘 물이 내려가지 않을 때 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_1814",
+		"id3": "translation_814",
+		"prompt": "초콜릿 땅콩 버터 퍼지 레시피를 검색해주세요."
+	},
+	{
+		"id": "translation_1815",
+		"id3": "translation_815",
+		"prompt": "종합 경기에 대해 다시 이야기할까요. 켄터키 주는 이오와 대학에 2.5 포인트를 걸었어요. 켄터키 주가 포인트 차이를 커버할 것으로 생각되요. 어떻게 생각하세요?"
+	},
+	{
+		"id": "translation_1816",
+		"id3": "translation_816",
+		"prompt": "고양이 벼룩은 사람을 물어요?"
+	},
+	{
+		"id": "translation_1817",
+		"id3": "translation_817",
+		"prompt": "달에 얼마나 많은 사람이 걸어갔나요?"
+	},
+	{
+		"id": "translation_1818",
+		"id3": "translation_818",
+		"prompt": "새로운 직업을 배울 때 너무 늦은 나이는 언제인가요?"
+	},
+	{
+		"id": "translation_1819",
+		"id3": "translation_819",
+		"prompt": "모든 산업에서 인공지능이 사용되는 건가요?"
+	},
+	{
+		"id": "translation_1820",
+		"id3": "translation_820",
+		"prompt": "사과 파이를 어떻게 만들까요?"
+	},
+	{
+		"id": "translation_1821",
+		"id3": "translation_821",
+		"prompt": "미국 대통령이 되기 위해서는 결혼해야 하나요?"
+	},
+	{
+		"id": "translation_1822",
+		"id3": "translation_822",
+		"prompt": "어린이 놀이터에 어떤 바닥재를 깔아야 다치지 않을까요?"
+	},
+	{
+		"id": "translation_1823",
+		"id3": "translation_823",
+		"prompt": "빵을 어떻게 만들죠?"
+	},
+	{
+		"id": "translation_1824",
+		"id3": "translation_824",
+		"prompt": "어린 소년을 위한 판타지 의상 중 어떤 것을 구할 수 있을까요?"
+	},
+	{
+		"id": "translation_1825",
+		"id3": "translation_825",
+		"prompt": "어린 소녀에게 어떤 재미있는 악세사리를 사줄 수 있을까요?"
+	},
+	{
+		"id": "translation_1826",
+		"id3": "translation_826",
+		"prompt": "손톱에서 몇 가지 네일 폴리시를 제거하고 싶은데, 어떤 제품을 사용해야 할지 몰라요. 추천해주실만한 제품이 있을까요?"
+	},
+	{
+		"id": "translation_1827",
+		"id3": "translation_827",
+		"prompt": "양은 털을 깎지 않고도 살 수 있을까요?"
+	},
+	{
+		"id": "translation_1828",
+		"id3": "translation_828",
+		"prompt": "암호화폐를 어떻게 구매할 수 있을까요?"
+	},
+	{
+		"id": "translation_1829",
+		"id3": "translation_829",
+		"prompt": "토마토를 잘게 썰면 두 개의 토마토가 생긴다는 속설이 사실일까요?"
+	},
+	{
+		"id": "translation_1830",
+		"id3": "translation_830",
+		"prompt": "정말 똑똑한 사람들이 자살율이 더 높은 이유가 무엇일까요?"
+	},
+	{
+		"id": "translation_1831",
+		"id3": "translation_831",
+		"prompt": "Windows 10에서 특정 하드 드라이브에 남은 용량을 어떻게 확인할 수 있을까요?"
+	},
+	{
+		"id": "translation_1832",
+		"id3": "translation_832",
+		"prompt": "미국의 이혼율은 높은 편인가요?"
+	},
+	{
+		"id": "translation_1833",
+		"id3": "translation_833",
+		"prompt": "Kenny Rogers와 Dolly Parton이 몇 개의 히트 곡에서 협업한 걸 기억할 수 있나요?"
+	},
+	{
+		"id": "translation_1834",
+		"id3": "translation_834",
+		"prompt": "시암 고양이는 좋은 애완동물일까요?"
+	},
+	{
+		"id": "translation_1835",
+		"id3": "translation_835",
+		"prompt": "무료 입출금 계좌로 어떤 서비스가 제공되나요?"
+	},
+	{
+		"id": "translation_1836",
+		"id3": "translation_836",
+		"prompt": "싼 웨딩을 어떻게 가져갈 수 있을까요?"
+	},
+	{
+		"id": "translation_1837",
+		"id3": "translation_837",
+		"prompt": "고래가 죽으면 어떻게 되나요?"
+	},
+	{
+		"id": "translation_1838",
+		"id3": "translation_838",
+		"prompt": "낯선 사람에게 자기 소개를 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_1839",
+		"id3": "translation_839",
+		"prompt": "실시간 스트리머에 대해 알고 있나요?"
+	},
+	{
+		"id": "translation_1840",
+		"id3": "translation_840",
+		"prompt": "ADHD를 가진 사람이 날마다의 계획을 더 잘 세우도록 하는 팁이 있을까요?"
+	},
+	{
+		"id": "translation_1841",
+		"id3": "translation_841",
+		"prompt": "후추는 어디서 얻을 수 있을까요? 나무에서 나오는 건가요?"
+	},
+	{
+		"id": "translation_1842",
+		"id3": "translation_842",
+		"prompt": "강아지 알레르기 때문에 할 수 있는 것이 있을까요? 제 강아지를 없애고 싶지 않아요."
+	},
+	{
+		"id": "translation_1843",
+		"id3": "translation_843",
+		"prompt": "양말을 신지 않고 신발을 신어서 신발이 냄새 납니다. 도와주세요!"
+	},
+	{
+		"id": "translation_1844",
+		"id3": "translation_844",
+		"prompt": "어느 나이부터 아이들은 장난감으로 놀지 않아야 할까요?"
+	},
+	{
+		"id": "translation_1845",
+		"id3": "translation_845",
+		"prompt": "이사할 예정인 아파트에 새로운 임대차 계약서를 받았습니다. 서명하기 전에 특히 주의해야 할 사항이 있는지 알고 싶습니다."
+	},
+	{
+		"id": "translation_1846",
+		"id3": "translation_846",
+		"prompt": "미국에서 방문하기 좋은 동물원은 어디인가요?"
+	},
+	{
+		"id": "translation_1847",
+		"id3": "translation_847",
+		"prompt": "초보자를 위한 좋은 비디오 편집기가 있을까요?"
+	},
+	{
+		"id": "translation_1848",
+		"id3": "translation_848",
+		"prompt": "허리케인에 대비하여 집을 어떻게 준비해야 하나요?"
+	},
+	{
+		"id": "translation_1849",
+		"id3": "translation_849",
+		"prompt": "슬링샷을 어떻게 만들 수 있나요?"
+	},
+	{
+		"id": "translation_1850",
+		"id3": "translation_850",
+		"prompt": "풋볼 파티를 위해 어떤 것들을 준비할 수 있을까요?"
+	},
+	{
+		"id": "translation_1851",
+		"id3": "translation_851",
+		"prompt": "Terry Gou의 순자산은 얼마인가요?"
+	},
+	{
+		"id": "translation_1852",
+		"id3": "translation_852",
+		"prompt": "일부 물리학자들은 사람들이 인식할 수 없는 물리적 물체가 존재할 수도 있다고 말합니다. 어떻게 생각하세요?"
+	},
+	{
+		"id": "translation_1853",
+		"id3": "translation_853",
+		"prompt": "매너하탕 칵테일을 만들려고 하는데 매콤하게 만들려면 어떤 아이디어가 있을까요?"
+	},
+	{
+		"id": "translation_1854",
+		"id3": "translation_854",
+		"prompt": "길거리 고양이를 돌봐주는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_1855",
+		"id3": "translation_855",
+		"prompt": "소득세란 무엇인가요?"
+	},
+	{
+		"id": "translation_1856",
+		"id3": "translation_856",
+		"prompt": "겨울에 이불에 좋은 소재는 무엇인가요?"
+	},
+	{
+		"id": "translation_1857",
+		"id3": "translation_857",
+		"prompt": "왜 NASA는 신학자들을 고용했나요?"
+	},
+	{
+		"id": "translation_1858",
+		"id3": "translation_858",
+		"prompt": "라이브 스트리밍을 하려고 하는데 항상 지연이 걸려요. 이를 위해 정말 빠른 인터넷이 필요한가요?"
+	},
+	{
+		"id": "translation_1859",
+		"id3": "translation_859",
+		"prompt": "퉁구스카 사건에 대해 알려주세요."
+	},
+	{
+		"id": "translation_1860",
+		"id3": "translation_860",
+		"prompt": "크리미한 파스타는 어떤 것이 있을까요?"
+	},
+	{
+		"id": "translation_1861",
+		"id3": "translation_861",
+		"prompt": "하와이는 언제 주가 되었나요?"
+	},
+	{
+		"id": "translation_1862",
+		"id3": "translation_862",
+		"prompt": "그래픽 디자인은 무엇인가요?"
+	},
+	{
+		"id": "translation_1863",
+		"id3": "translation_863",
+		"prompt": "내 지붕에 태양광 패널을 설치하는 방법은 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_1864",
+		"id3": "translation_864",
+		"prompt": "클리블랜드 오하이오에서 할만한 재미있는 것들이 뭐가 있나요?"
+	},
+	{
+		"id": "translation_1865",
+		"id3": "translation_865",
+		"prompt": "가스 로그를 어떻게 설치하나요?"
+	},
+	{
+		"id": "translation_1866",
+		"id3": "translation_866",
+		"prompt": "옷에서 어떻게 양초 왁스를 제거하나요? 양초에서 녹아 실질이 된 왁스입니다."
+	},
+	{
+		"id": "translation_1867",
+		"id3": "translation_867",
+		"prompt": "인터넷에서 사람을 만나는 첫 번째 데이트에 어떤 팁이 있나요?"
+	},
+	{
+		"id": "translation_1868",
+		"id3": "translation_868",
+		"prompt": "가끔 집에서 손님을 접대하는데, 흥미를 끌려고 다양한 요리와 음료수 레시피를 모으고 있어요. 아르메니아 요리를 시도해보기로 했어요. 바스투르마의 레시피를 알려주세요."
+	},
+	{
+		"id": "translation_1869",
+		"id3": "translation_869",
+		"prompt": "새우를 어떻게 준비하면 좋을까요?"
+	},
+	{
+		"id": "translation_1870",
+		"id3": "translation_870",
+		"prompt": "킨세나에라에 초대받았습니다. 이게 무엇인가요?"
+	},
+	{
+		"id": "translation_1871",
+		"id3": "translation_871",
+		"prompt": "상처를 어떻게 치유할 수 있을까요?"
+	},
+	{
+		"id": "translation_1872",
+		"id3": "translation_872",
+		"prompt": "겨울에 지하실 파이프가 얼지 않게 어떻게 할 수 있을까요?"
+	},
+	{
+		"id": "translation_1873",
+		"id3": "translation_873",
+		"prompt": "풍선에 대해 어떻게 작동하며 타고 있는 것은 안전한가요?"
+	},
+	{
+		"id": "translation_1874",
+		"id3": "translation_874",
+		"prompt": "다이빙 보드에서 점프하는 법을 배우려면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_1875",
+		"id3": "translation_875",
+		"prompt": "프랑스에 대해 논문을 쓰고 있는데 도움이 필요합니다. 프랑스의 역사에 대해 정보를 알려주시겠어요?"
+	},
+	{
+		"id": "translation_1876",
+		"id3": "translation_876",
+		"prompt": "아이에게 자전거 타는 법을 가르치는 방법이 있을까요?"
+	},
+	{
+		"id": "translation_1877",
+		"id3": "translation_877",
+		"prompt": "신분도용으로부터 어떻게 자신을 보호할 수 있을까요?"
+	},
+	{
+		"id": "translation_1878",
+		"id3": "translation_878",
+		"prompt": "우리 고양이가 가구를 망가뜨리는 것을 어떻게 막을 수 있을까요?"
+	},
+	{
+		"id": "translation_1879",
+		"id3": "translation_879",
+		"prompt": "겨울 동안 살아남을 수 있는 허브 몇 가지가 있을까요?"
+	},
+	{
+		"id": "translation_1880",
+		"id3": "translation_880",
+		"prompt": "향수란 무엇이며, 어떤 잠재적인 함정이 있을까요?"
+	},
+	{
+		"id": "translation_1881",
+		"id3": "translation_881",
+		"prompt": "나무와 금속을 결합하기 위해 어떤 접착제가 좋을까요?"
+	},
+	{
+		"id": "translation_1882",
+		"id3": "translation_882",
+		"prompt": "안녕하세요, 저는 최근에 고등학교를 졸업했고, 경찰관이 되고 싶습니다. 이 목표를 달성하기 위해 어떤 단계를 거쳐야 하는지 알려주실 수 있을까요?"
+	},
+	{
+		"id": "translation_1883",
+		"id3": "translation_883",
+		"prompt": "당뇨병 환자는 반드시 발목 전문의를 방문해야 하나요?"
+	},
+	{
+		"id": "translation_1884",
+		"id3": "translation_884",
+		"prompt": "저는 정치에 대해 알아야하지만 당파적인 것들이 지치네요. 뉴스 소스에서 정치적 편향성을 식별하거나 걸러내는 웹 사이트가 있는지 알고 계시나요?"
+	},
+	{
+		"id": "translation_1885",
+		"id3": "translation_885",
+		"prompt": "저는 항우울제에 대해 연구하고 있는데, 특정 유형의 항우울제가 다른 약물보다 우울증과 불안을 완화하는 데 더 효과적인지에 대한 정보를 제공해주실 수 있을까요?"
+	},
+	{
+		"id": "translation_1886",
+		"id3": "translation_886",
+		"prompt": "저는 감사절 때 사용하는 고체 크렌베리 통조림을 발견했어요. 어떻게 제공해야 할까요? 그냥 식사에 썰어 놓고 제공하면 되나요?"
+	},
+	{
+		"id": "translation_1887",
+		"id3": "translation_887",
+		"prompt": "저는 포켓몬 트레이 딩 카드 게임을 좋아합니다. 다른 유사한 카드 게임이 있나요?"
+	},
+	{
+		"id": "translation_1888",
+		"id3": "translation_888",
+		"prompt": "어떻게 단호해질 수 있을까요?"
+	},
+	{
+		"id": "translation_1889",
+		"id3": "translation_889",
+		"prompt": "어린이가 레슬링 시합을 보는 것은 너무 폭력적일까요?"
+	},
+	{
+		"id": "translation_1890",
+		"id3": "translation_890",
+		"prompt": "선거에서 누구에게 투표해야 할까요?"
+	},
+	{
+		"id": "translation_1891",
+		"id3": "translation_891",
+		"prompt": "가는 머리가 기름진 느낌을 없애려면 어떻게 해야하나요?"
+	},
+	{
+		"id": "translation_1892",
+		"id3": "translation_892",
+		"prompt": "도박 중독을 멈출 수 있는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_1893",
+		"id3": "translation_893",
+		"prompt": "영화 Singing In The Rain에는 누가 출연했나요?"
+	},
+	{
+		"id": "translation_1894",
+		"id3": "translation_894",
+		"prompt": "레코프로케이팅 톱을 사용하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_1895",
+		"id3": "translation_895",
+		"prompt": "3세 아이에게 구슬 꿰는 법을 가르치려면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_1896",
+		"id3": "translation_896",
+		"prompt": "캠핑 경험을 더 즐겁게 하려면 무엇을 사야 하나요?"
+	},
+	{
+		"id": "translation_1897",
+		"id3": "translation_897",
+		"prompt": "100년 내에 멸종 위기에 처한 동물은 어떤 것들인가요?"
+	},
+	{
+		"id": "translation_1898",
+		"id3": "translation_898",
+		"prompt": "내 작품을 판매하는 방법을 어디에서 배울 수 있을까요?"
+	},
+	{
+		"id": "translation_1899",
+		"id3": "translation_899",
+		"prompt": "화상을 치료하기 가장 좋은 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_1900",
+		"id3": "translation_900",
+		"prompt": "10 더하기 2는 얼마입니까?"
+	},
+	{
+		"id": "translation_1901",
+		"id3": "translation_901",
+		"prompt": "암에 대한 '치료법'이 아직 개발되지 않았을 때, 여러 해가 지난 지금까지 암의 유병률이 높은 상황이 왜 있는 걸까요? 암은 왜 특히 어려운 질병일까요?"
+	},
+	{
+		"id": "translation_1902",
+		"id3": "translation_902",
+		"prompt": "안녕하세요, 저는 다리 운동에 스쿼트를 추가하고 싶습니다. 이 운동을 어떻게 수행해야 할까요?"
+	},
+	{
+		"id": "translation_1903",
+		"id3": "translation_903",
+		"prompt": "높은 콜레스테롤이란 무엇인가요?"
+	},
+	{
+		"id": "translation_1904",
+		"id3": "translation_904",
+		"prompt": "새우로 어떤 식사를 준비할 수 있을까요?"
+	},
+	{
+		"id": "translation_1905",
+		"id3": "translation_905",
+		"prompt": "디저트로 먹을 수 있는 팝시클 플레이버에 어떤 재미있는 아이디어가 있을까요?"
+	},
+	{
+		"id": "translation_1906",
+		"id3": "translation_906",
+		"prompt": "서구 사회가 현대 세계에서 더 정발적으로 변화했다고 생각되거나 이전 시대를 오해한 걸까요?"
+	},
+	{
+		"id": "translation_1907",
+		"id3": "translation_907",
+		"prompt": "크레페는 어떻게 만들까요?"
+	},
+	{
+		"id": "translation_1908",
+		"id3": "translation_908",
+		"prompt": "농림수산부가 무슨 일을 하나요?"
+	},
+	{
+		"id": "translation_1909",
+		"id3": "translation_909",
+		"prompt": "특정 직업군에서 언어로 사용되는 일반적인 표현들이 어떤 것들이 있을까요? 예를 들어, 사법부에서는 용의자가 \"평범한 장소에 은신했다\"라는 식으로 말할 때가 있습니다. 여러 직업에서 흔히들 사용하는 표현들이 무엇이 있는지 생각해볼 수 있을까요?"
+	},
+	{
+		"id": "translation_1910",
+		"id3": "translation_910",
+		"prompt": "맛감이 정확히 어떻게 작동하나요?"
+	},
+	{
+		"id": "translation_1911",
+		"id3": "translation_911",
+		"prompt": "오렌지는 어느 지역에서 비롯되었나요?"
+	},
+	{
+		"id": "translation_1912",
+		"id3": "translation_912",
+		"prompt": "과일이 익었는지 어떻게 알 수 있나요?"
+	},
+	{
+		"id": "translation_1913",
+		"id3": "translation_913",
+		"prompt": "친구가 뒷마당에서 나무 하나를 베어내야 했는데 그 친구는 나무를 상당히 좋아했습니다. 어떻게 도움을 줄까요?"
+	},
+	{
+		"id": "translation_1914",
+		"id3": "translation_914",
+		"prompt": "지구의 암석은 몇 도일까요?"
+	},
+	{
+		"id": "translation_1915",
+		"id3": "translation_915",
+		"prompt": "메스꺼움을 느낄 때 어떤게 최선일까요?"
+	},
+	{
+		"id": "translation_1916",
+		"id3": "translation_916",
+		"prompt": "열대 지방을 방문하고 싶은데, 산호 어초에서 물고기를 보기 위해 스노클링을 하려고 합니다. 하지만 이전에 한 번도 해본 적이 없습니다. 어떤 장비가 필요한가요?"
+	},
+	{
+		"id": "translation_1917",
+		"id3": "translation_917",
+		"prompt": "휴대용 LED 기계를 여전히 사용해야 할까요?"
+	},
+	{
+		"id": "translation_1918",
+		"id3": "translation_918",
+		"prompt": "아침식사용 시리얼 예시를 알려주세요."
+	},
+	{
+		"id": "translation_1919",
+		"id3": "translation_919",
+		"prompt": "벽에 생쥐가 들어오는 구멍을 어떻게 막을까요?"
+	},
+	{
+		"id": "translation_1920",
+		"id3": "translation_920",
+		"prompt": "책상에서 일할 때 더 많이 운동하는 방법은 뭐가 있을까요?"
+	},
+	{
+		"id": "translation_1921",
+		"id3": "translation_921",
+		"prompt": "전쟁 중 남부가 항복한 이유는 뭘까요?"
+	},
+	{
+		"id": "translation_1922",
+		"id3": "translation_922",
+		"prompt": "파스타 카르보나라 레시피를 찾아줄래요?"
+	},
+	{
+		"id": "translation_1923",
+		"id3": "translation_923",
+		"prompt": "어린이가 악기 연주를 배우면 나중에 어떤 이점이 있을까요?"
+	},
+	{
+		"id": "translation_1924",
+		"id3": "translation_924",
+		"prompt": "힌두교의 삼위일체란 무엇인가요?"
+	},
+	{
+		"id": "translation_1925",
+		"id3": "translation_925",
+		"prompt": "사람들이 \"문화적\"이거나 \"사회적으로 구축된\" 일부 인간 습관을 얘기할 때의 의미는 무엇인가요?"
+	},
+	{
+		"id": "translation_1926",
+		"id3": "translation_926",
+		"prompt": "애니메이션에 관한 질문을 해도 될까요?"
+	},
+	{
+		"id": "translation_1927",
+		"id3": "translation_927",
+		"prompt": "영화 Twilight에 대해 설명해주세요."
+	},
+	{
+		"id": "translation_1928",
+		"id3": "translation_928",
+		"prompt": "젤이 없을 때, 머리에 무엇을 사용할까요?"
+	},
+	{
+		"id": "translation_1929",
+		"id3": "translation_929",
+		"prompt": "어떻게 하면 직원들이 더 생산적이게 될까요?"
+	},
+	{
+		"id": "translation_1930",
+		"id3": "translation_930",
+		"prompt": "진실 범죄 TV 프로그램을 추천해 줄 수 있나요?"
+	},
+	{
+		"id": "translation_1931",
+		"id3": "translation_931",
+		"prompt": "개의 귀를 청소하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_1932",
+		"id3": "translation_932",
+		"prompt": "Java 프로그래밍 언어를 만든 회사는 어디인가요?"
+	},
+	{
+		"id": "translation_1933",
+		"id3": "translation_933",
+		"prompt": "전곡 빵이 일반 흰빵보다 좋은가요?"
+	},
+	{
+		"id": "translation_1934",
+		"id3": "translation_934",
+		"prompt": "Amazon과 Amazon Prime으로 가입하려고 하는데, 사이트를 사용해본 적이 없습니다. 도와주실 수 있을까요?"
+	},
+	{
+		"id": "translation_1935",
+		"id3": "translation_935",
+		"prompt": "개를 차에 태우는 게 좋을까요?"
+	},
+	{
+		"id": "translation_1936",
+		"id3": "translation_936",
+		"prompt": "카페인이 좋은 건지 아닌지에 대한 확실한 연구가 있는 건가요?"
+	},
+	{
+		"id": "translation_1937",
+		"id3": "translation_937",
+		"prompt": "텍사스에서 가장 큰 호수는 무엇인가요?"
+	},
+	{
+		"id": "translation_1938",
+		"id3": "translation_938",
+		"prompt": "관심을 유발할 만한 이자를 얻기 위해서 돈을 어디에 넣어야 할까요? 은행, 대출조합 또는 다른 곳?"
+	},
+	{
+		"id": "translation_1939",
+		"id3": "translation_939",
+		"prompt": "헬스장 회원가입 절차를 알려주세요."
+	},
+	{
+		"id": "translation_1940",
+		"id3": "translation_940",
+		"prompt": "바이킹은 누구였나요?"
+	},
+	{
+		"id": "translation_1941",
+		"id3": "translation_941",
+		"prompt": "다음 달에는 아일랜드 더블린으로 출장을 가게 될 예정입니다. 출장 중 하루 휴가가 생기는데, 몇 개의 다른 장소를 포함한 일일 여행 일정을 짜 줄 수 있을까요?"
+	},
+	{
+		"id": "translation_1942",
+		"id3": "translation_942",
+		"prompt": "서브포네이는 무엇을 의미하나요?"
+	},
+	{
+		"id": "translation_1943",
+		"id3": "translation_943",
+		"prompt": "토끼는 좋은 애완동물인가요?"
+	},
+	{
+		"id": "translation_1944",
+		"id3": "translation_944",
+		"prompt": "에어 프라이어에서 무엇을 요리할 수 있나요?"
+	},
+	{
+		"id": "translation_1945",
+		"id3": "translation_945",
+		"prompt": "영화 'Mommie Dearest'는 실화입니까?"
+	},
+	{
+		"id": "translation_1946",
+		"id3": "translation_946",
+		"prompt": "이탈리아 여행을 가려고 하는데 몇 가지 머리와 관련된 단어를 배우고 싶습니다."
+	},
+	{
+		"id": "translation_1947",
+		"id3": "translation_947",
+		"prompt": "밴드 '이글스'의 가장 인기 있는 히트곡은 무엇인가요?"
+	},
+	{
+		"id": "translation_1948",
+		"id3": "translation_948",
+		"prompt": "라이센스를 받은 헤어 스타일리스트가 되기 위한 절차는 어떻게 되나요?"
+	},
+	{
+		"id": "translation_1949",
+		"id3": "translation_949",
+		"prompt": "핵 에너지가 안전하고 효과적인 방식이라면 왜 사람들은 핵 에너지에서 멀어지려고 할까요?"
+	},
+	{
+		"id": "translation_1950",
+		"id3": "translation_950",
+		"prompt": "휴일에 우울증을 피하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_1951",
+		"id3": "translation_951",
+		"prompt": "멕시코를 방문할 때 어떤 활동을 할 수 있나요?"
+	},
+	{
+		"id": "translation_1952",
+		"id3": "translation_952",
+		"prompt": "자전거의 핸들 브레이크를 어떻게 조정하나요?"
+	},
+	{
+		"id": "translation_1953",
+		"id3": "translation_953",
+		"prompt": "폭발성 분말(나중에 화약으로 알려질 것)은 언제 처음 발명되었으며 어떤 목적으로 사용되었나요?"
+	},
+	{
+		"id": "translation_1954",
+		"id3": "translation_954",
+		"prompt": "도넛이나 머핀과 같은 달콤한 디저트를 왜 아침 식사로 먹을까요? 그것들은 그냥 단맛이 나는 디저트일 뿐입니다."
+	},
+	{
+		"id": "translation_1955",
+		"id3": "translation_955",
+		"prompt": "어떻게 나의 님을 깜짝 놀래킬 수 있을까요? 그들이 특별함을 느끼도록 할 수 있는 귀여운 방법이 무엇일까요?"
+	},
+	{
+		"id": "translation_1956",
+		"id3": "translation_956",
+		"prompt": "의회에서 의원이 비난받을 때 어떤 일이 벌어질까요?"
+	},
+	{
+		"id": "translation_1957",
+		"id3": "translation_957",
+		"prompt": "악과 선에 대한 영화 중 최고의 영화는 무엇인가요?"
+	},
+	{
+		"id": "translation_1958",
+		"id3": "translation_958",
+		"prompt": "포켓몬은 심지어 디즈니보다 가치가 높다는데, 포켓몬이 가장 수익이 큰 미디어 프랜차이즈인가요?"
+	},
+	{
+		"id": "translation_1959",
+		"id3": "translation_959",
+		"prompt": "NFL 또는 NBA에 입장하려면 대학에 가야 할까요?"
+	},
+	{
+		"id": "translation_1960",
+		"id3": "translation_960",
+		"prompt": "데이토나 비치에서 할 수 있는 활동은 어떤 것들이 있나요?"
+	},
+	{
+		"id": "translation_1961",
+		"id3": "translation_961",
+		"prompt": "빌 머레이 영화를 찾는 데 도움을 줄 수 있을까요?"
+	},
+	{
+		"id": "translation_1962",
+		"id3": "translation_962",
+		"prompt": "비트코인에 투자하는 방법을 알려주세요."
+	},
+	{
+		"id": "translation_1963",
+		"id3": "translation_963",
+		"prompt": "마크 트웨인은 어떤 점으로 알려져 있나요?"
+	},
+	{
+		"id": "translation_1964",
+		"id3": "translation_964",
+		"prompt": "이분법적 분류표란 무엇이며, 동물에 사용되는 방법은 어떻게 될까요?"
+	},
+	{
+		"id": "translation_1965",
+		"id3": "translation_965",
+		"prompt": "침술은 사기인가요? 몸에 바늘을 꽂으면 어떻게 도움이 될까요?"
+	},
+	{
+		"id": "translation_1966",
+		"id3": "translation_966",
+		"prompt": "바락 오바마에 대해 알려주세요."
+	},
+	{
+		"id": "translation_1967",
+		"id3": "translation_967",
+		"prompt": "블랙 라이브스 매터는 무엇을 의미합니까?"
+	},
+	{
+		"id": "translation_1968",
+		"id3": "translation_968",
+		"prompt": "마사지는 신체 건강에 어떤 이점을 제공합니까, 혹은 심리적인 것만일까요?"
+	},
+	{
+		"id": "translation_1969",
+		"id3": "translation_969",
+		"prompt": "크리스마스 저녁 식사로 집에서 허니 베이크드 햄을 어떻게 만들 수 있을까요?"
+	},
+	{
+		"id": "translation_1970",
+		"id3": "translation_970",
+		"prompt": "콘센트의 벽판이 깨져서 어떻게 고치거나 교체할 수 있을까요?"
+	},
+	{
+		"id": "translation_1971",
+		"id3": "translation_971",
+		"prompt": "선크림 없이 해외에 오랫동안 외출하면 피부가 탈 수 있는 이유를 설명해주실 수 있나요?"
+	},
+	{
+		"id": "translation_1972",
+		"id3": "translation_972",
+		"prompt": "다음 달핀란드 오울루로 출장을 가야합니다. 이 출장 도중 하루는 여유 시간이 있으며, 이 도시의 명소와 풍경을 보고 싶습니다. 그 날을 위한 일정을 구성해주실 수 있을까요?"
+	},
+	{
+		"id": "translation_1973",
+		"id3": "translation_973",
+		"prompt": "감사절을 위한 좋은 레시피를 찾고 있어요. 어떤 아이디어가 있을까요?"
+	},
+	{
+		"id": "translation_1974",
+		"id3": "translation_974",
+		"prompt": "왜 베이와치는 인기 있는 텔레비전 프로그램이었나요?"
+	},
+	{
+		"id": "translation_1975",
+		"id3": "translation_975",
+		"prompt": "루푸스는 무엇인가요?"
+	},
+	{
+		"id": "translation_1976",
+		"id3": "translation_976",
+		"prompt": "어항 청소하는 가장 쉬운 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_1977",
+		"id3": "translation_977",
+		"prompt": "아기를 아기 의자에서 일어서는 것을 어떻게 멈출 수 있을까요?"
+	},
+	{
+		"id": "translation_1978",
+		"id3": "translation_978",
+		"prompt": "식량 낭비를 어떻게 줄일 수 있을까요?"
+	},
+	{
+		"id": "translation_1979",
+		"id3": "translation_979",
+		"prompt": "세금신고를 위해 제출해야 할 양식은 무엇인가요?"
+	},
+	{
+		"id": "translation_1980",
+		"id3": "translation_980",
+		"prompt": "단어 찾기 게임에서 어떻게 더 잘될 수 있을까요?"
+	},
+	{
+		"id": "translation_1981",
+		"id3": "translation_981",
+		"prompt": "핀란드는 독일보다 현저히 추운가요?"
+	},
+	{
+		"id": "translation_1982",
+		"id3": "translation_982",
+		"prompt": "GTA 3은 사실상 사이버펑크 2077과 비슷한가요?"
+	},
+	{
+		"id": "translation_1983",
+		"id3": "translation_983",
+		"prompt": "어느 나이부터 아이들은 발레를 시작해야 할까요?"
+	},
+	{
+		"id": "translation_1984",
+		"id3": "translation_984",
+		"prompt": "어떤 차 브랜드가 가장 신뢰할까요?"
+	},
+	{
+		"id": "translation_1985",
+		"id3": "translation_985",
+		"prompt": "혁명전쟁으로 이어진 배경에 대해 말씀해주세요"
+	},
+	{
+		"id": "translation_1986",
+		"id3": "translation_986",
+		"prompt": "내 가정을 더 에너지 효율적으로 만드는 방법이 무엇인가요?"
+	},
+	{
+		"id": "translation_1987",
+		"id3": "translation_987",
+		"prompt": "좋은 수의사를 찾는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_1988",
+		"id3": "translation_988",
+		"prompt": "Aerosmith 밴드를 좋아하고 가장 인기 있는 히트곡으로 구성된 재생 목록을 만들고 싶습니다. 도와주실 수 있나요?"
+	},
+	{
+		"id": "translation_1989",
+		"id3": "translation_989",
+		"prompt": "함부르크에서 방문하기 좋은 장소는 어디인가요?"
+	},
+	{
+		"id": "translation_1990",
+		"id3": "translation_990",
+		"prompt": "20세기 초에 드레드노트라는 유형의 전함이 있었습니다. 이것이 무엇인지 설명해주실 수 있을까요?"
+	},
+	{
+		"id": "translation_1991",
+		"id3": "translation_991",
+		"prompt": "It's Always Sunny in Philadelphia은 언제 시작했나요?"
+	},
+	{
+		"id": "translation_1992",
+		"id3": "translation_992",
+		"prompt": "Thomas Edison의 생애에 대해 알려주세요"
+	},
+	{
+		"id": "translation_1993",
+		"id3": "translation_993",
+		"prompt": "농산물 시장에서 집에서 재배한 버섯을 판매하는 사람들을 종종 보는데, 이를 수행하는 데 어떤 비용과 어려움이 있는지 알려주세요"
+	},
+	{
+		"id": "translation_1994",
+		"id3": "translation_994",
+		"prompt": "연중 가장 긴 날은 언제인가요?"
+	},
+	{
+		"id": "translation_1995",
+		"id3": "translation_995",
+		"prompt": "저는 계속해서 설사가 있습니다. 무슨 문제가 있을까요?"
+	},
+	{
+		"id": "translation_1996",
+		"id3": "translation_996",
+		"prompt": "주전자에서 리브아이 스테이크를 요리하려면 가스레인지에서 요리해야 할까요? 아니면 오븐에 넣어야 할까요?"
+	},
+	{
+		"id": "translation_1997",
+		"id3": "translation_997",
+		"prompt": "감사제에 10명의 손님들을 초대했습니다. 계획을 위해 어떻게 해야 할까요?"
+	},
+	{
+		"id": "translation_1998",
+		"id3": "translation_998",
+		"prompt": "지난 100년 동안 이혼율이 왜 이렇게 높아졌을까요?"
+	},
+	{
+		"id": "translation_1999",
+		"id3": "translation_999",
+		"prompt": "전화방송 없이 실시간 TV를 어떻게 시청할 수 있을까요?"
+	},
+	{
+		"id": "translation_2000",
+		"id3": "translation_1000",
+		"prompt": "워터버스의 장단점은 무엇인가요?"
+	},
+	{
+		"id": "translation_2001",
+		"id3": "translation_1001",
+		"prompt": "고양이는 우유를 마시기로 알려져 있지만, 고양이는 유제품을 섭취해서는 안 된다고 읽었습니다. 이게 사실인가요?"
+	},
+	{
+		"id": "translation_2002",
+		"id3": "translation_1002",
+		"prompt": "접시를 어떻게 정리해야 할까요?"
+	},
+	{
+		"id": "translation_2003",
+		"id3": "translation_1003",
+		"prompt": "집 바깥면을 페인트칠할 때 어떤 종류의 붓을 사용하는 게 가장 좋을까요?"
+	},
+	{
+		"id": "translation_2004",
+		"id3": "translation_1004",
+		"prompt": "엉덩이를 단단하게 하는 방법이 있을까요?"
+	},
+	{
+		"id": "translation_2005",
+		"id3": "translation_1005",
+		"prompt": "어떻게 적합한 애완용 토끼를 선택하나요?"
+	},
+	{
+		"id": "translation_2006",
+		"id3": "translation_1006",
+		"prompt": "당뇨병이 있는 숙모에게 어떤 건강한 음료를 추천하면 좋을까요?"
+	},
+	{
+		"id": "translation_2007",
+		"id3": "translation_1007",
+		"prompt": "임심 중에 탄생이 언제쯤 일어나나요?"
+	},
+	{
+		"id": "translation_2008",
+		"id3": "translation_1008",
+		"prompt": "멕시코 캐서롤 레시피를 찾아봐주세요."
+	},
+	{
+		"id": "translation_2009",
+		"id3": "translation_1009",
+		"prompt": "어떤 것을 '비사회적(be antisocial)'이라고 하는 건가요?"
+	},
+	{
+		"id": "translation_2010",
+		"id3": "translation_1010",
+		"prompt": "'Schrodinger's cat'이라는 용어를 듣고 어떤 것인지 잘 모르겠습니다. 설명해 주실 수 있나요?"
+	},
+	{
+		"id": "translation_2011",
+		"id3": "translation_1011",
+		"prompt": "미술 갤러리는 흥미로울까요?"
+	},
+	{
+		"id": "translation_2012",
+		"id3": "translation_1012",
+		"prompt": "Carnival Cruise Line에 대해 알 수 있을까요? 신뢰할 만한 회사인가요?"
+	},
+	{
+		"id": "translation_2013",
+		"id3": "translation_1013",
+		"prompt": "아크릴 네일을 제거하는 팁을 몇 가지 모아주세요."
+	},
+	{
+		"id": "translation_2014",
+		"id3": "translation_1014",
+		"prompt": "요란한 아기를 진정시킬 수 있는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2015",
+		"id3": "translation_1015",
+		"prompt": "로브 로우(Rob Lowe)의 최고의 영화를 검색해주세요."
+	},
+	{
+		"id": "translation_2016",
+		"id3": "translation_1016",
+		"prompt": "다큐멘터리를 만드는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2017",
+		"id3": "translation_1017",
+		"prompt": "이디엄(idiom)이란 무엇인가요?"
+	},
+	{
+		"id": "translation_2018",
+		"id3": "translation_1018",
+		"prompt": "가장 건강한 채소는 무엇인가요?"
+	},
+	{
+		"id": "translation_2019",
+		"id3": "translation_1019",
+		"prompt": "곧 아이를 학교로 보내야 할 때가 되었는데, 홈스쿨링에 대해 어떻게 생각하시나요?"
+	},
+	{
+		"id": "translation_2020",
+		"id3": "translation_1020",
+		"prompt": "펠트로 만드는 좋은 공예물은 어떤 것이 있나요?"
+	},
+	{
+		"id": "translation_2021",
+		"id3": "translation_1021",
+		"prompt": "제 동네에 몇 마리의 무스(Moose)가 돌아다니고 있는데, 근접하여 비디오나 사진을 찍어도 안전할까요?"
+	},
+	{
+		"id": "translation_2022",
+		"id3": "translation_1022",
+		"prompt": "알비노즘의 주요 원인은 무엇인가요?"
+	},
+	{
+		"id": "translation_2023",
+		"id3": "translation_1023",
+		"prompt": "비건 식단은 건강에 충분한 영양소가 포함되어 있나요?"
+	},
+	{
+		"id": "translation_2024",
+		"id3": "translation_1024",
+		"prompt": "아이스크림 선데는 어떻게 만드나요?"
+	},
+	{
+		"id": "translation_2025",
+		"id3": "translation_1025",
+		"prompt": "수단적 행위를 저지른 전 미국 대통령에게 가장 엄중한 처벌은 무엇인가요?"
+	},
+	{
+		"id": "translation_2026",
+		"id3": "translation_1026",
+		"prompt": "크리스마스에 아빠에게 무슨 선물을 줘야 할까요?"
+	},
+	{
+		"id": "translation_2027",
+		"id3": "translation_1027",
+		"prompt": "블루베리 팬케이크 레시피를 찾아주세요."
+	},
+	{
+		"id": "translation_2028",
+		"id3": "translation_1028",
+		"prompt": "COVID-19 대유행 때문에, 인류 역사상 처음 기록된 역병은 언제였을까요? 적어도 언제라고 믿어지나요?"
+	},
+	{
+		"id": "translation_2029",
+		"id3": "translation_1029",
+		"prompt": "버섯 리조또를 위한 좋은 반찬은 무엇인가요?"
+	},
+	{
+		"id": "translation_2030",
+		"id3": "translation_1030",
+		"prompt": "저는 그레이트 레이크 지역에 살고 있는데 여행이나 겨울 캠핑 중에 가끔 썬더스노우에 놀랐던 적이 있어요. 썬더스노우를 예보해주는 날씨 채널이나 웹사이트를 아세요?"
+	},
+	{
+		"id": "translation_2031",
+		"id3": "translation_1031",
+		"prompt": "프랭크 시나트라는 가끔씩 성미가 나빠진다는 소문을 들었어요. 역사적으로 그에 대해 많이 알고 있나요?"
+	},
+	{
+		"id": "translation_2032",
+		"id3": "translation_1032",
+		"prompt": "결혼을 위해 얼마나 많은 돈을 저축해야 할까요?"
+	},
+	{
+		"id": "translation_2033",
+		"id3": "translation_1033",
+		"prompt": "대학 첫 학기 수업 시간표는 어떻게 정해야 하나요?"
+	},
+	{
+		"id": "translation_2034",
+		"id3": "translation_1034",
+		"prompt": "다리를 아프게 하는 운동을 추천해줄 수 있을까요?"
+	},
+	{
+		"id": "translation_2035",
+		"id3": "translation_1035",
+		"prompt": "눈길 주행하기 좋은 차종을 추천해주실 수 있을까요?"
+	},
+	{
+		"id": "translation_2036",
+		"id3": "translation_1036",
+		"prompt": "좋은 범죄 추리 소설을 찾고 있어요. 에드거 앨런 포의 작품으로 흥미로운 것을 추천해 줄 수 있을까요?"
+	},
+	{
+		"id": "translation_2037",
+		"id3": "translation_1037",
+		"prompt": "캔에서 쿠키 커터를 만드는 방법이 무엇인가요?"
+	},
+	{
+		"id": "translation_2038",
+		"id3": "translation_1038",
+		"prompt": "알레르기가 있어요. 어떤 종류의 베개를 사야 하나요?"
+	},
+	{
+		"id": "translation_2039",
+		"id3": "translation_1039",
+		"prompt": "오페라의 유령에 관한 이야기를 해주세요."
+	},
+	{
+		"id": "translation_2040",
+		"id3": "translation_1040",
+		"prompt": "그래피티는 예술 형식으로 간주될까요? 조금 이상한 질문이지만, 가끔 커뮤니티는 그래피티를 보호하고 예술로 인정하기도 해요."
+	},
+	{
+		"id": "translation_2041",
+		"id3": "translation_1041",
+		"prompt": "크랜베리 주스를 마시는 건강상의 이점은 무엇인가요?"
+	},
+	{
+		"id": "translation_2042",
+		"id3": "translation_1042",
+		"prompt": "2020년 6월 AMD 주식 가격은 얼마였나요?"
+	},
+	{
+		"id": "translation_2043",
+		"id3": "translation_1043",
+		"prompt": "인류 사회가 언제 무너질 것인지에 대한 이론이 있나요?"
+	},
+	{
+		"id": "translation_2044",
+		"id3": "translation_1044",
+		"prompt": "12현 기타는 6현 기타보다 배우기 어려울까요?"
+	},
+	{
+		"id": "translation_2045",
+		"id3": "translation_1045",
+		"prompt": "간헐적 단식에 대해 배우는 데 도움을 줄 수 있을까요? 제 몸을 너무 많이 스트레스 받지 않으면서 체중을 감량할 수 있는 건강한 방법인 것 같아요."
+	},
+	{
+		"id": "translation_2046",
+		"id3": "translation_1046",
+		"prompt": "소스 팬의 바깥쪽에 있는 검은 지저분한 자국을 어떻게 제거하나요?"
+	},
+	{
+		"id": "translation_2047",
+		"id3": "translation_1047",
+		"prompt": "타로 카드를 읽는 법을 배우는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2048",
+		"id3": "translation_1048",
+		"prompt": "왜 일부 FedEx 소포는 픽업 위치에서 수령할 수 없게 되어 있나요?"
+	},
+	{
+		"id": "translation_2049",
+		"id3": "translation_1049",
+		"prompt": "야채 정원을 만들려고 생각 중입니다. 도움을 줄 수 있을까요?"
+	},
+	{
+		"id": "translation_2050",
+		"id3": "translation_1050",
+		"prompt": "차량을 리스하거나 구매하는 것이 더 좋을까요?"
+	},
+	{
+		"id": "translation_2051",
+		"id3": "translation_1051",
+		"prompt": "사람들이 아플 때, 그들의 언어로 위로를 해주고 싶어요."
+	},
+	{
+		"id": "translation_2052",
+		"id3": "translation_1052",
+		"prompt": "제2의 메시아께서 언제 오실 것 같나요?"
+	},
+	{
+		"id": "translation_2053",
+		"id3": "translation_1053",
+		"prompt": "어떻게 하면 내게 맞는 매트리스 경도를 알 수 있을까요?"
+	},
+	{
+		"id": "translation_2054",
+		"id3": "translation_1054",
+		"prompt": "마이크로폰 정적을 어떻게 줄일 수 있는지에 대한 조언이 있을까요?"
+	},
+	{
+		"id": "translation_2055",
+		"id3": "translation_1055",
+		"prompt": "다음 달에 독일타운, MD로 비즈니스 출장을 가고 있습니다. 이 출장 도중에 하루가 비어 있고, 현지의 몇 가지 명소와 경치를 보고 싶습니다. 몇 가지 다른 장소를 포함한 그 날의 여행 일정을 만들어주실 수 있을까요?"
+	},
+	{
+		"id": "translation_2056",
+		"id3": "translation_1056",
+		"prompt": "스페인 테마의 만찬 파티를 연출하고 싶은데, 메뉴에 어떤 전통적인 타파스 요리를 넣을 수 있을까요?"
+	},
+	{
+		"id": "translation_2057",
+		"id3": "translation_1057",
+		"prompt": "인공 지능의 역사에 대해 더 알고 싶습니다. 첫 번째 AI 시스템의 창조자에 대해 가르쳐 주실 수 있을까요?"
+	},
+	{
+		"id": "translation_2058",
+		"id3": "translation_1058",
+		"prompt": "어떤 약물들이 환각제로 간주되나요?"
+	},
+	{
+		"id": "translation_2059",
+		"id3": "translation_1059",
+		"prompt": "자동차 경적은 요즘 자동차의 일부입니까? 자동차가 일반적으로 언제부터 경적을 사용하기 시작했습니까?"
+	},
+	{
+		"id": "translation_2060",
+		"id3": "translation_1060",
+		"prompt": "시를 만들어주세요"
+	},
+	{
+		"id": "translation_2061",
+		"id3": "translation_1061",
+		"prompt": "무선 신호 강도를 향상시키는 방법은 있나요?"
+	},
+	{
+		"id": "translation_2062",
+		"id3": "translation_1062",
+		"prompt": "왜 유럽에서 음주 연령이 더 낮은가요?"
+	},
+	{
+		"id": "translation_2063",
+		"id3": "translation_1063",
+		"prompt": "저는 직접 유리 구슬을 만들려고 합니다. 이를 위해 어떻게 설정해야 할까요?"
+	},
+	{
+		"id": "translation_2064",
+		"id3": "translation_1064",
+		"prompt": "제 아이들이 애완동물을 원하는데, 어린이에게 좋은 첫 애완동물은 무엇인가요?"
+	},
+	{
+		"id": "translation_2065",
+		"id3": "translation_1065",
+		"prompt": "탄소 세금 환급은 어떻게 작동하는지 알려주실 수 있을까요?"
+	},
+	{
+		"id": "translation_2066",
+		"id3": "translation_1066",
+		"prompt": "암벽 등반에 필요한 장비는 무엇인가요?"
+	},
+	{
+		"id": "translation_2067",
+		"id3": "translation_1067",
+		"prompt": "유명한 주식 트레이더에 대한 비디오 보고서를 만드는데, 초기 연구에 도움이 필요합니다. 역사상 가장 성공한 주식 트레이더에 대해 배울 수 있도록 도와주실 수 있나요?"
+	},
+	{
+		"id": "translation_2068",
+		"id3": "translation_1068",
+		"prompt": "나는 몸이 안 좋아요"
+	},
+	{
+		"id": "translation_2069",
+		"id3": "translation_1069",
+		"prompt": "비디오 게임에서 콘솔 독점권이란 무엇을 의미하는 건가요?"
+	},
+	{
+		"id": "translation_2070",
+		"id3": "translation_1070",
+		"prompt": "크로스 스티치를 배우려면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_2071",
+		"id3": "translation_1071",
+		"prompt": "내 고양이가 초콜릿을 먹을 수 있을까요?"
+	},
+	{
+		"id": "translation_2072",
+		"id3": "translation_1072",
+		"prompt": "미국은 언제부터 종이 화폐를 사용하기 시작했나요?"
+	},
+	{
+		"id": "translation_2073",
+		"id3": "translation_1073",
+		"prompt": "동물이 광견병에 걸렸는지 어떻게 알 수 있을까요?"
+	},
+	{
+		"id": "translation_2074",
+		"id3": "translation_1074",
+		"prompt": "워터 베드의 역사에 대해 알고 싶습니다. 첫번째 워터 베드가 어느 연도에 만들어졌는지 말씀해주세요."
+	},
+	{
+		"id": "translation_2075",
+		"id3": "translation_1075",
+		"prompt": "안녕하세요, 제가 절 좋아하는 양말이 구멍이 났어요. 양말을 수선할 수 있는 방법을 가르쳐주실 수 있을까요?"
+	},
+	{
+		"id": "translation_2076",
+		"id3": "translation_1076",
+		"prompt": "사람은 선천적으로 선하거나 악한가요, 아니면 그런 사람들은 어떻게 키워져야 할까요?"
+	},
+	{
+		"id": "translation_2077",
+		"id3": "translation_1077",
+		"prompt": "의사님이 몇 가지 항우울제를 처방하려고 하는데, 부작용에 대해 걱정이 됩니다. 그 정도 심각할까요?"
+	},
+	{
+		"id": "translation_2078",
+		"id3": "translation_1078",
+		"prompt": "성경의 많은 부분이 환각적인 경험에서 영감을 받은 것이라는 이론에 대해 알고 있나요?"
+	},
+	{
+		"id": "translation_2079",
+		"id3": "translation_1079",
+		"prompt": "칼을 날카롭게 하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2080",
+		"id3": "translation_1080",
+		"prompt": "안전한 현관문을 위한 최상의 잠금장치는 무엇인가요?"
+	},
+	{
+		"id": "translation_2081",
+		"id3": "translation_1081",
+		"prompt": "학계에서 'STEM'은 정확히 무엇을 의미하나요?"
+	},
+	{
+		"id": "translation_2082",
+		"id3": "translation_1082",
+		"prompt": "탈모는 유전적, 스트레스로 인한 것인지 아니면 두 가지의 조합인지요?"
+	},
+	{
+		"id": "translation_2083",
+		"id3": "translation_1083",
+		"prompt": "코로나 감염률이 낮은 지역에서 휴가를 가려면 어디로 가야 할까요?"
+	},
+	{
+		"id": "translation_2084",
+		"id3": "translation_1084",
+		"prompt": "화장선물 바이스알트랙(약칭 BATH SALTS)란 무엇인가요?"
+	},
+	{
+		"id": "translation_2085",
+		"id3": "translation_1085",
+		"prompt": "왜 남서부 미국(예: 캘리포니아)에는 토네이도가 없을까요?"
+	},
+	{
+		"id": "translation_2086",
+		"id3": "translation_1086",
+		"prompt": "근육이 아프다면 무엇을 사용할 수 있을까요?"
+	},
+	{
+		"id": "translation_2087",
+		"id3": "translation_1087",
+		"prompt": "제가 가끔 집에서 손님을 대접하고 있어서 흥미를 유발하기 위해 다양한 요리와 음료의 레시피를 모으고 있습니다. 이스라엘 요리를 좀 시도해 보고 싶습니다. 색쉬우쉬(Shakshuka) 레시피를 알려주세요."
+	},
+	{
+		"id": "translation_2088",
+		"id3": "translation_1088",
+		"prompt": "합방에서는 미국에서 탄핵 절차가 어떻게 작동하나요?"
+	},
+	{
+		"id": "translation_2089",
+		"id3": "translation_1089",
+		"prompt": "천연 기저귀와 일회용 기저귀 중에 어떤 것을 선택해야 할까요?"
+	},
+	{
+		"id": "translation_2090",
+		"id3": "translation_1090",
+		"prompt": "역대 가장 많이 팔린 게임은 무엇인가요?"
+	},
+	{
+		"id": "translation_2091",
+		"id3": "translation_1091",
+		"prompt": "머펫 쇼를 시작한 사람은 누구인가요?"
+	},
+	{
+		"id": "translation_2092",
+		"id3": "translation_1092",
+		"prompt": "가스 누출을 어떻게 수리하나요?"
+	},
+	{
+		"id": "translation_2093",
+		"id3": "translation_1093",
+		"prompt": "가정에서 고기를 건조시키는 방법은 어떻게 하나요?"
+	},
+	{
+		"id": "translation_2094",
+		"id3": "translation_1094",
+		"prompt": "개인용 기업 정보를 텍스트나 이메일로 전송해도 안전할까요?"
+	},
+	{
+		"id": "translation_2095",
+		"id3": "translation_1095",
+		"prompt": "4차원을 설명해 줄 수 있나요?"
+	},
+	{
+		"id": "translation_2096",
+		"id3": "translation_1096",
+		"prompt": "남성과 여성의 뇌의 차이점을 말해 줄 수 있을까요? 그런 차이가 있다면 말입니다."
+	},
+	{
+		"id": "translation_2097",
+		"id3": "translation_1097",
+		"prompt": "어제 밤에 여자 아이와 잘 맞고 서로 휴대폰 번호를 교환했어요. 다음 날 그녀가 자신의 누드 사진을 보내줬는데, 어떻게 대응해야 할까요? 저도 누드 사진을 보내줘야 할까요? 아니면 그녀에게 전화해 감사의 말씀을 전해야 할까요?"
+	},
+	{
+		"id": "translation_2098",
+		"id3": "translation_1098",
+		"prompt": "현대인들이 지구에 등장한 지 얼마나 되나요?"
+	},
+	{
+		"id": "translation_2099",
+		"id3": "translation_1099",
+		"prompt": "스도쿠 퍼즐을 어떻게 해결할 수 있을까요?"
+	},
+	{
+		"id": "translation_2100",
+		"id3": "translation_1100",
+		"prompt": "타투 아티스트가 되기 위해서는 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_2101",
+		"id3": "translation_1101",
+		"prompt": "오랜 시간 동안 쌓인 많은 폐지를 재활용하는 가장 좋은 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2102",
+		"id3": "translation_1102",
+		"prompt": "남성과 여성은 정말로 다르게 생각하는 걸까요?"
+	},
+	{
+		"id": "translation_2103",
+		"id3": "translation_1103",
+		"prompt": "대학에서 현대 문학에 관한 에세이를 써야 하는데, 최적의 구조는 무엇인가요?"
+	},
+	{
+		"id": "translation_2104",
+		"id3": "translation_1104",
+		"prompt": "90년대 최고의 알터너티브 록 밴드는 무엇인가요?"
+	},
+	{
+		"id": "translation_2105",
+		"id3": "translation_1105",
+		"prompt": "사람들이 \"핵가족\"이라고 얘기할 때 어떤 의미일까요?"
+	},
+	{
+		"id": "translation_2106",
+		"id3": "translation_1106",
+		"prompt": "FAFSA란 무엇인가요?"
+	},
+	{
+		"id": "translation_2107",
+		"id3": "translation_1107",
+		"prompt": "새끼 고양이를 사는 최고의 장소는 어디인가요?"
+	},
+	{
+		"id": "translation_2108",
+		"id3": "translation_1108",
+		"prompt": "존 스트랭펠드의 최근 자산은 얼마일까요?"
+	},
+	{
+		"id": "translation_2109",
+		"id3": "translation_1109",
+		"prompt": "AATIP은 무엇인가요?"
+	},
+	{
+		"id": "translation_2110",
+		"id3": "translation_1110",
+		"prompt": "어떤 좋은 클래식 록 밴드들이 있나요?"
+	},
+	{
+		"id": "translation_2111",
+		"id3": "translation_1111",
+		"prompt": "가장 처음 만들어진 웹사이트는 무엇이었나요?"
+	},
+	{
+		"id": "translation_2112",
+		"id3": "translation_1112",
+		"prompt": "미국 시민으로서 불법적인 수색과 압수에 대한 권리는 무엇인가요?"
+	},
+	{
+		"id": "translation_2113",
+		"id3": "translation_1113",
+		"prompt": "가상 화폐란 무엇인가요?"
+	},
+	{
+		"id": "translation_2114",
+		"id3": "translation_1114",
+		"prompt": "기억하기 위해 목록을 작성해야 할까요?"
+	},
+	{
+		"id": "translation_2115",
+		"id3": "translation_1115",
+		"prompt": "좋은 전투 비디오 게임은 어떤 게 있나요?"
+	},
+	{
+		"id": "translation_2116",
+		"id3": "translation_1116",
+		"prompt": "휴대폰에서 위치 서비스를 설정하는 것은 안전한가요?"
+	},
+	{
+		"id": "translation_2117",
+		"id3": "translation_1117",
+		"prompt": "인기있는 관용구 중 한 두 가지 예를 들어볼 수 있을까요?"
+	},
+	{
+		"id": "translation_2118",
+		"id3": "translation_1118",
+		"prompt": "집을 사는 대신 집을 짓는 경우 얼마나 많은 돈을 절약할 수 있을까요?"
+	},
+	{
+		"id": "translation_2119",
+		"id3": "translation_1119",
+		"prompt": "풍선을 부는 방법을 어떻게 배울까요?"
+	},
+	{
+		"id": "translation_2120",
+		"id3": "translation_1120",
+		"prompt": "10년 전 액센처 주식 가격은 얼마였나요?"
+	},
+	{
+		"id": "translation_2121",
+		"id3": "translation_1121",
+		"prompt": "레오 톨스토이는 정말로 대단한 작가였습니다. 그의 작품들은 대략 몇 페이지 정도인가요?"
+	},
+	{
+		"id": "translation_2122",
+		"id3": "translation_1122",
+		"prompt": "요즘 저는 '변경사전'이라는 책을 읽고 있었는데, 비슷한 것을 추천해주실 수 있을까요?"
+	},
+	{
+		"id": "translation_2123",
+		"id3": "translation_1123",
+		"prompt": "저번 주에 코감기에 걸렸는데, 코를 자주 파고 물티슈로 닦다보니 코 아래 피부가 딱딱해졌습니다. 어떻게 치유할 수 있을까요?"
+	},
+	{
+		"id": "translation_2124",
+		"id3": "translation_1124",
+		"prompt": "식이로 충분한 비타민을 섭취하는 것이 중요한가요? 어떤 방법이 가장 좋을까요?"
+	},
+	{
+		"id": "translation_2125",
+		"id3": "translation_1125",
+		"prompt": "손을 씻는 것으로 차량을 더 깨끗하게 만들 수 있나요?"
+	},
+	{
+		"id": "translation_2126",
+		"id3": "translation_1126",
+		"prompt": "헬스장을 선택할 때 고려해야 할 사항은 무엇인가요?"
+	},
+	{
+		"id": "translation_2127",
+		"id3": "translation_1127",
+		"prompt": "노래를 아카펠라로 부르는 법을 배우려면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_2128",
+		"id3": "translation_1128",
+		"prompt": "안드로이드와 iOS 이외에도 다른 휴대전화 운영체제가 있을까요?"
+	},
+	{
+		"id": "translation_2129",
+		"id3": "translation_1129",
+		"prompt": "스파게티 요리 시간은 얼마나 걸리나요?"
+	},
+	{
+		"id": "translation_2130",
+		"id3": "translation_1130",
+		"prompt": "누가 방광결석을 가지게 되는 원인은 무엇인가요?"
+	},
+	{
+		"id": "translation_2131",
+		"id3": "translation_1131",
+		"prompt": "포토샵에서 배경을 변경하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2132",
+		"id3": "translation_1132",
+		"prompt": "맥북을 가지고 있는데, 악성 소프트웨어에 대해 저항력이 있는 것 같습니다. 이게 사실인가요?"
+	},
+	{
+		"id": "translation_2133",
+		"id3": "translation_1133",
+		"prompt": "만화 관련해서 DC는 무엇을 의미하나요?"
+	},
+	{
+		"id": "translation_2134",
+		"id3": "translation_1134",
+		"prompt": "사람의 치아를 뽑는 데 얼마나 비용이 드나요?"
+	},
+	{
+		"id": "translation_2135",
+		"id3": "translation_1135",
+		"prompt": "두 개의 취직 제안을 어떻게 비교해야 하나요?"
+	},
+	{
+		"id": "translation_2136",
+		"id3": "translation_1136",
+		"prompt": "회의음이 들리는 치료법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2137",
+		"id3": "translation_1137",
+		"prompt": "트럼프 행정부의 유산은 무엇인가요?"
+	},
+	{
+		"id": "translation_2138",
+		"id3": "translation_1138",
+		"prompt": "음식 보존에 사용되는 화학 물질 몇 가지 말해주세요."
+	},
+	{
+		"id": "translation_2139",
+		"id3": "translation_1139",
+		"prompt": "시민 정신이란 무엇인가요?"
+	},
+	{
+		"id": "translation_2140",
+		"id3": "translation_1140",
+		"prompt": "스콧스데일, 애리조나에서 할 수 있는 것은 무엇이 있나요?"
+	},
+	{
+		"id": "translation_2141",
+		"id3": "translation_1141",
+		"prompt": "집에서 어떻게 트라우트를 튀겨요?"
+	},
+	{
+		"id": "translation_2142",
+		"id3": "translation_1142",
+		"prompt": "입술을 갈라지지 않게 하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2143",
+		"id3": "translation_1143",
+		"prompt": "어떻게 프로 나이니가 될 수 있을까요?"
+	},
+	{
+		"id": "translation_2144",
+		"id3": "translation_1144",
+		"prompt": "최고의 슈게이즈 앨범 중 일부는 무엇인가요?"
+	},
+	{
+		"id": "translation_2145",
+		"id3": "translation_1145",
+		"prompt": "취업 박람회란 무엇인가요?"
+	},
+	{
+		"id": "translation_2146",
+		"id3": "translation_1146",
+		"prompt": "CDL을 취득하기 위해 얼마나 많은 훈련이 필요한가요?"
+	},
+	{
+		"id": "translation_2147",
+		"id3": "translation_1147",
+		"prompt": "사람들이 세대의 \"zeitgeist\"를 언급할 때 무슨 의미인가요?"
+	},
+	{
+		"id": "translation_2148",
+		"id3": "translation_1148",
+		"prompt": "운동할 때 스니커즈를 사용하는 것보다 맨발로 달리는 것에는 어떤 이점이 있나요?"
+	},
+	{
+		"id": "translation_2149",
+		"id3": "translation_1149",
+		"prompt": "노트북 배터리 사용 시간을 더 길게 하려면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_2150",
+		"id3": "translation_1150",
+		"prompt": "고전 음악을 배우려면 어떤 악기를 연주해야 하나요?"
+	},
+	{
+		"id": "translation_2151",
+		"id3": "translation_1151",
+		"prompt": "AFC와 NFC가 합병하기로 결정한 이유는 무엇인가요?"
+	},
+	{
+		"id": "translation_2152",
+		"id3": "translation_1152",
+		"prompt": "어떻게 하면 내 아이가 형제자매가 되기에 준비되었다고 할 수 있는지 알 수 있을까요?"
+	},
+	{
+		"id": "translation_2153",
+		"id3": "translation_1153",
+		"prompt": "미국이나 평생 이민한 것 같은 물범은 처음부터 있었나요, 아니면 데려오거나 떠났나요?"
+	},
+	{
+		"id": "translation_2154",
+		"id3": "translation_1154",
+		"prompt": "프렌치 토스트를 가운데가 축축해지지 않도록 하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2155",
+		"id3": "translation_1155",
+		"prompt": "성경에서는 실제로 낙태에 대해서 언급하지 않나요?"
+	},
+	{
+		"id": "translation_2156",
+		"id3": "translation_1156",
+		"prompt": "초등학교 5학년 아이에게 퍼센트를 가장 쉽게 가르쳐주세요."
+	},
+	{
+		"id": "translation_2157",
+		"id3": "translation_1157",
+		"prompt": "표준 싱글 침대의 크기는 어떻게 되나요?"
+	},
+	{
+		"id": "translation_2158",
+		"id3": "translation_1158",
+		"prompt": "나무에 틴셀을 달면 어떤 목적이 있나요?"
+	},
+	{
+		"id": "translation_2159",
+		"id3": "translation_1159",
+		"prompt": "스포티파이 프리미엄 멤버십은 얼마인가요?"
+	},
+	{
+		"id": "translation_2160",
+		"id3": "translation_1160",
+		"prompt": "유리를 어떻게 만들까요?"
+	},
+	{
+		"id": "translation_2161",
+		"id3": "translation_1161",
+		"prompt": "곧 낚시를 가려고 하는데 조언 좀 해주세요."
+	},
+	{
+		"id": "translation_2162",
+		"id3": "translation_1162",
+		"prompt": "무한 스카프를 어떻게 짜나요?"
+	},
+	{
+		"id": "translation_2163",
+		"id3": "translation_1163",
+		"prompt": "중세 시대에 얼마나 멀리 대포로 포격할 수 있었나요?"
+	},
+	{
+		"id": "translation_2164",
+		"id3": "translation_1164",
+		"prompt": "바나나 스플릿에 어떤 재료가 좋을까요?"
+	},
+	{
+		"id": "translation_2165",
+		"id3": "translation_1165",
+		"prompt": "소량의 알코올이 정말 물 속의 모든 박테리아를 죽일까요?"
+	},
+	{
+		"id": "translation_2166",
+		"id3": "translation_1166",
+		"prompt": "브레이크가 고장났을 때 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_2167",
+		"id3": "translation_1167",
+		"prompt": "저는 방금 척추 수술을 받아서 활동을 격렬하게 할 수 없습니다. 아내와 다시 성생활을 하고 싶은데, 척추에 안전하고 저영향적인 성적인 자세가 어떤 것인지 알려주세요."
+	},
+	{
+		"id": "translation_2168",
+		"id3": "translation_1168",
+		"prompt": "마이크로브루어리란 무엇인가요?"
+	},
+	{
+		"id": "translation_2169",
+		"id3": "translation_1169",
+		"prompt": "어떤 물건을 Goodwill에 기부할 수 있나요?"
+	},
+	{
+		"id": "translation_2170",
+		"id3": "translation_1170",
+		"prompt": "역류성 식도염을 어떻게 없앨 수 있을까요?"
+	},
+	{
+		"id": "translation_2171",
+		"id3": "translation_1171",
+		"prompt": "제 동네에는 길고양이들이 많이 돌아다닙니다. 가끔 길고양이를 만지려고 하는데 광견병 때문에 걱정입니다. 고양이가 광견병에 걸렸을 때 주로 나타나는 증상은 무엇인가요?"
+	},
+	{
+		"id": "translation_2172",
+		"id3": "translation_1172",
+		"prompt": "어떻게 하면 트림이 덜 나오나요?"
+	},
+	{
+		"id": "translation_2173",
+		"id3": "translation_1173",
+		"prompt": "사다리에 오르면 어떻게 안전하게 움직일 수 있나요?"
+	},
+	{
+		"id": "translation_2174",
+		"id3": "translation_1174",
+		"prompt": "마오 장군은 누구인가요?"
+	},
+	{
+		"id": "translation_2175",
+		"id3": "translation_1175",
+		"prompt": "칫솔을 세정하는 방법이 궁금합니다."
+	},
+	{
+		"id": "translation_2176",
+		"id3": "translation_1176",
+		"prompt": "마이크로 트랜잭션이란 무엇인가요?"
+	},
+	{
+		"id": "translation_2177",
+		"id3": "translation_1177",
+		"prompt": "최저임금 인상의 부정적인 효과는 무엇인가요?"
+	},
+	{
+		"id": "translation_2178",
+		"id3": "translation_1178",
+		"prompt": "자동차 배터리를 교체하는 방법을 안내해주실 수 있나요?"
+	},
+	{
+		"id": "translation_2179",
+		"id3": "translation_1179",
+		"prompt": "어떻게 아이를 어린이 합창단에 훈련시킬 수 있을까요?"
+	},
+	{
+		"id": "translation_2180",
+		"id3": "translation_1180",
+		"prompt": "가장 매운 피망은 어떤 걸까요? 레드 칠리 페퍼, 하바네로 페퍼, 혹은 할라피뇨 페퍼 중에서요?"
+	},
+	{
+		"id": "translation_2181",
+		"id3": "translation_1181",
+		"prompt": "알브레히트 듀러에 대해 더 알고 싶습니다. 르네상스 시기 바로 전에 매우 유명했던 예술가로 알고 있는데, 예술가에 대해 더 자세히 알려주세요."
+	},
+	{
+		"id": "translation_2182",
+		"id3": "translation_1182",
+		"prompt": "나의 직무가 없어져서 꽤 오랜 시간동안 허탈함을 느끼고 있어요. 다시 생산적인 상태로 돌아가기 위한 방향과 기술을 알려주세요."
+	},
+	{
+		"id": "translation_2183",
+		"id3": "translation_1183",
+		"prompt": "쥬스 클렌징을 어떻게 하는지 알려주세요."
+	},
+	{
+		"id": "translation_2184",
+		"id3": "translation_1184",
+		"prompt": "디즈니 보관소라는 용어는 무엇을 의미하나요?"
+	},
+	{
+		"id": "translation_2185",
+		"id3": "translation_1185",
+		"prompt": "아내가 많은 트루 크라임을 보고 있는데, 인체 분해의 단계는 무엇인가요?"
+	},
+	{
+		"id": "translation_2186",
+		"id3": "translation_1186",
+		"prompt": "미국에서 가장 높은 건물은 여전히 뉴욕의 월드 트레이드 센터입니까?"
+	},
+	{
+		"id": "translation_2187",
+		"id3": "translation_1187",
+		"prompt": "재사용 가능한 물병을 얼마나 자주 세척해야 하나요?"
+	},
+	{
+		"id": "translation_2188",
+		"id3": "translation_1188",
+		"prompt": "야생 동물도 어떻게 하여때문에 스스로 죽을까요?"
+	},
+	{
+		"id": "translation_2189",
+		"id3": "translation_1189",
+		"prompt": "부활절 아침의 재미있는 전통은 무엇인가요?"
+	},
+	{
+		"id": "translation_2190",
+		"id3": "translation_1190",
+		"prompt": "바질로 무엇을 만들 수 있을까요?"
+	},
+	{
+		"id": "translation_2191",
+		"id3": "translation_1191",
+		"prompt": "연어로 어떻게 요리할 수 있나요?"
+	},
+	{
+		"id": "translation_2192",
+		"id3": "translation_1192",
+		"prompt": "수영을 하기 싫다면 해변에서 무엇을 할 수 있을까요?"
+	},
+	{
+		"id": "translation_2193",
+		"id3": "translation_1193",
+		"prompt": "안녕하세요, 모짓 이라는 유명한 오페라가 무엇인지 알려주세요. 도와주시겠어요?"
+	},
+	{
+		"id": "translation_2194",
+		"id3": "translation_1194",
+		"prompt": "어떤 그림들이 지금까지 판매된 가장 비싼 그림들인가요? 적어도 다섯 개를 나열해 볼 수 있을까요?"
+	},
+	{
+		"id": "translation_2195",
+		"id3": "translation_1195",
+		"prompt": "\"플랫 어서트\"라는 용어가 무엇을 의미하는지 설명해주실 수 있을까요?"
+	},
+	{
+		"id": "translation_2196",
+		"id3": "translation_1196",
+		"prompt": "자동 기상 관측소는 무엇인가요?"
+	},
+	{
+		"id": "translation_2197",
+		"id3": "translation_1197",
+		"prompt": "직장에서 구글 문서를 어떻게 사용할 수 있을까요?"
+	},
+	{
+		"id": "translation_2198",
+		"id3": "translation_1198",
+		"prompt": "필리핀의 수도는 어디인가요?"
+	},
+	{
+		"id": "translation_2199",
+		"id3": "translation_1199",
+		"prompt": "결정체는 정말로 치유 및 사악을 쫓는 데 도움이 되나요?"
+	},
+	{
+		"id": "translation_2200",
+		"id3": "translation_1200",
+		"prompt": "최근에 친구가 발에 가구를 떨어뜨렸는데 위로해주고 싶습니다. 어떤 지원을 추천해주실까요?"
+	},
+	{
+		"id": "translation_2201",
+		"id3": "translation_1201",
+		"prompt": "첫 번째 자동차를 개발한 사람은 누구인가요?"
+	},
+	{
+		"id": "translation_2202",
+		"id3": "translation_1202",
+		"prompt": "벽에 그림을 걸려면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_2203",
+		"id3": "translation_1203",
+		"prompt": "이웃의 아이가 아토피가 있습니다. 그것은 얼마나 위험한 것인가요?"
+	},
+	{
+		"id": "translation_2204",
+		"id3": "translation_1204",
+		"prompt": "워싱턴 주에서 레몬을 키울 수 있나요?"
+	},
+	{
+		"id": "translation_2205",
+		"id3": "translation_1205",
+		"prompt": "학교에서 Negro Leagues에 대해 리포트를 써야 해요. Negro Leagues에서 활약한 몇몇 스타 선수들에 대해 알려주세요."
+	},
+	{
+		"id": "translation_2206",
+		"id3": "translation_1206",
+		"prompt": "추수 감사절에는 슈퍼마켓이 열려 있나요?"
+	},
+	{
+		"id": "translation_2207",
+		"id3": "translation_1207",
+		"prompt": "비영리 청소용품에 대한 좋은 예시가 있나요?"
+	},
+	{
+		"id": "translation_2208",
+		"id3": "translation_1208",
+		"prompt": "저는 퍼지 월넛 브라우니를 만들 계획입니다. 도와주실 수 있을까요?"
+	},
+	{
+		"id": "translation_2209",
+		"id3": "translation_1209",
+		"prompt": "그리스 신들이 존재한다는 증거가 있나요?"
+	},
+	{
+		"id": "translation_2210",
+		"id3": "translation_1210",
+		"prompt": "리도카인은 무릎 통증에 도움이 됩니까?"
+	},
+	{
+		"id": "translation_2211",
+		"id3": "translation_1211",
+		"prompt": "스티브 잡스가 스티브 워즈니악으로부터 애플을 훔쳤나요?"
+	},
+	{
+		"id": "translation_2212",
+		"id3": "translation_1212",
+		"prompt": "전 여자친구 이름의 문신을 어떻게 가려야 하나요?"
+	},
+	{
+		"id": "translation_2213",
+		"id3": "translation_1213",
+		"prompt": "스티븐 쏜드하임이 작곡한 뮤지컬 몇 개를 언급해 주실 수 있나요?"
+	},
+	{
+		"id": "translation_2214",
+		"id3": "translation_1214",
+		"prompt": "비픽션 책과 소설의 차이점은 무엇인가요?"
+	},
+	{
+		"id": "translation_2215",
+		"id3": "translation_1215",
+		"prompt": "저는 저녁 식사에 초대되었는데 한 명의 손님은 '아스퍼거즘'을 가지고 있다고 들었습니다. 이게 무엇이며, 어떻게 상호 작용해야 할까요?"
+	},
+	{
+		"id": "translation_2216",
+		"id3": "translation_1216",
+		"prompt": "컴퓨터 '버그'가 실제로 무엇인지 설명해 줄 수 있을까요?"
+	},
+	{
+		"id": "translation_2217",
+		"id3": "translation_1217",
+		"prompt": "자동차의 역사에 대해 알려주실 수 있을까요?"
+	},
+	{
+		"id": "translation_2218",
+		"id3": "translation_1218",
+		"prompt": "첫 겨울 눈폭풍으로부터 고속도로를 안전하게 이동하는 데 조언이 필요합니다."
+	},
+	{
+		"id": "translation_2219",
+		"id3": "translation_1219",
+		"prompt": "식탁 세팅은 아이들에게 좋은 집안일인가요?"
+	},
+	{
+		"id": "translation_2220",
+		"id3": "translation_1220",
+		"prompt": "내 애완용 개구리에게 무엇을 먹여야 할까요?"
+	},
+	{
+		"id": "translation_2221",
+		"id3": "translation_1221",
+		"prompt": "자율주행 자동차는 안전한가요?"
+	},
+	{
+		"id": "translation_2222",
+		"id3": "translation_1222",
+		"prompt": "머그 케이크를 어떻게 만들 수 있을까요?"
+	},
+	{
+		"id": "translation_2223",
+		"id3": "translation_1223",
+		"prompt": "낡은 사진을 보관하는 가장 좋은 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2224",
+		"id3": "translation_1224",
+		"prompt": "라쿠텐은 어떻게 동작하나요?"
+	},
+	{
+		"id": "translation_2225",
+		"id3": "translation_1225",
+		"prompt": "여러분의 경험상, 여성들은 마른 남성에 더 매력을 느끼는지, 아니면 더 통통하고 근육질인 남성에 더 매력을 느끼는지 어떤가요?"
+	},
+	{
+		"id": "translation_2226",
+		"id3": "translation_1226",
+		"prompt": "COVID-19 이후 대부분의 시설은 재개된 걸까요?"
+	},
+	{
+		"id": "translation_2227",
+		"id3": "translation_1227",
+		"prompt": "저는 애리조나 주 피닉스에 살고 있는데, 사람들이 더 많은 독성 뱀들을 식별하는 데 도움을 받을 수 있으면 좋겠습니다."
+	},
+	{
+		"id": "translation_2228",
+		"id3": "translation_1228",
+		"prompt": "저는 흥미로운 동물에 대한 비디오 보고서를 만들고 있는데, 다음에 어떤 동물에 대해 보고서를 작성해야 할지 잘 모르겠습니다. 흥미로운 동물이 있는지 알고 계신가요?"
+	},
+	{
+		"id": "translation_2229",
+		"id3": "translation_1229",
+		"prompt": "왜 영어 사용자들은 거의 두 번째 언어를 알지 못하지만, 대부분의 세계인들은 영어를 두 번째 언어로 알고 있을까요?"
+	},
+	{
+		"id": "translation_2230",
+		"id3": "translation_1230",
+		"prompt": "고체, 액체, 기체 등과 같은 물질의 다양한 특성을 설명할 수 있을까요?"
+	},
+	{
+		"id": "translation_2231",
+		"id3": "translation_1231",
+		"prompt": "아티스트 파렐의 몇 가지 인기 노래에 대해 이야기하고 싶습니다. 여러분이 아는 곡은 있나요?"
+	},
+	{
+		"id": "translation_2232",
+		"id3": "translation_1232",
+		"prompt": "자살로 동생을 잃은 친구를 어떻게 위로해야 할까요?"
+	},
+	{
+		"id": "translation_2233",
+		"id3": "translation_1233",
+		"prompt": "멕시코 - 미국 전쟁은 어땠나요?"
+	},
+	{
+		"id": "translation_2234",
+		"id3": "translation_1234",
+		"prompt": "샤워커튼 링을 만드는 멋진 아이디어가 있나요?"
+	},
+	{
+		"id": "translation_2235",
+		"id3": "translation_1235",
+		"prompt": "사우스캐롤라이나의 마틀비치에서 즐길만한 재미있는 활동은 어떤 게 있을까요?"
+	},
+	{
+		"id": "translation_2236",
+		"id3": "translation_1236",
+		"prompt": "보석류용으로 티타늄보다 더 비싼 금속은 있을까요?"
+	},
+	{
+		"id": "translation_2237",
+		"id3": "translation_1237",
+		"prompt": "블루베리 머핀을 만드는 좋은 아이디어가 있을까요? 도와주실 수 있을까요?"
+	},
+	{
+		"id": "translation_2238",
+		"id3": "translation_1238",
+		"prompt": "언어 치료사(A speech language pathologist)가 되는 것은 어려울까요?"
+	},
+	{
+		"id": "translation_2239",
+		"id3": "translation_1239",
+		"prompt": "렌틸콩을 먹으면 어떤 건강상의 이점을 얻을 수 있는지 알려주실 수 있을까요? 실제로 이점이 있을까요?"
+	},
+	{
+		"id": "translation_2240",
+		"id3": "translation_1240",
+		"prompt": "새로운 버전의 독스트레인지 무료 학습 자료가 언제 배포될까요?"
+	},
+	{
+		"id": "translation_2241",
+		"id3": "translation_1241",
+		"prompt": "안전 경비원이 가져야 할 좋은 특징은 무엇인가요?"
+	},
+	{
+		"id": "translation_2242",
+		"id3": "translation_1242",
+		"prompt": "환자가 의료 과실 소송을 제기하는 방법에 대해 설명해 줄 수 있나요?"
+	},
+	{
+		"id": "translation_2243",
+		"id3": "translation_1243",
+		"prompt": "스마트워치는 무엇을 보여주나요?"
+	},
+	{
+		"id": "translation_2244",
+		"id3": "translation_1244",
+		"prompt": "과거에 피부암에 걸리는 사람들이 많았을까요?"
+	},
+	{
+		"id": "translation_2245",
+		"id3": "translation_1245",
+		"prompt": "레깅스와 청바지 중 어떤게 더 좋아보여요?"
+	},
+	{
+		"id": "translation_2246",
+		"id3": "translation_1246",
+		"prompt": "컴퓨터를 공장 초기화해야 해요. Surface Go인데 어떤 단계로 해야 하는지 도와 줄 수 있을까요?"
+	},
+	{
+		"id": "translation_2247",
+		"id3": "translation_1247",
+		"prompt": "차고 정리하는 방법이 어떻게 되나요?"
+	},
+	{
+		"id": "translation_2248",
+		"id3": "translation_1248",
+		"prompt": "최근에 악몽을 자주 꿔요. 누가 무엇인가에게 쫒겨서 말이에요. 이 꿈이 실생활에 어떤 의미가 있을까요?"
+	},
+	{
+		"id": "translation_2249",
+		"id3": "translation_1249",
+		"prompt": "겨울에 모자를 쓰면 더 따뜻해질까요?"
+	},
+	{
+		"id": "translation_2250",
+		"id3": "translation_1250",
+		"prompt": "정확히 다케다 후시마의 원자로 사고는 어떤 것이었나요?"
+	},
+	{
+		"id": "translation_2251",
+		"id3": "translation_1251",
+		"prompt": "자녀가 타임아웃에서 계속 울면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_2252",
+		"id3": "translation_1252",
+		"prompt": "얼굴이 기름지면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_2253",
+		"id3": "translation_1253",
+		"prompt": "아브라함 종교들은 왜 많은 공통점을 가지고 있나요?"
+	},
+	{
+		"id": "translation_2254",
+		"id3": "translation_1254",
+		"prompt": "스마트워치 사용의 장단점은 무엇인가요?"
+	},
+	{
+		"id": "translation_2255",
+		"id3": "translation_1255",
+		"prompt": "통증을 위해 매일 알레브를 복용해도 괜찮나요?"
+	},
+	{
+		"id": "translation_2256",
+		"id3": "translation_1256",
+		"prompt": "내 펀치 파워를 향상시키려면 어떻게 해야 할까요?"
+	},
+	{
+		"id": "translation_2257",
+		"id3": "translation_1257",
+		"prompt": "열기구가 인류가 하늘을 나는 첫 번째 수단인가요?"
+	},
+	{
+		"id": "translation_2258",
+		"id3": "translation_1258",
+		"prompt": "어떻게 실용적인 방식으로 과학을 가르칠 수 있나요?"
+	},
+	{
+		"id": "translation_2259",
+		"id3": "translation_1259",
+		"prompt": "전기 히터의 단점은 무엇인가요?"
+	},
+	{
+		"id": "translation_2260",
+		"id3": "translation_1260",
+		"prompt": "사이버 보안 분야가 성장하고 있는 건가요?"
+	},
+	{
+		"id": "translation_2261",
+		"id3": "translation_1261",
+		"prompt": "제 엄마가 새로운 강아지를 입양했어요. 그것에게 장난감을 사고 싶어요. 뭐를 추천해 주시겠어요?"
+	},
+	{
+		"id": "translation_2262",
+		"id3": "translation_1262",
+		"prompt": "집안 실내를 칠하려고 합니다. 그에 대해 어떤 팁이 있나요?"
+	},
+	{
+		"id": "translation_2263",
+		"id3": "translation_1263",
+		"prompt": "아이바인 안에 있는 코미디 공연을 어떻게 볼 수 있는지 알려주실래요?"
+	},
+	{
+		"id": "translation_2264",
+		"id3": "translation_1264",
+		"prompt": "음식을 다시 데울 때 왜 맛이 변할까요?"
+	},
+	{
+		"id": "translation_2265",
+		"id3": "translation_1265",
+		"prompt": "저는 커피를 많이 마시는데 커피가 건강에 좋은지 안 좋은지에 대해 모순된 의견을 들었어요. 그래서 커피는 좋을까요?"
+	},
+	{
+		"id": "translation_2266",
+		"id3": "translation_1266",
+		"prompt": "이메일을 되돌릴 수 없는 이유는 무엇인가요?"
+	},
+	{
+		"id": "translation_2267",
+		"id3": "translation_1267",
+		"prompt": "저는 의류 사업을 시작하려고 합니다."
+	},
+	{
+		"id": "translation_2268",
+		"id3": "translation_1268",
+		"prompt": "바이킹들은 어떤 음식을 좋아했을까요?"
+	},
+	{
+		"id": "translation_2269",
+		"id3": "translation_1269",
+		"prompt": "'31'은 어떻게 플레이하나요?"
+	},
+	{
+		"id": "translation_2270",
+		"id3": "translation_1270",
+		"prompt": "유튜브 동영상 업로드로 돈을 어떻게 벌까요?"
+	},
+	{
+		"id": "translation_2271",
+		"id3": "translation_1271",
+		"prompt": "우울증을 돕는 방법이 무엇인가요?"
+	},
+	{
+		"id": "translation_2272",
+		"id3": "translation_1272",
+		"prompt": "드럼을 배우고 싶은데 어디서부터 시작해야 할지 감이 오지 않아요. 어떤 조언을 해주시겠어요?"
+	},
+	{
+		"id": "translation_2273",
+		"id3": "translation_1273",
+		"prompt": "지금 세계에서 가장 많이 재활용되는 물질은 무엇인가요?"
+	},
+	{
+		"id": "translation_2274",
+		"id3": "translation_1274",
+		"prompt": "매일 샤워를 해야할까요?"
+	},
+	{
+		"id": "translation_2275",
+		"id3": "translation_1275",
+		"prompt": "안녕하세요, Billy Idol의 음악에 대해 배우고 싶습니다. 그의 가장 인기있고 영향력 있는 노래와 앨범을 플레이리스트로 추천해 주실 수 있나요?"
+	},
+	{
+		"id": "translation_2276",
+		"id3": "translation_1276",
+		"prompt": "파티하기 좋은 장소로 Chuck E Cheese가 좋을까요?"
+	},
+	{
+		"id": "translation_2277",
+		"id3": "translation_1277",
+		"prompt": "은하수나 우주안에서 다른 곳에서도 석유가 존재하는지 알고있을까요?"
+	},
+	{
+		"id": "translation_2278",
+		"id3": "translation_1278",
+		"prompt": "제가 Maxfield Parrish의 작품을 정말 좋아합니다. 그의 가장 잘 알려진 그림 몇 개를 추천해주실 수 있을까요?"
+	},
+	{
+		"id": "translation_2279",
+		"id3": "translation_1279",
+		"prompt": "Rick and Morty와 비슷한 쇼를 추천해줄 수 있을까요?"
+	},
+	{
+		"id": "translation_2280",
+		"id3": "translation_1280",
+		"prompt": "아기가 울음을 멈출 수 있는 방법이 있을까요?"
+	},
+	{
+		"id": "translation_2281",
+		"id3": "translation_1281",
+		"prompt": "최초의 데이트에 대한 어떤 추천을 주실 수 있을까요?"
+	},
+	{
+		"id": "translation_2282",
+		"id3": "translation_1282",
+		"prompt": "스페인으로 여행을 가는데 언어를 조금 배워야 할 것 같아요."
+	},
+	{
+		"id": "translation_2283",
+		"id3": "translation_1283",
+		"prompt": "브렉퍼스트 클럽은 멋진 영화였어요. 이 영화 제작에 대해서 궁금한 게 있는데요. 얼마나 걸렸는지, 제작과정에 관하여 사람들이 생각한 게 있었을까요?"
+	},
+	{
+		"id": "translation_2284",
+		"id3": "translation_1284",
+		"prompt": "정확히 워터게이트가 무엇인지 말해주실 수 있나요?"
+	},
+	{
+		"id": "translation_2285",
+		"id3": "translation_1285",
+		"prompt": "자존감이 낮은 사람을 돕는 방법에 대해 어떤 조언이 있습니까?"
+	},
+	{
+		"id": "translation_2286",
+		"id3": "translation_1286",
+		"prompt": "Sacramento에서 로맨틱한 데이트 장소는 어디인가요?"
+	},
+	{
+		"id": "translation_2287",
+		"id3": "translation_1287",
+		"prompt": "퀸 엘리자베스는 어떻게 잉글랜드 여왕이 되었나요?"
+	},
+	{
+		"id": "translation_2288",
+		"id3": "translation_1288",
+		"prompt": "자전거 타기는 좋은 운동 방법인가요?"
+	},
+	{
+		"id": "translation_2289",
+		"id3": "translation_1289",
+		"prompt": "워터게이트 스캔들에 어떤 미국 대통령이 연루되었나요?"
+	},
+	{
+		"id": "translation_2290",
+		"id3": "translation_1290",
+		"prompt": "파일 탐색기에서 작업을 되돌리려면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_2291",
+		"id3": "translation_1291",
+		"prompt": "세포 구조에 대해 설명해 주세요. 세포는 어떤 구성요소로 이루어져 있나요?"
+	},
+	{
+		"id": "translation_2292",
+		"id3": "translation_1292",
+		"prompt": "집 바닥을 소독하기 위해 뭐를 사용할 수 있을까요?"
+	},
+	{
+		"id": "translation_2293",
+		"id3": "translation_1293",
+		"prompt": "달이 지평선 근처에 있을 때 달이 더 커 보이는 이유는 무엇인가요?"
+	},
+	{
+		"id": "translation_2294",
+		"id3": "translation_1294",
+		"prompt": "파리에서 방문할 수 있는 인기있는 극장을 알려주세요."
+	},
+	{
+		"id": "translation_2295",
+		"id3": "translation_1295",
+		"prompt": "스쿠버 다이빙은 어떻게 작동하나요?"
+	},
+	{
+		"id": "translation_2296",
+		"id3": "translation_1296",
+		"prompt": "임신 중에 어떻게 체력을 유지할 수 있을까요?"
+	},
+	{
+		"id": "translation_2297",
+		"id3": "translation_1297",
+		"prompt": "정원에 있는 특정한 종류의 잡초를 어떻게 식별할 수 있을까요?"
+	},
+	{
+		"id": "translation_2298",
+		"id3": "translation_1298",
+		"prompt": "인체의 피부는 자연적으로 새로운 세포로 대체되는데, 몇 십 년이 지나도 타투가 사라지지 않는 이유가 무엇인가요?"
+	},
+	{
+		"id": "translation_2299",
+		"id3": "translation_1299",
+		"prompt": "황동은 청동보다 더 강한가요?"
+	},
+	{
+		"id": "translation_2300",
+		"id3": "translation_1300",
+		"prompt": "안녕하세요, 저 정말 지루해요. 그걸 완화할 방법이 있을까요?"
+	},
+	{
+		"id": "translation_2301",
+		"id3": "translation_1301",
+		"prompt": "지프가 최고의 4륜구동 차량인가요?"
+	},
+	{
+		"id": "translation_2302",
+		"id3": "translation_1302",
+		"prompt": "블라디미르 푸틴은 누구인가요?"
+	},
+	{
+		"id": "translation_2303",
+		"id3": "translation_1303",
+		"prompt": "편두통의 원인은 무엇인가요? 최근에 주간 한 번씩 겪고 있습니다."
+	},
+	{
+		"id": "translation_2304",
+		"id3": "translation_1304",
+		"prompt": "미국 대법원 재판관이 되기 위한 기준은 무엇인가요?"
+	},
+	{
+		"id": "translation_2305",
+		"id3": "translation_1305",
+		"prompt": "은행에서 초과인출 수수료를 청구했습니다. 다른 은행으로 바꾸고 이를 지불하지 않으면 어떻게 될까요?"
+	},
+	{
+		"id": "translation_2306",
+		"id3": "translation_1306",
+		"prompt": "유네스코가 지정한 세계 문화유산에 대해 알려주세요. 이에 대해 알고 있는지 여쭤보고 싶습니다."
+	},
+	{
+		"id": "translation_2307",
+		"id3": "translation_1307",
+		"prompt": "대표적인 원주민 부족들의 몇 가지 예를 나열해 줄 수 있을까요?"
+	},
+	{
+		"id": "translation_2308",
+		"id3": "translation_1308",
+		"prompt": "드론 군대를 만드는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2309",
+		"id3": "translation_1309",
+		"prompt": "동물을 좋아하는 2세 아이에게 무엇을 선물해야 할까요?"
+	},
+	{
+		"id": "translation_2310",
+		"id3": "translation_1310",
+		"prompt": "아이를 화장실 훈련시키는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2311",
+		"id3": "translation_1311",
+		"prompt": "왜 어떤 사람들은 씨익거리고, 어떤 사람들은 안 씨익거리는 걸까요?"
+	},
+	{
+		"id": "translation_2312",
+		"id3": "translation_1312",
+		"prompt": "맥주를 얼마나 양조하는 데 걸릴까요?"
+	},
+	{
+		"id": "translation_2313",
+		"id3": "translation_1313",
+		"prompt": "고양이 산책은 필요한 건가요?"
+	},
+	{
+		"id": "translation_2314",
+		"id3": "translation_1314",
+		"prompt": "내 자신을 편하게 만드는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2315",
+		"id3": "translation_1315",
+		"prompt": "Y로 시작하는 독특한 이름은 어떤 게 있나요?"
+	},
+	{
+		"id": "translation_2316",
+		"id3": "translation_1316",
+		"prompt": "인공 나무를 구입하지 않고 크리스마스 트리로 사용할 다른 옵션들이 어떤 게 있나요?"
+	},
+	{
+		"id": "translation_2317",
+		"id3": "translation_1317",
+		"prompt": "안녕하세요, 새로운 언어를 배울 수 있는 웹사이트나 앱을 찾고 있습니다. 도와주실 수 있을까요?"
+	},
+	{
+		"id": "translation_2318",
+		"id3": "translation_1318",
+		"prompt": "비트박스를 배우는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2319",
+		"id3": "translation_1319",
+		"prompt": "지금까지 다른 행성에서 생명을 발견한 적이 있나요?"
+	},
+	{
+		"id": "translation_2320",
+		"id3": "translation_1320",
+		"prompt": "메릴랜드에서 피망을 재배하기 좋은 때는 언제인가요?"
+	},
+	{
+		"id": "translation_2321",
+		"id3": "translation_1321",
+		"prompt": "소총에서 분리식 탄창을 어떻게 제거하나요?"
+	},
+	{
+		"id": "translation_2322",
+		"id3": "translation_1322",
+		"prompt": "창의력을 향상시키는 실용적인 팁은 무엇인가요?"
+	},
+	{
+		"id": "translation_2323",
+		"id3": "translation_1323",
+		"prompt": "바비와 함께 할 수 있는 재미있는 롤플레잉 게임은 무엇인가요?"
+	},
+	{
+		"id": "translation_2324",
+		"id3": "translation_1324",
+		"prompt": "텍사스의 실리콘 힐스는 무엇인가요?"
+	},
+	{
+		"id": "translation_2325",
+		"id3": "translation_1325",
+		"prompt": "과학적 이론이란 무엇인가요?"
+	},
+	{
+		"id": "translation_2326",
+		"id3": "translation_1326",
+		"prompt": "새로운 음악을 듣고 싶어요. 토니 브랙스톤의 대표곡 중 어떤 것이 있나요?"
+	},
+	{
+		"id": "translation_2327",
+		"id3": "translation_1327",
+		"prompt": "알래스카로 차를 운전하기 위해 여권이 필요한가요?"
+	},
+	{
+		"id": "translation_2328",
+		"id3": "translation_1328",
+		"prompt": "플로리다에서 선생님이 되는 것은 어려울까요?"
+	},
+	{
+		"id": "translation_2329",
+		"id3": "translation_1329",
+		"prompt": "저는 프랑스에 살고 있고, 여러 날씨 관련 단어를 배워야 합니다."
+	},
+	{
+		"id": "translation_2330",
+		"id3": "translation_1330",
+		"prompt": "부모님을 위한 좋은 기념일 선물 아이디어가 있을까요?"
+	},
+	{
+		"id": "translation_2331",
+		"id3": "translation_1331",
+		"prompt": "내 지역 상점에는 습식과 건식 두 종류의 애완동물 사료가 있는데, 둘 중에 하나가 고양이에게 더 좋은 건가요?"
+	},
+	{
+		"id": "translation_2332",
+		"id3": "translation_1332",
+		"prompt": "과일 케이크란 정확히 무엇인가요? 왜 크리스마스 디저트로 알려져 있을까요?"
+	},
+	{
+		"id": "translation_2333",
+		"id3": "translation_1333",
+		"prompt": "기울기를 정의하는 공식은 무엇인가요?"
+	},
+	{
+		"id": "translation_2334",
+		"id3": "translation_1334",
+		"prompt": "미 해병대는 미 해군의 일부인가요?"
+	},
+	{
+		"id": "translation_2335",
+		"id3": "translation_1335",
+		"prompt": "Pieter Elbers의 순자산은 얼마인가요?"
+	},
+	{
+		"id": "translation_2336",
+		"id3": "translation_1336",
+		"prompt": "아이리시 기근 기간 동안 감자를 죽인 질병의 이름은 무엇인가요?"
+	},
+	{
+		"id": "translation_2337",
+		"id3": "translation_1337",
+		"prompt": "잠재 에너지가 어떻게 작용하는지 설명해주세요."
+	},
+	{
+		"id": "translation_2338",
+		"id3": "translation_1338",
+		"prompt": "소아과 의사가 되기 위해 받는 교육은 일반 의사와 얼마나 다른가요?"
+	},
+	{
+		"id": "translation_2339",
+		"id3": "translation_1339",
+		"prompt": "ETS Praxis 시험은 어떤 용도로 사용되나요?"
+	},
+	{
+		"id": "translation_2340",
+		"id3": "translation_1340",
+		"prompt": "바나나를 어떻게 제공할 수 있을까요?"
+	},
+	{
+		"id": "translation_2341",
+		"id3": "translation_1341",
+		"prompt": "쿠 클럭스 클랜이란 무엇인가요?"
+	},
+	{
+		"id": "translation_2342",
+		"id3": "translation_1342",
+		"prompt": "팀 버튼은 훌륭한 감독입니다. 그의 가장 유명한 영화는 어떤 것들이 있나요? 저는 오늘 밤 영화를 보려고 생각하고 있어요."
+	},
+	{
+		"id": "translation_2343",
+		"id3": "translation_1343",
+		"prompt": "대학 공부를 마치기 위해 시간을 관리하는 게 어려워서 도움이 필요합니다. 어떤 조언이 있을까요?"
+	},
+	{
+		"id": "translation_2344",
+		"id3": "translation_1344",
+		"prompt": "경기에서 사용되는 복싱 글러브의 무게는 어떻게 되나요?"
+	},
+	{
+		"id": "translation_2345",
+		"id3": "translation_1345",
+		"prompt": "중국에는 유네스코 세계문화유산이 몇 개나 있나요?"
+	},
+	{
+		"id": "translation_2346",
+		"id3": "translation_1346",
+		"prompt": "경매는 어떻게 작동하나요?"
+	},
+	{
+		"id": "translation_2347",
+		"id3": "translation_1347",
+		"prompt": "서브웨이는 맥도날드보다 건강한 패스트푸드인가요?"
+	},
+	{
+		"id": "translation_2348",
+		"id3": "translation_1348",
+		"prompt": "안녕하세요! 글루트 근육을 키우는 운동에 초점을 맞춘 운동 루틴을 만들려고 합니다. 조언이 있으신가요?"
+	},
+	{
+		"id": "translation_2349",
+		"id3": "translation_1349",
+		"prompt": "폴 매카트니는 살아 계신가요?"
+	},
+	{
+		"id": "translation_2350",
+		"id3": "translation_1350",
+		"prompt": "현대 과학에서는 시각장애인들이 볼 수 있도록 도움을 주는 치료 방법이 있을까요?"
+	},
+	{
+		"id": "translation_2351",
+		"id3": "translation_1351",
+		"prompt": "어떻게 필기를 개선할 수 있을까요?"
+	},
+	{
+		"id": "translation_2352",
+		"id3": "translation_1352",
+		"prompt": "인간의 의식은 정확히 무엇인가요?"
+	},
+	{
+		"id": "translation_2353",
+		"id3": "translation_1353",
+		"prompt": "팬케이크를 만드려고합니다. 좋은 레시피가 있나요?"
+	},
+	{
+		"id": "translation_2354",
+		"id3": "translation_1354",
+		"prompt": "코를 효과적으로 맑게 하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2355",
+		"id3": "translation_1355",
+		"prompt": "전 원래 수프를 만들어본 적이 없지만 해보고 싶어요. 어디서 시작해야하나요?"
+	},
+	{
+		"id": "translation_2356",
+		"id3": "translation_1356",
+		"prompt": "풍선을 팽창시키는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2357",
+		"id3": "translation_1357",
+		"prompt": "내 벽난로에 태울 가장 좋은 목재는 무엇인가요?"
+	},
+	{
+		"id": "translation_2358",
+		"id3": "translation_1358",
+		"prompt": "저의 세금 신고를 도와주실 수 있나요?"
+	},
+	{
+		"id": "translation_2359",
+		"id3": "translation_1359",
+		"prompt": "토스터 스트루델을 발명한 사람을 알려주세요. 도와주실 수 있나요?"
+	},
+	{
+		"id": "translation_2360",
+		"id3": "translation_1360",
+		"prompt": "어린이를 보살피기 위해서는 무엇이 필요할까요?"
+	},
+	{
+		"id": "translation_2361",
+		"id3": "translation_1361",
+		"prompt": "우리 태양계에 있는 행성에 대해 말해주시겠어요?"
+	},
+	{
+		"id": "translation_2362",
+		"id3": "translation_1362",
+		"prompt": "여름에 강아지를 시원하게 유지하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2363",
+		"id3": "translation_1363",
+		"prompt": "초보자를 위한 서핑보드를 찾을 수 있을까요?"
+	},
+	{
+		"id": "translation_2364",
+		"id3": "translation_1364",
+		"prompt": "아기가 물었을 경우 어떻게 해야 할까요?"
+	},
+	{
+		"id": "translation_2365",
+		"id3": "translation_1365",
+		"prompt": "요양원에 있는 노인 할머니에게 어떤 선물이 좋을까요?"
+	},
+	{
+		"id": "translation_2366",
+		"id3": "translation_1366",
+		"prompt": "슬라이드가 포함된 파워포인트를 어떻게 만들 수 있을까요?"
+	},
+	{
+		"id": "translation_2367",
+		"id3": "translation_1367",
+		"prompt": "눈 얼음 크림을 만드는 법을 알 수 있을까요?"
+	},
+	{
+		"id": "translation_2368",
+		"id3": "translation_1368",
+		"prompt": "자폐증이 있는 아이도 다른 아이들과 함께 학교에 다닐 수 있을까요?"
+	},
+	{
+		"id": "translation_2369",
+		"id3": "translation_1369",
+		"prompt": "농장을 시작하고 싶습니다. 어디에서 시작해야 할까요?"
+	},
+	{
+		"id": "translation_2370",
+		"id3": "translation_1370",
+		"prompt": "차에서 녹을 제거하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2371",
+		"id3": "translation_1371",
+		"prompt": "저는 샌디에고에 한 번도 가본 적이 없어요. 가볼만한 지역인가요?"
+	},
+	{
+		"id": "translation_2372",
+		"id3": "translation_1372",
+		"prompt": "내 맥북의 일련번호를 찾고 있어요. 찾는 데 도움을 받을 수 있을까요?"
+	},
+	{
+		"id": "translation_2373",
+		"id3": "translation_1373",
+		"prompt": "휴가를 가기 위해 방문할만한 독특한 장소는 어디가 있나요?"
+	},
+	{
+		"id": "translation_2374",
+		"id3": "translation_1374",
+		"prompt": "간아시 만드는 방법을 알려주세요."
+	},
+	{
+		"id": "translation_2375",
+		"id3": "translation_1375",
+		"prompt": "듣기 좋은 팟캐스트를 찾고 있어요. 어떤 것을 추천해주시겠어요?"
+	},
+	{
+		"id": "translation_2376",
+		"id3": "translation_1376",
+		"prompt": "달과 태양 사이의 거리는 얼마나 될까요?"
+	},
+	{
+		"id": "translation_2377",
+		"id3": "translation_1377",
+		"prompt": "덤프스터 다이빙(Dumpster diving)은 정확히 무엇이며, 사람들이 왜 그렇게 하는 걸까요?"
+	},
+	{
+		"id": "translation_2378",
+		"id3": "translation_1378",
+		"prompt": "할라피뇨 팝퍼를 만드는 데 도움을 받을 수 있을까요?"
+	},
+	{
+		"id": "translation_2379",
+		"id3": "translation_1379",
+		"prompt": "옛날 연필은 진짜로 납으로 만들어졌나요?"
+	},
+	{
+		"id": "translation_2380",
+		"id3": "translation_1380",
+		"prompt": "만두 만드는 레시피가 있으신가요? 저녁에 한번 도전해보고 싶어요."
+	},
+	{
+		"id": "translation_2381",
+		"id3": "translation_1381",
+		"prompt": "왜 고대 그리스 사람들은 발기가 작은 남성들이 더 똑똑하다고 생각했을까요? 이걸 다큐멘터리에서 들었는데 이상하다고 생각했어요!"
+	},
+	{
+		"id": "translation_2382",
+		"id3": "translation_1382",
+		"prompt": "Tom Selleck은 큰 인기를 누렸어요.  그의 대성적인 연기 경력에 대해 좀 더 알려주실 수 있을까요?"
+	},
+	{
+		"id": "translation_2383",
+		"id3": "translation_1383",
+		"prompt": "유치원생들에게 좋은 텔레비전 프로그램은 어떤 것이 있을까요?"
+	},
+	{
+		"id": "translation_2384",
+		"id3": "translation_1384",
+		"prompt": "아는 사람 중에는 맥시 같은 대중적인 산업 체인을 위해 창고에 위치한 아파트로 이사를 선택한 사람이 있어요. 창고에 위치한 아파트로 이사를 하는 것의 장단점에 대해 이야기해주실 수 있을까요?"
+	},
+	{
+		"id": "translation_2385",
+		"id3": "translation_1385",
+		"prompt": "감자를 보드카로 만드는 방법을 알고 계신가요?"
+	},
+	{
+		"id": "translation_2386",
+		"id3": "translation_1386",
+		"prompt": "면접에서 피해야 할 몸짓은 어떤 것이 있을까요?"
+	},
+	{
+		"id": "translation_2387",
+		"id3": "translation_1387",
+		"prompt": "나이키는 아직도 에어 조던을 판매하나요?"
+	},
+	{
+		"id": "translation_2388",
+		"id3": "translation_1388",
+		"prompt": "미국 역사를 배우는 좋은 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2389",
+		"id3": "translation_1389",
+		"prompt": "저에게 반복 학습이란 무엇인지 설명해주실 수 있나요? 기억을 위한 최선의 방법인가요?"
+	},
+	{
+		"id": "translation_2390",
+		"id3": "translation_1390",
+		"prompt": "햄프티 덤티는 오래된 동화입니다만, 그 뒤에는 어떤 역사가 있는지 알고 계신가요?"
+	},
+	{
+		"id": "translation_2391",
+		"id3": "translation_1391",
+		"prompt": "인생에서 랩 음악을 별로 들어보지 않았지만 최근 2Pac 음악을 들었고 정말 좋아했어요. 비슷한 올드스쿨 웨스트 코스트 갱스터 랩을 추천해주실 수 있을까요?"
+	},
+	{
+		"id": "translation_2392",
+		"id3": "translation_1392",
+		"prompt": "우리는 정신분열증과 같은 심한 정신병을 사람들이 많이 다루곤 하는데요, 야생동물들도 정신병과 같은 증상을 겪는 걸 증거로 볼 수 있을까요?"
+	},
+	{
+		"id": "translation_2393",
+		"id3": "translation_1393",
+		"prompt": "TBI는 무엇인가요?"
+	},
+	{
+		"id": "translation_2394",
+		"id3": "translation_1394",
+		"prompt": "새를 그리는 방법을 알려주세요."
+	},
+	{
+		"id": "translation_2395",
+		"id3": "translation_1395",
+		"prompt": "일상에서 희생을 많이 요하지 않는 친환경적인 방법으로 탄소 발자국을 낮추는 방법이 있을까요?"
+	},
+	{
+		"id": "translation_2396",
+		"id3": "translation_1396",
+		"prompt": "어머니를 요양원에 두어야 할 필요가 있는데, 이 때 양심에 찔리는 기분이 들어요."
+	},
+	{
+		"id": "translation_2397",
+		"id3": "translation_1397",
+		"prompt": "아이에게 분수를 설명하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2398",
+		"id3": "translation_1398",
+		"prompt": "부서진 이빨을 복원하기 위한 옵션은 무엇이 있나요?"
+	},
+	{
+		"id": "translation_2399",
+		"id3": "translation_1399",
+		"prompt": "사장에게 월급 인상을 요청하기로 계획 중인데 어떻게 해야 할지 잘 모르겠어요. 조언 좀 해주실래요?"
+	},
+	{
+		"id": "translation_2400",
+		"id3": "translation_1400",
+		"prompt": "일본에는 아직도 사무라이가 존재합니까?"
+	},
+	{
+		"id": "translation_2401",
+		"id3": "translation_1401",
+		"prompt": "성견이나 강아지 중 무엇을 입양해야 할까요?"
+	},
+	{
+		"id": "translation_2402",
+		"id3": "translation_1402",
+		"prompt": "산성비란 무엇인가요?"
+	},
+	{
+		"id": "translation_2403",
+		"id3": "translation_1403",
+		"prompt": "고분해만 해역 사건에 대해 더 알려주세요."
+	},
+	{
+		"id": "translation_2404",
+		"id3": "translation_1404",
+		"prompt": "남극은 대륙인가요?"
+	},
+	{
+		"id": "translation_2405",
+		"id3": "translation_1405",
+		"prompt": "여자들이 남자들보다 크리스마스에 훨씬 더 흥분하는 이유가 뭔가요?"
+	},
+	{
+		"id": "translation_2406",
+		"id3": "translation_1406",
+		"prompt": "포함하여 나사와 볼트가 있는 평균 자동차의 부품은 몇 개인가요?"
+	},
+	{
+		"id": "translation_2407",
+		"id3": "translation_1407",
+		"prompt": "반려견이 실내용 방습패드를 사용하는 법에 대해 조언해 주실 수 있을까요?"
+	},
+	{
+		"id": "translation_2408",
+		"id3": "translation_1408",
+		"prompt": "언젠가 정글을 탐험해보고 싶은데, 어디를 방문해야 할지 모르겠습니다. 정글 지역을 추천해 주시겠어요?"
+	},
+	{
+		"id": "translation_2409",
+		"id3": "translation_1409",
+		"prompt": "간호 인력 부족을 어떻게 완화하나요?"
+	},
+	{
+		"id": "translation_2410",
+		"id3": "translation_1410",
+		"prompt": "피임약은 안전한가요?"
+	},
+	{
+		"id": "translation_2411",
+		"id3": "translation_1411",
+		"prompt": "싱가포르에서 어떤 음식을 즐기나요?"
+	},
+	{
+		"id": "translation_2412",
+		"id3": "translation_1412",
+		"prompt": "올해 슈퍼볼이 열릴 때를 대비해 몇 가지 레시피를 준비하려고 합니다. 놀라운 5단 고순도 베안 딥을 만들 수 있는 도움을 받을 수 있을까요? 절차를 알고 싶어요."
+	},
+	{
+		"id": "translation_2413",
+		"id3": "translation_1413",
+		"prompt": "돕는 생활이란 무엇인가요?"
+	},
+	{
+		"id": "translation_2414",
+		"id3": "translation_1414",
+		"prompt": "어떻게 내 아이들이 비디오 채팅을 통해 롤플레이를 할 수 있을까요?"
+	},
+	{
+		"id": "translation_2415",
+		"id3": "translation_1415",
+		"prompt": "어떤 요리에서 아몬드가 자주 사용되나요?"
+	},
+	{
+		"id": "translation_2416",
+		"id3": "translation_1416",
+		"prompt": "백열 전구와 LED 전구의 차이점은 무엇인가요?"
+	},
+	{
+		"id": "translation_2417",
+		"id3": "translation_1417",
+		"prompt": "설탕 쿠키 만드는 법을 어떻게 배울 수 있을까요?"
+	},
+	{
+		"id": "translation_2418",
+		"id3": "translation_1418",
+		"prompt": "분만 중에 에피듀럴의 장단점은 무엇인가요?"
+	},
+	{
+		"id": "translation_2419",
+		"id3": "translation_1419",
+		"prompt": "미국 다음으로 군사력이 강한 나라는 어디인가요?"
+	},
+	{
+		"id": "translation_2420",
+		"id3": "translation_1420",
+		"prompt": "미국과 영국 사이의 문화적 차이점은 무엇인가요?"
+	},
+	{
+		"id": "translation_2421",
+		"id3": "translation_1421",
+		"prompt": "영국 빅 벤의 건설 역사에 대해 알려주세요."
+	},
+	{
+		"id": "translation_2422",
+		"id3": "translation_1422",
+		"prompt": "간단히 말해서, 코카인 거래에 있어서 파블로 에스코바르의 역할은 무엇인가요? 이는 콜롬비아와 미국 사이의 코카인 거래를 의미합니다."
+	},
+	{
+		"id": "translation_2423",
+		"id3": "translation_1423",
+		"prompt": "자주 독립적으로 생활하는 사람들은 문화적으로 좋은 평판을 가지지 못합니다. 우리는 어떻게 이 문화에서 자주 독립적으로 생활하는 사람들을 인정하고 지지할 수 있을까요?"
+	},
+	{
+		"id": "translation_2424",
+		"id3": "translation_1424",
+		"prompt": "저는 햄 오믈렛을 만들고 싶어요. 전 이전에 한 번도 만들어 본 적이 없어요. 도와주실 수 있을까요?"
+	},
+	{
+		"id": "translation_2425",
+		"id3": "translation_1425",
+		"prompt": "안녕하세요! 제 친구 아기가 황달에 걸렸는데, 그녀의 감정을 제대로 인정해 주면서도 긍정적인 분위기를 유지하는 방법이 있을까요?"
+	},
+	{
+		"id": "translation_2426",
+		"id3": "translation_1426",
+		"prompt": "자신만의 챗봇을 만드는 방법을 알려주세요."
+	},
+	{
+		"id": "translation_2427",
+		"id3": "translation_1427",
+		"prompt": "아프리카에서 연중 평균 기온이 가장 높은 지역은 어디인가요?"
+	},
+	{
+		"id": "translation_2428",
+		"id3": "translation_1428",
+		"prompt": "도넛은 어디에서 유래되었나요?"
+	},
+	{
+		"id": "translation_2429",
+		"id3": "translation_1429",
+		"prompt": "인터넷 속도 데이터를 이해하는 방법을 가르쳐 주실 수 있나요? 200 Mbps는 어떤 의미인가요?"
+	},
+	{
+		"id": "translation_2430",
+		"id3": "translation_1430",
+		"prompt": "왜 일부 나무는 인간에게 독성이 있는가요?"
+	},
+	{
+		"id": "translation_2431",
+		"id3": "translation_1431",
+		"prompt": "머리를 더 광채나게 만드는 방법이 있을까요?"
+	},
+	{
+		"id": "translation_2432",
+		"id3": "translation_1432",
+		"prompt": "어떤 하와이 섬을 방문해야 할지 결정하기 위해 정보를 찾는 데 도움을 줄 수 있나요?"
+	},
+	{
+		"id": "translation_2433",
+		"id3": "translation_1433",
+		"prompt": "고양이의 생물학에 대해 배우고 싶습니다. 이에 대해 배울 수 있는 좋은 연구 서적은 어떤 것들이 있나요?"
+	},
+	{
+		"id": "translation_2434",
+		"id3": "translation_1434",
+		"prompt": "스쿠버 다이빙을 하기 좋은 장소는 어디인가요?"
+	},
+	{
+		"id": "translation_2435",
+		"id3": "translation_1435",
+		"prompt": "최근 저녁에 발에서 강한 냄새가 나는 것 같아요. 이를 줄이는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2436",
+		"id3": "translation_1436",
+		"prompt": "라자냐의 레시피가 무엇인가요?"
+	},
+	{
+		"id": "translation_2437",
+		"id3": "translation_1437",
+		"prompt": "천연 모기 퇴치제를 어떻게 만들 수 있나요?"
+	},
+	{
+		"id": "translation_2438",
+		"id3": "translation_1438",
+		"prompt": "애리조나 투손에서 방문할 만한 장소는 어디가 있나요?"
+	},
+	{
+		"id": "translation_2439",
+		"id3": "translation_1439",
+		"prompt": "제임스 다이먼의 순자산을 알고 싶습니다"
+	},
+	{
+		"id": "translation_2440",
+		"id3": "translation_1440",
+		"prompt": "핫 초콜릿과 멕시칸 핫 초콜릿의 재료는 어떻게 다른가요?"
+	},
+	{
+		"id": "translation_2441",
+		"id3": "translation_1441",
+		"prompt": "차량 배기 가스 점검을 받아야 합니다. 이게 정확히 무슨 의미인가요?"
+	},
+	{
+		"id": "translation_2442",
+		"id3": "translation_1442",
+		"prompt": "아이가 물을 마시지 않고 탈수증상이 나타나면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_2443",
+		"id3": "translation_1443",
+		"prompt": "다양한 직업 분야를 살펴보면서 내가 무엇을 추구할지 결정하려고 합니다. 팟캐스트를 시작하는 법은 어떻게 되나요?"
+	},
+	{
+		"id": "translation_2444",
+		"id3": "translation_1444",
+		"prompt": "셰익스피어가 쓴 가장 좋은 연극은 무엇인가요?"
+	},
+	{
+		"id": "translation_2445",
+		"id3": "translation_1445",
+		"prompt": "어떻게 하면 아이들이 문을 세게 닫지 않게 할 수 있을까요?"
+	},
+	{
+		"id": "translation_2446",
+		"id3": "translation_1446",
+		"prompt": "고양이를 산책시키려면 어떻게 해야 할까요?"
+	},
+	{
+		"id": "translation_2447",
+		"id3": "translation_1447",
+		"prompt": "미국이 베트남 전쟁에서 독가스를 사용한 이유는 무엇인가요?"
+	},
+	{
+		"id": "translation_2448",
+		"id3": "translation_1448",
+		"prompt": "새로운 차들은 오래된 차들보다 더 많은 엔진 마일리지를 얻는 걸까요?"
+	},
+	{
+		"id": "translation_2449",
+		"id3": "translation_1449",
+		"prompt": "베티 화이트에 대해 들어보셨나요? 그녀가 오늘 사망했다고 하네요."
+	},
+	{
+		"id": "translation_2450",
+		"id3": "translation_1450",
+		"prompt": "황동과 청동의 주요 차이점은 무엇인가요?"
+	},
+	{
+		"id": "translation_2451",
+		"id3": "translation_1451",
+		"prompt": "집에서 물벌레를 없애는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2452",
+		"id3": "translation_1452",
+		"prompt": "사냥 시즌인데, 개를 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채로 산채"
+	},
+	{
+		"id": "translation_2453",
+		"id3": "translation_1453",
+		"prompt": "부두에 대해 들어본 적은 있지만, 많이 알지 못하겠습니다. 그 역사를 아시나요?"
+	},
+	{
+		"id": "translation_2454",
+		"id3": "translation_1454",
+		"prompt": "어떤 유형의 직업들이 연금을 받나요? 정부 직업만 받나요?"
+	},
+	{
+		"id": "translation_2455",
+		"id3": "translation_1455",
+		"prompt": "어른이 되어서 친구를 사귀는 몇 가지 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2456",
+		"id3": "translation_1456",
+		"prompt": "닌자 무브를 배우려면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_2457",
+		"id3": "translation_1457",
+		"prompt": "가상 학교에 다니게 된 지금, 어떻게 하면 제 아이들의 공부 의욕을 끌어올릴 수 있을까요?"
+	},
+	{
+		"id": "translation_2458",
+		"id3": "translation_1458",
+		"prompt": "자율주행 자동차는 어떻게 작동하나요?"
+	},
+	{
+		"id": "translation_2459",
+		"id3": "translation_1459",
+		"prompt": "남자 아이들에게 좋은 매거진은 어떤 것들이 있나요?"
+	},
+	{
+		"id": "translation_2460",
+		"id3": "translation_1460",
+		"prompt": "코딩을 배우기 위해 학교에 가야 하나요, 아니면 집에서 공부해도 취업할 수 있을까요?"
+	},
+	{
+		"id": "translation_2461",
+		"id3": "translation_1461",
+		"prompt": "흡연을 그만두고 싶은데 어떻게 해야 할지 모르겠어요. 도와주실 수 있을까요?"
+	},
+	{
+		"id": "translation_2462",
+		"id3": "translation_1462",
+		"prompt": "라이프가드가 되려면 어떻게 해야 하나요?"
+	},
+	{
+		"id": "translation_2463",
+		"id3": "translation_1463",
+		"prompt": "유럽에서 성이 유명한 나라는 어디인가요?"
+	},
+	{
+		"id": "translation_2464",
+		"id3": "translation_1464",
+		"prompt": "좋은 랩 가수들은 누구인가요?"
+	},
+	{
+		"id": "translation_2465",
+		"id3": "translation_1465",
+		"prompt": "주식 투자를 시작하기 전에 알아야 할 것은 무엇인가요?"
+	},
+	{
+		"id": "translation_2466",
+		"id3": "translation_1466",
+		"prompt": "촛불을 어떻게 만들까요?"
+	},
+	{
+		"id": "translation_2467",
+		"id3": "translation_1467",
+		"prompt": "톰 행크스의 최고의 영화는 어떤 것들인가요?"
+	},
+	{
+		"id": "translation_2468",
+		"id3": "translation_1468",
+		"prompt": "초콜릿 호두 쿠키 레시피를 검색해주세요."
+	},
+	{
+		"id": "translation_2469",
+		"id3": "translation_1469",
+		"prompt": "우리는 경찰을 촬영할 수 있을까요? 이에 대해 다른 의견을 들어봤습니다."
+	},
+	{
+		"id": "translation_2470",
+		"id3": "translation_1470",
+		"prompt": "파충류와 양서류의 차이점은 무엇인가요?"
+	},
+	{
+		"id": "translation_2471",
+		"id3": "translation_1471",
+		"prompt": "IMDb란 무엇인가요?"
+	},
+	{
+		"id": "translation_2472",
+		"id3": "translation_1472",
+		"prompt": "관절염 통증에 대해 어떻게 대처할 수 있을까요?"
+	},
+	{
+		"id": "translation_2473",
+		"id3": "translation_1473",
+		"prompt": "어떻게 중장비 운전 자격증을 취득할 수 있나요?"
+	},
+	{
+		"id": "translation_2474",
+		"id3": "translation_1474",
+		"prompt": "여자친구가 최근 레드 드럼을 잡아보고 싶다고 얘기했습니다. 플로리다에서 이 물고기를 잡는 팁을 알려주실 수 있나요?"
+	},
+	{
+		"id": "translation_2475",
+		"id3": "translation_1475",
+		"prompt": "MLB에서 최고의 투수는 누구인가요?"
+	},
+	{
+		"id": "translation_2476",
+		"id3": "translation_1476",
+		"prompt": "흥분되었지만 잠들지 않는 아기를 어떻게 재우나요?"
+	},
+	{
+		"id": "translation_2477",
+		"id3": "translation_1477",
+		"prompt": "Cesar 샐러드는 무엇이라고 불리나요?"
+	},
+	{
+		"id": "translation_2478",
+		"id3": "translation_1478",
+		"prompt": "브로콜리는 건강에 좋나요?"
+	},
+	{
+		"id": "translation_2479",
+		"id3": "translation_1479",
+		"prompt": "Nerf 총으로 할 수 있는 재미있는 것들은 무엇인가요?"
+	},
+	{
+		"id": "translation_2480",
+		"id3": "translation_1480",
+		"prompt": "타겟 광고란 무엇인가요?"
+	},
+	{
+		"id": "translation_2481",
+		"id3": "translation_1481",
+		"prompt": "IVF 치료는 무엇인가요?"
+	},
+	{
+		"id": "translation_2482",
+		"id3": "translation_1482",
+		"prompt": "어떤 스트리밍 매체가 좋을까요?"
+	},
+	{
+		"id": "translation_2483",
+		"id3": "translation_1483",
+		"prompt": "슬픈 분을 기쁘게 만드는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2484",
+		"id3": "translation_1484",
+		"prompt": "안녕하세요, 수학 수업에서 파이 차트를 만드는 방법을 배워야 합니다. 그 방법을 설명해주실 수 있을까요?"
+	},
+	{
+		"id": "translation_2485",
+		"id3": "translation_1485",
+		"prompt": "흑인 우주 생물학자가 있을까요?"
+	},
+	{
+		"id": "translation_2486",
+		"id3": "translation_1486",
+		"prompt": "저는 지금 스트레스로 힘들게 살고 있어요. 심지어 신체적인 영향을 받고 있는 것 같아요. 건강에도 영향을 주고 있어요. 제가 스트레스 요인을 제거할 수 없으니 어떻게 관리할 수 있을까요? 제 일과 가족과 관련돼 있어서요."
+	},
+	{
+		"id": "translation_2487",
+		"id3": "translation_1487",
+		"prompt": "불판을 어떤 재료로 만들 수 있을까요?"
+	},
+	{
+		"id": "translation_2488",
+		"id3": "translation_1488",
+		"prompt": "진 와일더의 영화를 찾아보세요."
+	},
+	{
+		"id": "translation_2489",
+		"id3": "translation_1489",
+		"prompt": "평화로운 삶을 살기 위한 가장 좋은 방법은 무엇일까요?"
+	},
+	{
+		"id": "translation_2490",
+		"id3": "translation_1490",
+		"prompt": "구글 페이란 무엇인가요?"
+	},
+	{
+		"id": "translation_2491",
+		"id3": "translation_1491",
+		"prompt": "어떻게하면 우주 비행사가 될 수 있을까요?"
+	},
+	{
+		"id": "translation_2492",
+		"id3": "translation_1492",
+		"prompt": "어떻게 귀에 구멍을 뚫을 수 있을까요?"
+	},
+	{
+		"id": "translation_2493",
+		"id3": "translation_1493",
+		"prompt": "미국의 어느 사투리가 영국 식민지 시절 오리지널 영국 사투리에 가장 가까운가요?"
+	},
+	{
+		"id": "translation_2494",
+		"id3": "translation_1494",
+		"prompt": "다음 달에 덴버, 콜로라도로 출장을 가야겠습니다. 그 출장 기간 중에 하루는 여가 시간이 있는데, 현지 관광지와 경치 몇 군데를 보고 싶습니다. 하루 일정을 만들어 줄 수 있을까요? 3-4군데의 장소를 포함해서요."
+	},
+	{
+		"id": "translation_2495",
+		"id3": "translation_1495",
+		"prompt": "오늘 Glendale, CA의 날씨는 어떤가요?"
+	},
+	{
+		"id": "translation_2496",
+		"id3": "translation_1496",
+		"prompt": "고양이가 왜 깨끗하게 울까요?"
+	},
+	{
+		"id": "translation_2497",
+		"id3": "translation_1497",
+		"prompt": "DNA 증거에 대해 설명해 줄 수 있을까요? DNA 증거의 출처와 샘플에 대해 설명해주세요."
+	},
+	{
+		"id": "translation_2498",
+		"id3": "translation_1498",
+		"prompt": "집을 칠할 때 창문이 얼룩질하지 않도록 어떻게 방지할 수 있을까요?"
+	},
+	{
+		"id": "translation_2499",
+		"id3": "translation_1499",
+		"prompt": "그릴 스테이크와 잘 어울리는 반찬은 무엇인가요?"
+	},
+	{
+		"id": "translation_2500",
+		"id3": "translation_1500",
+		"prompt": "친구가 나와 성적 지향을 밝힌다면 어떻게 지지할 수 있을까요?"
+	},
+	{
+		"id": "translation_2501",
+		"id3": "translation_1501",
+		"prompt": "어떻게 어린이가 고양이를 돌볼 준비되었는지 알 수 있을까요?"
+	},
+	{
+		"id": "translation_2502",
+		"id3": "translation_1502",
+		"prompt": "무례하고 공격적인 클라이언트와 대면했을 때 어떻게 대우해야 할까요?"
+	},
+	{
+		"id": "translation_2503",
+		"id3": "translation_1503",
+		"prompt": "자물쇠 장인은 어떤 일을 할 수 있나요?"
+	},
+	{
+		"id": "translation_2504",
+		"id3": "translation_1504",
+		"prompt": "가장 인기 있는 카드 게임은 무엇인가요? 진 러미와 몇 가지 게임은 아는데요."
+	},
+	{
+		"id": "translation_2505",
+		"id3": "translation_1505",
+		"prompt": "우울함은 인격 결함인가요?"
+	},
+	{
+		"id": "translation_2506",
+		"id3": "translation_1506",
+		"prompt": "토마토로 소스를 만드는 방법이 무엇인가요?"
+	},
+	{
+		"id": "translation_2507",
+		"id3": "translation_1507",
+		"prompt": "Windows 10에서 모니터가 종료되기 전에 비활성 상태로 들어가는 시간을 어떻게 변경하나요?"
+	},
+	{
+		"id": "translation_2508",
+		"id3": "translation_1508",
+		"prompt": "잘 알려진 Nascar 드라이버는 누구인가요?"
+	},
+	{
+		"id": "translation_2509",
+		"id3": "translation_1509",
+		"prompt": "데스크톱 컴퓨터를 무선 라우터에 어떻게 연결하나요?"
+	},
+	{
+		"id": "translation_2510",
+		"id3": "translation_1510",
+		"prompt": "페렛을 어떻게 돌봐야 하나요?"
+	},
+	{
+		"id": "translation_2511",
+		"id3": "translation_1511",
+		"prompt": "HIV는 사람에게 어떤 영향을 주나요?"
+	},
+	{
+		"id": "translation_2512",
+		"id3": "translation_1512",
+		"prompt": "Kwanzaa의 기원은 무엇인가요?"
+	},
+	{
+		"id": "translation_2513",
+		"id3": "translation_1513",
+		"prompt": "효율적으로 공부하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2514",
+		"id3": "translation_1514",
+		"prompt": "왜 잠수부는 바다를 그리 깊게 다니지 않아도 압력을 낮춰야 할까요? 반면 우리는 수천 피트를 날아다니면서도 문제가 없을까요?"
+	},
+	{
+		"id": "translation_2515",
+		"id3": "translation_1515",
+		"prompt": "체중을 감소시키는 가장 좋은 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2516",
+		"id3": "translation_1516",
+		"prompt": "서양 국가와 동양 국가의 주요 차이점은 무엇인가요?"
+	},
+	{
+		"id": "translation_2517",
+		"id3": "translation_1517",
+		"prompt": "여름에 집을 더 시원하게 유지하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2518",
+		"id3": "translation_1518",
+		"prompt": "론드맥도날드와 맥도날드 햄버거 체인에 대해 어떤 이야기가 있나요? 그 회사의 광대인 저 사람은 언제나 수상하게 보입니다."
+	},
+	{
+		"id": "translation_2519",
+		"id3": "translation_1519",
+		"prompt": "축구 선수들은 돌발성 뇌진탕을 격리합니까?"
+	},
+	{
+		"id": "translation_2520",
+		"id3": "translation_1520",
+		"prompt": "선크림을 선택하는 방법은 어떻게 되나요?"
+	},
+	{
+		"id": "translation_2521",
+		"id3": "translation_1521",
+		"prompt": "유럽의 한 도시를 방문할 수 있다면 어디로 가시겠습니까?"
+	},
+	{
+		"id": "translation_2522",
+		"id3": "translation_1522",
+		"prompt": "세서미 스트리트처럼 어린이를 위한 좋은 쇼는 무엇인가요?"
+	},
+	{
+		"id": "translation_2523",
+		"id3": "translation_1523",
+		"prompt": "어떤 배우가 아이언맨을 연기하나요?"
+	},
+	{
+		"id": "translation_2524",
+		"id3": "translation_1524",
+		"prompt": "초콜릿칩 쿠키를 만들려고 하고 있어요. 좋은 레시피가 있나요?"
+	},
+	{
+		"id": "translation_2525",
+		"id3": "translation_1525",
+		"prompt": "바다와 대양의 차이점은 무엇인가요?"
+	},
+	{
+		"id": "translation_2526",
+		"id3": "translation_1526",
+		"prompt": "친구들이 내 집에 온다. 오븐에서 쿠키를 굽는 방법을 알려주세요."
+	},
+	{
+		"id": "translation_2527",
+		"id3": "translation_1527",
+		"prompt": "새로운 동료들에게 어떻게 도움을 줄 수 있을까요?"
+	},
+	{
+		"id": "translation_2528",
+		"id3": "translation_1528",
+		"prompt": "공기 유동으로 인해 촛불이 깜빡거림을 어떻게 방지할까요?"
+	},
+	{
+		"id": "translation_2529",
+		"id3": "translation_1529",
+		"prompt": "시트러스를 특정한 칵테일 레시피와 함께 사용하는 방법을 알려주세요."
+	},
+	{
+		"id": "translation_2530",
+		"id3": "translation_1530",
+		"prompt": "비욘세는 정말 재능 있는 가수입니다. 그녀의 히트곡 한 두 곡을 알고 있을까요?"
+	},
+	{
+		"id": "translation_2531",
+		"id3": "translation_1531",
+		"prompt": "버터를 청명하게 하는 방법은 무엇인가요?"
+	},
+	{
+		"id": "translation_2532",
+		"id3": "translation_1532",
+		"prompt": "사회 불안이 있고 그런 상황에서 웰 스피킹하는 능력이 부족한데, 성공적인 인터뷰를 어떻게 해야 할까요?"
+	},
+	{
+		"id": "translation_2533",
+		"id3": "translation_1533",
+		"prompt": "왜 야간 투시경에서 초록색을 사용할까요?"
+	},
+	{
+		"id": "translation_2534",
+		"id3": "translation_1534",
+		"prompt": "성경에서 가장 짧은 구절은 무엇인가요?"
+	},
+	{
+		"id": "translation_2535",
+		"id3": "translation_1535",
+		"prompt": "땅콩 버터 퍼지 요리법을 알려주세요."
+	},
+	{
+		"id": "translation_2536",
+		"id3": "translation_1536",
+		"prompt": "2020년 CMA 최고 남자 보컬상은 누가 받았나요?"
+	},
+	{
+		"id": "translation_2537",
+		"id3": "translation_1537",
+		"prompt": "모세는 성경에서 아주 중요한 인물로 보입니다. 모세가 한 일에 대해 대체로 어떤 이야기가 있는지 알려주세요, 신화와 사실을 포함해서요."
+	}
+]
