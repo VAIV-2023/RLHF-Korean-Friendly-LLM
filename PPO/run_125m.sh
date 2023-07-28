@@ -30,7 +30,7 @@ deepspeed --num_gpus 1 main.py \
    --data_split 2,4,4 \
    --actor_model_name_or_path /content/drive/MyDrive/output/actor-models/125m \
    --critic_model_name_or_path /content/drive/MyDrive/output/reward-models/125m \
-   --num_padding_at_beginning 1 \
+   --num_padding_at_beginning 0 \
    --per_device_train_batch_size 8 \
    --per_device_mini_train_batch_size 8 \
    --generation_batch_numbers 1 \
