@@ -91,6 +91,7 @@ python rw_eval.py  --model_name_or_path ./1.3b-KULLM_template --data_path ./data
 
 - `DeepSpeed-Chat/training/step2_reward_model_finetuning` 폴더에 rw_eval.py 코드가 있는데, 기존 코드는 response에 대한 점수만 알려주어서 accuracy를 계산하는 코드를 추가하였음
 - Accuracy = chosen answer의 score를 더 높게 생성한 개수/전체 prompt 개수
+- prompt에 KULLM template을 적용하여 평가
 
 ## 5. 학습된 Reward Model
 
