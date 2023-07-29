@@ -1,6 +1,6 @@
 import pandas as pd
 
-file='./conversation/kullm_orig_conversation_eval.csv'
+file='./conversation/tmp.csv'
 
 df = pd.read_csv(file)
 df = df.iloc[:, 1:]  # Remove the first column
