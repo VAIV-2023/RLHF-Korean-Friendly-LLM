@@ -25,11 +25,12 @@ Critic_Lr=5e-6
 
 mkdir -p $OUTPUT
 
-deepspeed --num_gpus 1 main.py \
+deepspeed --master_port 12346 main.py \
    --data_path Dahoas/rm-static \
    --data_split 2,4,4 \
-   --actor_model_name_or_path /content/drive/MyDrive/output/actor-models/125m \
-   --critic_model_name_or_path /content/drive/MyDrive/output/reward-models/125m \
+   --local_rank 4 \
+   --actor_model_name_or_path Trofish/KULLM-SFT-v1 \
+   --critic_model_name_or_path Trofish/KULLM-SFT-v1 \
    --num_padding_at_beginning 0 \
    --per_device_train_batch_size 8 \
    --per_device_mini_train_batch_size 8 \
