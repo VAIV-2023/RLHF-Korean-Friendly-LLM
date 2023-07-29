@@ -29,7 +29,7 @@ def parse_args():
     parser.add_argument(
         "--num_padding_at_beginning",
         type=int,
-        default=1,
+        default=0,
         help=
         "OPT model has a fixed number (1) of padding tokens at the beginning of the input. "
         "We did not see this in other models but keep it as an option for now.",
@@ -108,7 +108,7 @@ def run_pair_comparison():
 
     args = parse_args()
 
-    with open(args.data_path+'.json', 'r', encoding='utf-8') as f:
+    with open(args.data_path, 'r', encoding='utf-8') as f:
       json_data = json.load(f)
 
     prompt_list = []
@@ -116,7 +116,10 @@ def run_pair_comparison():
     bad_ans_list = []
 
     for item in json_data:
-        prompt_list.append(item['prompt'])
+        # prompt template 적용
+        prompt_list.append(f"아래는 작업을 설명하는 명령어입니다. 요청을 적절히 완료하는 응답을 작성하세요.\n\n### 명령어:\n{item['prompt']}\n\n### 응답:\n")
+        # prompt template 적용 X
+        # prompt_list.append(item['prompt'])
         good_ans_list.append(item['chosen'])
         bad_ans_list.append(item['rejected'])
 
