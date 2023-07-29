@@ -86,7 +86,7 @@ bash training_scripts/single_gpu/run_350m.sh
 실행 예시:
 
 ```
-python rw_eval.py !python rw_eval.py  --model_name_or_path ./1.3b-KULLM_template --data_path ./data/hatespeech_test.py
+python rw_eval.py  --model_name_or_path ./1.3b-KULLM_template --data_path ./data/hatespeech_test.py
 ```
 
 - `DeepSpeed-Chat/training/step2_reward_model_finetuning` 폴더에 rw_eval.py 코드가 있는데, 기존 코드는 response에 대한 점수만 알려주어서 accuracy를 계산하는 코드를 추가하였음
