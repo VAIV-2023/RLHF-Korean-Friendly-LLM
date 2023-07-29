@@ -74,9 +74,9 @@ def extract_scores_from_string(text):
             score_str = line.split(":")[-1].strip()
             try:
                 score = float(score_str)
+                scores.append(score)
             except:
                 pass
-            scores.append(score)
     return scores
 
 COLUMNS = ['instruction', 'input', 'output', '이해 가능성 (0 - 1)', '자연스러움 (1 - 3)', '맥락 유지 (1 - 3)', '흥미롭기 (1 - 3)', 'Instruction 사용 (0 - 1)', '전반적인 품질 (1 - 5)']

@@ -90,9 +90,9 @@ def extract_scores_from_string(text):
             score_str = line.split(":")[-1].strip()
             try:
                 score = float(score_str)
+                scores.append(score)
             except:
-                score = 0
-            scores.append(score)
+                pass
     return scores
 
 COLUMNS = ['instruction', 'output', '친근함', '무해함', '이해 가능성', '자연스러움', '맥락 유지', '전반적인 품질']
