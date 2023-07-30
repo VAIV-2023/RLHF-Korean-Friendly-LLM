@@ -57,7 +57,7 @@ pip install openai
 
 ## 3. Reward Model 학습 방법
 
-- **shell script 코드:** `run_350m.sh`
+- **single gpu shell script 코드:** `run_350m.sh`
 - **script의 주요 argument 설명 :**
   |Argument|설명|
   |--|---|
@@ -79,6 +79,8 @@ bash training_scripts/single_gpu/run_350m.sh
 
 - log는 step2_reward_model_finetuning/output 폴더 저장됨
 - 모델도 같은 폴더에 저장됨
+- 1.3b는 single_gpu, 5.8b는 single_node 코드 사용
+- 두 코드 모두 GPU 서버에 업로드 되어 있음
 
 ## 4. Reward Model 평가 방법
 
@@ -95,8 +97,16 @@ python rw_eval.py  --model_name_or_path ./1.3b-KULLM_template --data_path ./data
 
 ## 5. 학습된 Reward Model
 
-- prompt template 적용한 버전: 슈퍼컴퓨팅센터 .folder/DeepSpeedExamples/applications/DeepSpeed-Chat/training/step2_reward_model_finetuning/1.3b-KULLM_template
-- prompt template 적용하기 전: .folder/DeepSpeedExamples/applications/DeepSpeed-Chat/training/step2_reward_model_finetuning/1.3b-KULLM_prev
-
-- train set: step2_KULLM_train.json
-- test set: step2_KULLM_test.json
+- 슈퍼컴퓨팅센터 .folder/DeepSpeedExamples/applications/DeepSpeed-Chat/training/step2_reward_model_finetuning 안에 폴더로 저장되어 있음
+- \*\*이름이 헷갈릴 수 있으니 주의\*\*
+  |폴더 이름|base model|학습 데이터셋|설명|
+  |---|---|---|---|
+  |1.3b-KULLM_template|polyglot-ko-1.3b|step2_KULLM_train.json|prompt template 적용하여 학습한 모델(강화학습에 사용함)|
+  |1.3b-KULLM|polyglot-ko-1.3b|step2_KULLM_train.json|template 적용하지 않고 학습한 모델|
+  |5.3b-KULLM-ours|KULLM 5.8b v2|step2_KULLM_train.json|KULLM 베이스로 학습|
+  |polyglot-5.8-ours|polyglot-ko-5.8b|step2_KULLM_train.json|우리 데이터로 학습한 5.8b|
+  |polyglot-5.8-koalpaca|polyglot-ko-5.8b|step2_KULLM_KoAlpaca_train.json|바이브팀 데이터를 결합해 학습한 5.8b|
+- 5.8b 모델은 슈퍼컴퓨팅 GPU로 학습함
+- 5.8b 모델은 성능 평가를 제대로 못 해봄. rw_eval.py 돌리면 오류가 뜨는데 원인 찾지 못해 training.log에 뜨는 성능만 ppt에 기입하였음
+- 1.3b 모델 크기: 약 2.4G, 5.8b 모델 크기: 1.5M (?)
+- 5.8b 학습할 땐 training_scripts/single_node의 코드 사용함
