@@ -21,8 +21,9 @@
 }
 ```
 
-데이터마다 id를 부여함  
-step1과 step2에는 겹치는 데이터가 있어 id(step1 id), id2(step2 id)를 따로 주었음
+- 데이터마다 id를 부여함
+- step1과 step2에는 겹치는 데이터가 있어 id(step1 id), id2(step2 id)를 따로 주었음
+- `data_scores` 에는 g-eval로 뽑은 score들 저장되어 있음
 
 ## 2. 라벨링 코드
 
@@ -88,7 +89,7 @@ bash training_scripts/single_gpu/run_350m.sh
 실행 예시:
 
 ```
-python rw_eval.py  --model_name_or_path ./1.3b-KULLM_template --data_path ./data/hatespeech_test.py
+python rw_eval.py  --model_name_or_path ./1.3b-KULLM_template --data_path ./data/hatespeech_test.json
 ```
 
 - `DeepSpeed-Chat/training/step2_reward_model_finetuning` 폴더에 rw_eval.py 코드가 있는데, 기존 코드는 response에 대한 점수만 알려주어서 accuracy를 계산하는 코드를 추가하였음
@@ -109,4 +110,3 @@ python rw_eval.py  --model_name_or_path ./1.3b-KULLM_template --data_path ./data
 - 5.8b 모델은 슈퍼컴퓨팅 GPU로 학습함
 - 5.8b 모델은 성능 평가를 제대로 못 해봄. rw_eval.py 돌리면 오류가 뜨는데 원인 찾지 못해 training.log에 뜨는 성능만 ppt에 기입하였음
 - 1.3b 모델 크기: 약 2.4G, 5.8b 모델 크기: 1.5M (?)
-- 5.8b 학습할 땐 training_scripts/single_node의 코드 사용함
