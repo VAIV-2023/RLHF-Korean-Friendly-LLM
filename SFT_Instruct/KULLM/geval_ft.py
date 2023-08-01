@@ -13,9 +13,9 @@ load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 MODEL = "nlpai-lab/kullm-polyglot-12.8b-v2"
-finetuned=False
+finetuned=True
 task="hatespeech"
-gpt=True
+gpt=False
 
 if gpt: model = None
 else:
@@ -28,7 +28,7 @@ else:
     if finetuned:
         model = PeftModel.from_pretrained(
             model,
-            "./lora_weights/final",
+            "./lora_weights/final+",
             torch_dtype=torch.float16,
         ).to(device=f"cuda", non_blocking=True)
         
