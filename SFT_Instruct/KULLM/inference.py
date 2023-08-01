@@ -2,6 +2,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, GenerationConfig, pipeline
 from peft import PeftModel
 from utils.prompter import Prompter
+import time
 
 MODEL = "nlpai-lab/kullm-polyglot-12.8b-v2"
 
@@ -12,7 +13,7 @@ model = AutoModelForCausalLM.from_pretrained(
 ).to(device=f"cuda", non_blocking=True)
 model = PeftModel.from_pretrained(
     model,
-    "./lora_weights/conversation",
+    "./lora_weights/final+",
     torch_dtype=torch.float16,
 ).to(device=f"cuda", non_blocking=True)
 
@@ -69,16 +70,23 @@ def infer_from_fintuned(
 
 
 # 데이터 불러오기
-with open('./data/'+'all_prompt.txt', 'r', encoding='utf-8') as f:
+with open('./data/prompts'+'all_prompt.txt', 'r', encoding='utf-8') as f:
     prompts = f.readlines()
 
+times=[]
+
 for prompt in prompts:
-    instruction = prompt   
+    instruction = prompt  
+    start = time.time() 
     output = infer_from_fintuned(instruction=instruction)
+    end = time.time()
+    times.append(end-start)
     result=""
     for s in output:
         result+=s
     result = result.split("endoftext​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​")[0]
     result=result.strip()
     print(result)
+
+print(sum(times)/len(times))
             
