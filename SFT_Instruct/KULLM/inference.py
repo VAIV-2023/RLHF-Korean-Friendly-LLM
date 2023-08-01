@@ -70,7 +70,7 @@ def infer_from_fintuned(
 
 
 # 데이터 불러오기
-with open('./data/prompts'+'all_prompt.txt', 'r', encoding='utf-8') as f:
+with open('./data/prompts/'+'all_prompt.txt', 'r', encoding='utf-8') as f:
     prompts = f.readlines()
 
 times=[]
