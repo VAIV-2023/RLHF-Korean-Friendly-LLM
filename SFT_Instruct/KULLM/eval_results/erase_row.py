@@ -1,6 +1,9 @@
 import pandas as pd
 
-file='./conversation/custom_conversation_eval.csv'
+model='gpt'
+task='evol'
+
+file='./'+task+'/'+model+'_'+task+'_eval.csv'
 
 df = pd.read_csv(file)
 df = df.iloc[:, 1:]  # Remove the first column
