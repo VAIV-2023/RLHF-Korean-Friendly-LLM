@@ -48,6 +48,9 @@ def infer_from_fintuned(
     generation_config = GenerationConfig(
         temperature=temperature,
         num_beams=num_beams,
+        pad_token_id = 0,
+        bos_token_id = 1,
+        eos_token_id = 2,
         **kwargs,
     )
 
