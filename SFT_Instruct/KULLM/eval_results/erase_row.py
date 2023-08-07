@@ -1,7 +1,7 @@
 import pandas as pd
 
-model='gpt'
-task='evol'
+model='custom'
+task='conversation'
 
 file='./'+task+'/'+model+'_'+task+'_eval.csv'
 
