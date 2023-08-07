@@ -1,0 +1,92 @@
+[
+    {
+        "id": "conversation_190",
+        "prompt": "아 좀 배고프네요. 저녁에 좀 뭐 ",
+        "chosen": "그러게요. 제가 아까 뭐 먹자고 했던 거 같은데 ",
+        "rejected": "먹을까요?"
+    },
+    {
+        "id": "conversation_275",
+        "prompt": "4계절 중에 가장 좋아하는 계절은 어떤 계절인가요? ",
+        "chosen": "저는 4계절 중에서 봄을 제일 좋아합니다. 봄을 제일 좋아하는 이유가 날씨도 좋고 꽃도 많이 피고 그리고 뭔가 새로운 시작이라는 느낌이 들어서 봄을 제일 좋아합니다. 선생님께서는 어떤 계절을 가장 좋아하시나요? ",
+        "rejected": "가을입니다."
+    },
+    {
+        "id": "conversation_299",
+        "prompt": "언니가 제일 좋아하는 계절이 뭔데? ",
+        "chosen": "나는 겨울을 좋아해. 너는? ",
+        "rejected": "봄이에요."
+    },
+    {
+        "id": "conversation_545",
+        "prompt": "이번에 학회장이랑 부학회장 투표하는 거 봤어? ",
+        "chosen": "아니 나는 못 봤는데 ",
+        "rejected": "응, 봤어."
+    },
+    {
+        "id": "conversation_631",
+        "prompt": "언니 요새 name1이가 여자 친구한테 선물 받은 거 있어? ",
+        "chosen": "아니 없는데? 근데 name2이는 있잖아. name3이도 있고 name4이도 있고 name5이도 있고 다 있어. ",
+        "rejected": "없어."
+    },
+    {
+        "id": "conversation_724",
+        "prompt": "오징어 게임 봤다고? ",
+        "chosen": "오징어 게임 봤지. ",
+        "rejected": "응, 봤어."
+    },
+    {
+        "id": "conversation_746",
+        "prompt": "언니는 좋아하는 연예인 있나? ",
+        "chosen": "나는 좋아하는 연예인 없는데. ",
+        "rejected": "있어."
+    },
+    {
+        "id": "conversation_949",
+        "prompt": "너는 혈액형이 뭐야? ",
+        "chosen": "나는 에이형이야. 너는 무슨 형이야? ",
+        "rejected": "B형입니다."
+    },
+    {
+        "id": "conversation_962",
+        "prompt": "혹시 혈액형은 어떻게? ",
+        "chosen": "혈액형은 오형입니다. 혹시 좋아하시는 음식 있으신가요? ",
+        "rejected": "A형입니다."
+    },
+    {
+        "id": "conversation_978",
+        "prompt": "야 너 그 준호준이라는 사람 알아? ",
+        "chosen": "아 그 유튜브 하는 사람? ",
+        "rejected": "응, 알아."
+    },
+    {
+        "id": "conversation_1019",
+        "prompt": "너 쇼미더머니 봤어? ",
+        "chosen": "쇼미더머니 당연히 봤지. ",
+        "rejected": "응, 봤어."
+    },
+    {
+        "id": "conversation_1328",
+        "prompt": "나 지난번에 그 언니 친구 알지. ",
+        "chosen": "응. ",
+        "rejected": "응, 알아."
+    },
+    {
+        "id": "conversation_1359",
+        "prompt": "어 name1하고 연락 안 한다 했지? ",
+        "chosen": "네. ",
+        "rejected": "응, 그렇지."
+    },
+    {
+        "id": "conversation_1396",
+        "prompt": "name이는 제일 자주 타는 대중교통이 뭐야? ",
+        "chosen": "나는 지하철이랑 버스를 제일 많이 타는 거 같아 너는? ",
+        "rejected": "버스입니다."
+    },
+    {
+        "id": "conversation_1398",
+        "prompt": "언니 오늘 여의도 갈 때 뭐 타고 갔어? ",
+        "chosen": "나 지하철 탔지. ",
+        "rejected": "버스로 갔어."
+    }
+]
