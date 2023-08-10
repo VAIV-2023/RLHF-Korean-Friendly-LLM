@@ -1,6 +1,6 @@
 import pandas as pd
 
-model='custom'
+model='step3'
 task='conversation'
 
 file='./'+task+'/'+model+'_'+task+'_eval.csv'
