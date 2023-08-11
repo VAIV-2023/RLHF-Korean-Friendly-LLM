@@ -44,7 +44,16 @@ else:
 
 def infer_from_original(instruction="", input_text=""):
     prompt = prompter.generate_prompt(instruction, input_text)
-    output = pipe(prompt, max_length=512, temperature=1.0, num_beams=1, pad_token_id = 0, bos_token_id = 1, eos_token_id = 2)
+    output = pipe(
+        prompt, 
+        max_length=512, 
+        temperature=1.0, 
+        num_beams=1, 
+        repetition_penalty=1.3,
+        pad_token_id = 0, 
+        bos_token_id = 1, 
+        eos_token_id = 2
+    )
     s = output[0]["generated_text"]
     result = prompter.get_response(s)
 
@@ -64,6 +73,7 @@ def infer_from_fintuned(
     generation_config = GenerationConfig(
         temperature=temperature,
         num_beams=num_beams,
+        repetition_penalty=1.3,
         pad_token_id = 0,
         bos_token_id = 1,
         eos_token_id = 2,
