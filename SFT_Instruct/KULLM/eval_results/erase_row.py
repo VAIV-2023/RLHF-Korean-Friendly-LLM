@@ -1,7 +1,7 @@
 import pandas as pd
 
-model='step3'
-task='conversation'
+model='final'
+task='hatespeech'
 
 file='./'+task+'/'+model+'_'+task+'_eval.csv'
 
