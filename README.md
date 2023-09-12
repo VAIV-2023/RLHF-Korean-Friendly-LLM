@@ -53,6 +53,5 @@
      
     4) PPO 알고리즘으로 Trainable SFT를 업데이트
 
-### Inference 방법
 
 
