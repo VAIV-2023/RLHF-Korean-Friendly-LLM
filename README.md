@@ -73,7 +73,22 @@
   - **"아래는 작업을 설명하는 명령어입니다. 요청을 적절히 완료하는 응답을 작성하세요. \n\n ### 명령어:\n{prompt}\n\n ### 응답:\n"**
 
 # Task3-2. Reward Model ver2,3 구현
-- ![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/f4af0b7d-af47-4881-8adf-d14be43c0eb1)
+## RewardModel ver1 Issues
+- 구현된 Reward 모델의 성능이 좋지 않음 (Accuracy 0.65)
+- Reward 모델을 사용하여 Step3 학습시 혐오표현이 아닌데도 혐오표현이라고 인식하고 답변하는 문제 발생
+
+## Issue 해결방안 (Reward Model ver2,3)
+- ![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/99c7fd6c-448e-4780-9573-0ef51b8e3183)
+- General Task 답변에 대한 평가 성능을 높이기 위해 Evol-instruct 데이터 추가
+- SFT 모델로 답변을 2개 생성하였을 때, Chosen, Rejected 답변의 차이가 크게 없어 모델이 학습되지 않는 현상을 방지하기 위하여 2개의 모델 **(ChatGPT, SFT)**를 사용하여 답변을 생성
+- 혐오표현 학습시(Ver2) Step3 학습 이후에 답변이 이상하게 생성되는 Issue가 있어, 혐오표현을 데이터를 제거하고 학습(Ver3)
+- RM-ver1은 GPT4가 Chosen, Rejected 레이블링을 진행하였지만, Resource 이슈로 인해 일부만 사람이 라벨링 진행
+    - 일상대화, 혐오표현 데이터셋
+        - ChatGPT와 SFT 모두 일관되게 높은 퀄리티의 답변을 생성하지 않아, 사람이 직접 라벨링 진행
+    - RLHF 한국어 번역, Evol-Instruct 데이터셋
+        - ChatGPT가 일관되게 높은 퀄리티의 답변을 생성하여 ChatGPT를 Chosen, SFT를 Rejected로 라벨링 진   
+## Reward Model ver2,3 Evaluation
+![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/7889398a-86dc-4b03-8300-64b772d49887)
 
 # Task4. RLHF와 DeepSpeedChat을 통한 최종 모델 구현
 - Microsoft에서 만든 대규모 분산 딥러닝을 위한 새로운 메모리 최적화 기술(DeepSpeed)을 RLHF Process에 적용한 DeepSpeedChat 사용
