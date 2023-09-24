@@ -15,19 +15,25 @@
     Task 5: 최종 모델 성능 평가
 
 # Task1. LLM 학습 데이터셋 구축
-    ![단계별 데이터셋](https://github.com/VAIV-2023/VAIV2023/assets/79634774/fd9cb0a2-58a3-43aa-8116-b420680641fd)
+![image](https://github.com/VAIV-2023/VAIV2023/assets/79634774/a4988abd-c6fd-4fc2-8e53-9a02240e2275)
+![image](https://github.com/VAIV-2023/VAIV2023/assets/79634774/dae49a1e-a834-463c-9f95-34cf254fdaeb)
+## 데이터셋 선정 시 고려 사항
+- **일상 대화와 혐오 표현 대처 능력을 올리기 위한 데이터셋과, 학습 시 챗봇 모델의 general한 task에 대한 성능이 하락하는 것을 막기 위해서 general task 데이터셋을 구성**
+  
+- **국립국어원 일상 대화 데이터셋:** 일상적인 대화에 대한 자연스러운 응답이 있으면서도, 맞춤법이 잘 지켜지고 은어, 비문, 초성 등이 없으며 주제별로 다양한 대화가 있음
+  
+- **AI Hub 혐오 표현 데이터셋:** 혐오, 차별, 성적인 내용, 폭력, 범죄 등 카테고리별로 다양한 혐오 표현이 있음
+  
+- **General task 데이터셋**
+    - Evol-Instruct 데이터셋: 다양한 분야에 대한 복잡하고 논리적인 prompt와 답변이 있음
+    - Self-Instruct 데이터셋: 사람이 직접 생성한 양질의 Seed data를 기반으로 데이터 증강
+    - RLHF 한국어 번역 데이터셋: DeepSpeedChat에서 공개한 데이터셋을 한국어로 번역
 
-    일상대화 데이터셋: 국립국어원 모두의 말뭉치 일상 대화 데이터셋
 
-    혐오표현 데이터셋: AIHUB 텍스트 윤리 검증 데이터셋
 
-    RLHF 번역 데이터셋: DeepSpeedChat에서 공개한 Reward Model 학습 데이터셋
+ 
 
-    Evol-Instruct 데이터셋: 다양한 분야에 대한 복잡하고 논리적인 prompt와 답변 존재
 
-    Self-Instruct 데이터셋: 사람이 직접 생성한 양질의 Seed 데이터를 기반으로 GPT-3.5를 이용해 데이터 증강
-
-    KoBEST 데이터셋: 평가용 데이터셋, Common Sense & Inference 능력과 관련된 HellaSwag 데이터셋
 
 ### Task2. SFT 모델 제작
     Pretrained Model: KULLM 12.8B
