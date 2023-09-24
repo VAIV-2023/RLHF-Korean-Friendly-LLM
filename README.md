@@ -10,11 +10,11 @@
 # 개발 내용
     Task 1: 강화학습 단계별 데이터셋 구축
     Task 2: SFT 모델 Fine-tuning
-    Task 3: Reward 모델 구현
+    Task 3: Reward 모델 ver1,2,3 구현
     Task 4: RLHF와 DeepSpeedChat을 통한 최종 모델 구현
     Task 5: 최종 모델 성능 평가
 
-# Task1. LLM 학습 데이터셋 구축
+# Task1. 강화학습 단계별 데이터셋 구축
 ![image](https://github.com/VAIV-2023/VAIV2023/assets/79634774/a4988abd-c6fd-4fc2-8e53-9a02240e2275)
 ![image](https://github.com/VAIV-2023/VAIV2023/assets/79634774/dae49a1e-a834-463c-9f95-34cf254fdaeb)
 ## 데이터셋 선정 시 고려 사항
@@ -29,7 +29,7 @@
     - Self-Instruct 데이터셋: 사람이 직접 생성한 양질의 Seed data를 기반으로 데이터 증강
     - RLHF 한국어 번역 데이터셋: DeepSpeedChat에서 공개한 데이터셋을 한국어로 번역
 
-# Task2. SFT 모델 제작
+# Task2. SFT 모델 Fine-tuning
 ## Baseline Model
 [- 고려대학교 NLP & AI 연구실과 HIAI 연구소가 개발한 한국어 LLM **"KULLM"** 사용](https://github.com/nlpai-lab/KULLM)
 
@@ -48,12 +48,13 @@
 ## Final Model
 - https://huggingface.co/Trofish/KULLM-SFT-v2
 
-# Task3. Reward Model 학습
+# Task3-1. Reward Model ver1 구현
 
+# Task3-2. Reward Model ver2,3 구현
 
+# Task4. RLHF와 DeepSpeedChat을 통한 최종 모델 구현
 
-# Task4. RLHF 강화학습
-
+# Task5. 최종 모델 성능 평가
 
 
 
