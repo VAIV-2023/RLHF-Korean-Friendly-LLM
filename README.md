@@ -48,12 +48,41 @@
 - https://huggingface.co/Trofish/KULLM-SFT-v2
 
 # Task3-1. Reward Model ver1 구현
+## Baseline Model
+- EleutherAI에서 개발한 초거대 한국어 언어 모델 **Polyglot-Ko** 사용
+- 1.3b 모델과 5.8b 모델을 각각 실험
+## Datasets
+![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/0082da9b-b0b8-4089-8647-cffa5ce724fb)
+- InstructGPT의 데이터셋 구축 방법
+    - Reward 모델 학습 데이터셋으로 SFT 학습에 사용한 prompt(1,500개 - 일상대화:혐오표현=2:1)와 새로운 prompt(1,000개 - DeepSpeedChat 번역 데이터셋) 사용 
+    - SFT 모델에서 한개의 prompt당 K개의 Response를 생성하고, 순위를 Labeling
+- 데이터셋 라벨링
+    - Instruct GPT의 경우 사람이 직접 Labeling을 하엿지만, 일관된 평가와 시간 단축을 위해 GPt-4와 G-Eval을 이용
+    - SFT에서 생성한 두 Response 중 G-Eval 평가 점수 합이 높은 것을 Chosen response로 결정
+    - 데이터셋 유형별로 G-Eval 평가 Prompt에 차이를 두었음
+    -   ![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/7d7117d0-02e9-42dd-8ce3-5244cf726bf8)
+## Reward v1 Model Finetuning
+- ![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/da4d9b15-ec91-44bb-84d9-f28aeffd16ad)
+- InstructGPT 논문에 따르면, Reward 모델은 overfitting되면 성능이 크게 저하된다고 함 --> epoch 수를 1로 설정
+- batch size나 learning rate 등 다른 hyper-parameter는 성능에 큰 영향이 없다고 함
+- Colab A100 40GB 기준 총 학습 시간 4분
+
+## Reward v1 Model Evaluation
+- ![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/f4af0b7d-af47-4881-8adf-d14be43c0eb1)
+- Reward Model Template
+  - **"아래는 작업을 설명하는 명령어입니다. 요청을 적절히 완료하는 응답을 작성하세요. \n\n ### 명령어:\n{prompt}\n\n ### 응답:\n"**
 
 # Task3-2. Reward Model ver2,3 구현
+- ![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/f4af0b7d-af47-4881-8adf-d14be43c0eb1)
 
 # Task4. RLHF와 DeepSpeedChat을 통한 최종 모델 구현
 - Microsoft에서 만든 대규모 분산 딥러닝을 위한 새로운 메모리 최적화 기술(DeepSpeed)을 RLHF Process에 적용한 DeepSpeedChat 사용
 - Human preference로 학습을 시킨 Reward 모델과 강화학습을 통해 SFT 모델에 사람의 선호도를 반영하여 자연스럽고(FRIENDLY), 윤리적인 (HARMLESS) 챗봇 생성
+  
+## Baseline Models
+- Actor Model: KULLM-SFT-V2
+- Reward Model: Polyglot-Ko-Reward-V3
+
 ## Training Options
 ![image](https://github.com/VAIV-2023/VAIV2023/assets/79634774/ae2cdfe5-7552-4009-a99a-244e79d945dc)
 
