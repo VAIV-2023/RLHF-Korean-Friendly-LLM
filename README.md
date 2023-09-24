@@ -29,36 +29,31 @@
     - Self-Instruct 데이터셋: 사람이 직접 생성한 양질의 Seed data를 기반으로 데이터 증강
     - RLHF 한국어 번역 데이터셋: DeepSpeedChat에서 공개한 데이터셋을 한국어로 번역
 
+# Task2. SFT 모델 제작
+## Baseline Model
+[- 고려대학교 NLP & AI 연구실과 HIAI 연구소가 개발한 한국어 LLM **"KULLM"** 사용](https://github.com/nlpai-lab/KULLM)
+
+## Datasets
+![image](https://github.com/VAIV-2023/VAIV2023/assets/79634774/085610db-3714-43c3-855b-58baad2f4e8b)
+
+## SFT Finetuning 
+![image](https://github.com/VAIV-2023/VAIV2023/assets/79634774/0f5e36fa-20a8-43f9-bd03-5f8224d5e9d0)
+* 모델학습에는 Google Colab에서 제공하는 A100 40GB GPU 사용
+  
+## SFT Evaluation
+![image](https://github.com/VAIV-2023/VAIV2023/assets/79634774/9fe9e5aa-6dc7-4c7b-8529-45e0a75db9c6)
+![image](https://github.com/VAIV-2023/VAIV2023/assets/79634774/a994a960-db7c-4e75-a11a-d7755d372722)
+* G-Eval: https://arxiv.org/abs/2303.16634
+
+## Final Model
+- https://huggingface.co/Trofish/KULLM-SFT-v2
+
+# Task3. Reward Model 학습
 
 
- 
 
+# Task4. RLHF 강화학습
 
-
-### Task2. SFT 모델 제작
-    Pretrained Model: KULLM 12.8B
-
-    일상대화 데이터셋과 혐오표현 데이터셋에 대한 Instruction Set으로 Fine-Tuning 진행
-
-    Evaluation: G-Eval 방식
-
-    일상 대화 능력과 혐오 표현 대처 능력 각각에 대하여 평가
-
-### Task3. Reward Model 학습
-    Base Model: Polyglot-ko 1.3B
-
-    모델 응답 결과들을 비교평가하여 사람의 선호도 데이터를 학습
-
-    SFT 모델과 GPT-3.5로부터 prompt당 2개의 Response 생성 후 선호도 평가
-
-### Task4. RLHF 강화학습
-    1) Trainable SFT가 prompt에 대한 response 생성
-     
-    2) Reward Model이 Response에 대한 Reward값 r 도출
-     
-    3) Trainable SFT와 Reference SFT에서의 response 토큰별 확률 분포 차이를 패널티로 적용해 최종 reward를 계산
-     
-    4) PPO 알고리즘으로 Trainable SFT를 업데이트
 
 
 
