@@ -113,3 +113,9 @@
 - https://huggingface.co/Trofish/KULLM-RLHF
 
 
+# Contributors 🙌 
+- 박성완 (성균관대학교 소프트웨어학과 20학번, Waniboyy@gmail.com)
+- 송현빈 (성균관대학교 소프트웨어학과 21학번, shbin0519@gmail.com)
+- 허유민 (성균관대학교 소프트웨어학과 20학번, ymheo1123@gmail.com)
+- 홍여원 (성균관대학교 소프트웨어학과 21학번, ryeowon13@gmail.com)
+
