@@ -1,13 +1,15 @@
 2023 성균관대 하계집중 산학협력프로젝트 VAIV
 ## GPT 기반의 자연스럽고(Friendly) 윤리적인(Harmless) 일상 대화형 챗봇 모델
 
-# 과제 목표
-    GPT-NEOX 기반 자연스럽고 윤리적인 한국어 기반 일상 대화형 챗봇 모델 구현
+#  연구 배경 및 목적
+    GPT-NEOX(Polyglot-ko) 기반 자연스럽고 윤리적인 한국어 기반 일상 대화형 챗봇 모델 구현
+![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/18bb1ab4-8924-4b43-b538-1e6529297217)
+  
+# 개발 내용
 - Self-Instruct: GPT4를 이용한 데이터 증강
 - RLHF(Reinforcement Learning from Human Feedback): 사람의 선호도를 반영한 강화학습
 - DeepSpeed: 대규모 분산 딥러닝을 위한 새로운 메모리 최적화 기술
-  
-# 개발 내용
+
     Task 1: 강화학습 단계별 데이터셋 구축
     Task 2: SFT 모델 Fine-tuning (https://huggingface.co/Trofish/KULLM-SFT-v2)
     Task 3: Reward 모델 ver1,2,3 구현
