@@ -78,7 +78,7 @@
     - 일상대화, 혐오표현 데이터셋
         - ChatGPT와 SFT 모두 일관되게 높은 퀄리티의 답변을 생성하지 않아, 사람이 직접 라벨링 진행
     - RLHF 한국어 번역, Evol-Instruct 데이터셋
-        - ChatGPT가 일관되게 높은 퀄리티의 답변을 생성하여 ChatGPT를 Chosen, SFT를 Rejected로 라벨링 진   
+        - ChatGPT가 일관되게 높은 퀄리티의 답변을 생성하여 ChatGPT를 Chosen, SFT를 Rejected로 라벨링 진행
 ## Reward Model ver2,3 Evaluation
 ![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/7889398a-86dc-4b03-8300-64b772d49887)
 
