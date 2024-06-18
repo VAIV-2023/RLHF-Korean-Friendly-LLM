@@ -17,32 +17,9 @@
 
 # Task1. 강화학습 단계별 데이터셋 구축
 ![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/4bb56e36-0c49-4d15-a2c6-2824867419a8)
+![Screenshot 2024-06-18 at 11 05 55 AM](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/2f637065-fa25-4402-b319-113ff4c6e1a9)
+![Screenshot 2024-06-18 at 11 06 08 AM](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/2a6c2e9b-1292-43b9-b5e7-5ced3643988d)
 
-## Source
-
-### 일상대화 데이터셋
-- **출처:** 국립국어원 모두의 말뭉치 일상 대화 데이터셋
-- **URL:** [모두의 말뭉치 일상 대화 데이터셋](https://corpus.korean.go.kr/request/reausetMain.do?lang=ko)
-
-### 혐오표현 데이터셋
-- **출처:** AIHub 텍스트 윤리 검증 데이터셋
-- **URL:** [AIHub 텍스트 윤리 검증 데이터셋](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=558)
-
-### RLHF 번역 데이터셋
-- **출처:** Step 2 Reward 모델 학습을 위한 오픈 소스 데이터셋 (DeepSpeedChat에서 공개)
-- **URL:** [RLHF Reward Datasets](https://huggingface.co/datasets/yitingxie/rlhf-reward-datasets)
-
-### Self-Instruct 데이터셋
-- **Evol-instruct:**
-  - **설명:** 다양한 분야에 대한 복잡하고 논리적인 prompt와 답변이 포함된 데이터셋
-  - **URL:** [Evol-instruct](https://github.com/lcw99/evolve-instruct/)
-
-- **Self-Instruct:**
-  - **설명:** 사람이 직접 생성한 양질의 Seed data를 기반으로 GPT-3.5를 이용해 Self 데이터 증강
-
-### KoBEST 데이터셋
-- **출처:** 평가용으로 Commonsense & Inference 능력과 관련된 KoBEST 中 COPA, HellaSwag 데이터셋 
-- **URL:** [KoBEST 데이터셋](https://huggingface.co/datasets/skt/kobest_v1/viewer/hellaswag/test)
 
 
 # Task2. SFT 모델 Fine-tuning
