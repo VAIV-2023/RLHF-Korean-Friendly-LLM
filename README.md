@@ -54,32 +54,33 @@
     - 데이터셋 유형별로 G-Eval 평가 Prompt에 차이를 두었음
     -   ![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/7d7117d0-02e9-42dd-8ce3-5244cf726bf8)
 ## Reward v1 Model Finetuning
-- ![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/da4d9b15-ec91-44bb-84d9-f28aeffd16ad)
+![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/da4d9b15-ec91-44bb-84d9-f28aeffd16ad)
 - InstructGPT 논문에 따르면, Reward 모델은 overfitting되면 성능이 크게 저하된다고 함 --> epoch 수를 1로 설정
 - batch size나 learning rate 등 다른 hyper-parameter는 성능에 큰 영향이 없다고 함
 - Colab A100 40GB 기준 총 학습 시간 4분
 
 ## Reward v1 Model Evaluation
-- ![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/f4af0b7d-af47-4881-8adf-d14be43c0eb1)
+![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/c21be612-b26d-4a1c-a1e2-6a99442660da)
+
 - Reward Model Template
-  - **"아래는 작업을 설명하는 명령어입니다. 요청을 적절히 완료하는 응답을 작성하세요. \n\n ### 명령어:\n{prompt}\n\n ### 응답:\n"**
+  '''"아래는 작업을 설명하는 명령어입니다. 요청을 적절히 완료하는 응답을 작성하세요. \n\n ### 명령어:\n{prompt}\n\n ### 응답:\n"'''
 
-# Task3-2. Reward Model ver2,3 구현
-## RewardModel ver1 Issues
-- 구현된 Reward 모델의 성능이 좋지 않음 (Accuracy 0.65)
-- Reward 모델을 사용하여 Step3 학습시 혐오표현이 아닌데도 혐오표현이라고 인식하고 답변하는 문제 발생
+# Task3-2. Reward Model ver2 구현
+## Reward Model ver1 Issues
+- 구현된 Reward Model의 성능이 좋지 않음 (Accuracy 0.65)
+- Reward Model ver1을 사용하여 Step3 학습시 혐오표현이 아닌데도 혐오표현이라고 인식하고 답변하는 문제 발생
 
-## Issue 해결방안 (Reward Model ver2,3)
+## Issue 해결방안
 ![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/f6ffa892-6d72-439b-98dc-115986acb427)
+- SFT 모델로 답변을 2개 생성하였을 때(Ver1), Chosen, Rejected 답변의 차이가 크게 없어 모델이 학습되지 않는 현상을 방지하기 위하여 2개의 모델 **(ChatGPT, SFT)**를 사용하여 답변을 생성(Ver2)
 - General Task 답변에 대한 평가 성능을 높이기 위해 Evol-instruct 데이터 추가
-- SFT 모델로 답변을 2개 생성하였을 때, Chosen, Rejected 답변의 차이가 크게 없어 모델이 학습되지 않는 현상을 방지하기 위하여 2개의 모델 **(ChatGPT, SFT)**를 사용하여 답변을 생성
-- 혐오표현 학습시(Ver2) Step3 학습 이후에 답변이 이상하게 생성되는 Issue가 있어, 혐오표현을 데이터를 제거하고 학습(Ver3)
+- 혐오표현 학습시(Ver1) Step3 강화학습 이후에 답변이 이상하게 생성되는 Issue가 있어, 혐오표현을 데이터를 제거하고 학습(Ver2)
 - RM-ver1은 GPT4가 Chosen, Rejected 레이블링을 진행하였지만, Resource 이슈로 인해 일부만 사람이 라벨링 진행
-    - 일상대화, 혐오표현 데이터셋
+    - 일상대화 데이터셋
         - ChatGPT와 SFT 모두 일관되게 높은 퀄리티의 답변을 생성하지 않아, 사람이 직접 라벨링 진행
     - RLHF 한국어 번역, Evol-Instruct 데이터셋
         - ChatGPT가 일관되게 높은 퀄리티의 답변을 생성하여 ChatGPT를 Chosen, SFT를 Rejected로 라벨링 진행
-## Reward Model ver2,3 Evaluation
+## Reward Model ver2 Evaluation
 ![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/7889398a-86dc-4b03-8300-64b772d49887)
 
 # Task4. RLHF와 DeepSpeedChat을 통한 최종 모델 구현
