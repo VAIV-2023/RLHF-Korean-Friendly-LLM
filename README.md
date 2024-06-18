@@ -10,10 +10,10 @@
 - RLHF(Reinforcement Learning from Human Feedback): 사람의 선호도를 반영한 강화학습
 - DeepSpeed: 대규모 분산 딥러닝을 위한 새로운 메모리 최적화 기술
 
-    Task 1: 강화학습 단계별 데이터셋 구축
-    Task 2: SFT 모델 Fine-tuning (https://huggingface.co/Trofish/KULLM-SFT-v2)
-    Task 3: Reward 모델 ver1,2,3 구현
-    Task 4: RLHF와 DeepSpeedChat을 통한 최종 모델 구현 (https://huggingface.co/Trofish/KULLM-RLHF)
+    - Task 1: 강화학습 단계별 데이터셋 구축
+    - Task 2: SFT 모델 Instruction-tuning
+    - Task 3: Reward 모델 ver1,2,3 구현
+    - Task 4: RLHF와 DeepSpeedChat을 통한 최종 모델 구현 (https://huggingface.co/Trofish/KULLM-RLHF)
 
 # Task1. 강화학습 단계별 데이터셋 구축
 ![image](https://github.com/VAIV-2023/VAIV2023/assets/79634774/a4988abd-c6fd-4fc2-8e53-9a02240e2275)
