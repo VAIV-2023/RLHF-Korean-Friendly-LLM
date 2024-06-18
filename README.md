@@ -16,8 +16,32 @@
     - Task 4: RLHF와 DeepSpeedChat을 통한 최종 모델 구현 (https://huggingface.co/Trofish/KULLM-RLHF)
 
 # Task1. 강화학습 단계별 데이터셋 구축
-![image](https://github.com/VAIV-2023/VAIV2023/assets/79634774/a4988abd-c6fd-4fc2-8e53-9a02240e2275)
-![image](https://github.com/VAIV-2023/VAIV2023/assets/79634774/dae49a1e-a834-463c-9f95-34cf254fdaeb)
+
+## Source
+
+### 일상대화 데이터셋
+- **출처:** 국립국어원 모두의 말뭉치 일상 대화 데이터셋
+- **URL:** [모두의 말뭉치 일상 대화 데이터셋](https://corpus.korean.go.kr/request/reausetMain.do?lang=ko)
+
+### 혐오표현 데이터셋
+- **출처:** AIHub 텍스트 윤리 검증 데이터셋
+- **URL:** [AIHub 텍스트 윤리 검증 데이터셋](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=558)
+
+### RLHF 번역 데이터셋
+- **출처:** Step 2 Reward 모델 학습을 위한 오픈 소스 데이터셋 (DeepSpeedChat에서 공개)
+- **URL:** [RLHF Reward Datasets](https://huggingface.co/datasets/yitingxie/rlhf-reward-datasets)
+
+### Self-Instruct 데이터셋
+- **Evol-instruct:**
+  - **설명:** 다양한 분야에 대한 복잡하고 논리적인 prompt와 답변이 포함된 데이터셋
+  - **URL:** [Evol-instruct](https://github.com/lcw99/evolve-instruct/)
+
+- **Self-Instruct:**
+  - **설명:** 사람이 직접 생성한 양질의 Seed data를 기반으로 GPT-3.5를 이용해 Self 데이터 증강
+
+### KoBEST 데이터셋
+- **출처:** 평가용으로 Commonsense & Inference 능력과 관련된 KoBEST 中 COPA, HellaSwag 데이터셋 
+- **URL:** [KoBEST 데이터셋](https://huggingface.co/datasets/skt/kobest_v1/viewer/hellaswag/test)
 ## 데이터셋 선정 시 고려 사항
 - **일상 대화와 혐오 표현 대처 능력을 올리기 위한 데이터셋과, 학습 시 챗봇 모델의 general한 task에 대한 성능이 하락하는 것을 막기 위해서 general task 데이터셋을 구성**
   
