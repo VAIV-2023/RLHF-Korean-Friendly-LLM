@@ -71,9 +71,10 @@
 - Reward Model ver1을 사용하여 Step3 학습시 혐오표현이 아닌데도 혐오표현이라고 인식하고 답변하는 문제 발생
 
 ## Issue 해결방안
-![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/f6ffa892-6d72-439b-98dc-115986acb427)
+![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/6f4f0665-a8c7-4903-a626-f37018b7e4c9)
 - SFT 모델로 답변을 2개 생성하였을 때(Ver1), Chosen, Rejected 답변의 차이가 크게 없어 모델이 학습되지 않는 현상을 방지하기 위하여 2개의 모델 **(ChatGPT, SFT)**를 사용하여 답변을 생성(Ver2)
 - General Task 답변에 대한 평가 성능을 높이기 위해 Evol-instruct 데이터 추가
+- 학습에 사용한 모든 데이터셋은 15 token 이하, cosine 유사도 0.5 이상일 경우 제거하는 Filtering 작업 수행
 - 혐오표현 학습시(Ver1) Step3 강화학습 이후에 답변이 이상하게 생성되는 Issue가 있어, 혐오표현을 데이터를 제거하고 학습(Ver2)
 - RM-ver1은 GPT4가 Chosen, Rejected 레이블링을 진행하였지만, Resource 이슈로 인해 일부만 사람이 라벨링 진행
     - 일상대화 데이터셋
