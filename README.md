@@ -63,7 +63,7 @@
 ![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/c21be612-b26d-4a1c-a1e2-6a99442660da)
 
 - Reward Model Template
-  '''"아래는 작업을 설명하는 명령어입니다. 요청을 적절히 완료하는 응답을 작성하세요. \n\n ### 명령어:\n{prompt}\n\n ### 응답:\n"'''
+  - "아래는 작업을 설명하는 명령어입니다. 요청을 적절히 완료하는 응답을 작성하세요. \n\n ### 명령어:\n{prompt}\n\n ### 응답:\n"
 
 # Task3-2. Reward Model ver2 구현
 ## Reward Model ver1 Issues
@@ -81,7 +81,7 @@
     - RLHF 한국어 번역, Evol-Instruct 데이터셋
         - ChatGPT가 일관되게 높은 퀄리티의 답변을 생성하여 ChatGPT를 Chosen, SFT를 Rejected로 라벨링 진행
 ## Reward Model ver2 Evaluation
-![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/7889398a-86dc-4b03-8300-64b772d49887)
+![image](https://github.com/VAIV-2023/RLHF-Korean-Friendly-LLM/assets/79634774/834cb645-7909-464b-b072-635aaac8eeff)
 
 # Task4. RLHF와 DeepSpeedChat을 통한 최종 모델 구현
 - Microsoft에서 만든 대규모 분산 딥러닝을 위한 새로운 메모리 최적화 기술(DeepSpeed)을 RLHF Process에 적용한 DeepSpeedChat 사용
