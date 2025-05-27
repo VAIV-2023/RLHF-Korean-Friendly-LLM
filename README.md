@@ -1,4 +1,5 @@
-2023 성균관대 하계집중 산학협력프로젝트 VAIV
+2023 성균관대 하계집중 산학협력프로젝트 VAIV \
+[KCC 2024 논문 게재](https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE11861996&googleIPSandBox=false&mark=0&minRead=5&ipRange=false&b2cLoginYN=false&icstClss=010000&isPDFSizeAllowed=true&accessgl=Y&language=ko_KR&hasTopBanner=true) - 🏅 우수발표 논문상
 ## GPT 기반의 자연스럽고(Friendly) 윤리적인(Harmless) 일상 대화형 챗봇 모델
 
 #  연구 배경 및 목적
